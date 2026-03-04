@@ -52,10 +52,6 @@ contract UpgradePayload {
   }
 
   function execute() external virtual {
-    _defaultUpgrade();
-  }
-
-  function _defaultUpgrade() internal {
     address[] memory reserves = POOL.getReservesList();
     uint256 length = reserves.length;
     // 1. Cleanup flags that will be removed in the upgrade.
