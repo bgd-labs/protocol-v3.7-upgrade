@@ -141,6 +141,34 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     }
   }
 
+  function test_assumption_noDebtCeiling() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    executePayload(vm, address(_payload));
+
+    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    IPool pool = IPool(addressesProvider.getPool());
+    address[] memory reserves = pool.getReservesList();
+    for (uint256 i = 0; i < reserves.length; i++) {
+      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
+      assertEq(reserveData.configuration.getDebtCeiling(), 0);
+    }
+  }
+
+  function test_assumption_noBorrowableInIsolation() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    executePayload(vm, address(_payload));
+
+    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    IPool pool = IPool(addressesProvider.getPool());
+    address[] memory reserves = pool.getReservesList();
+    for (uint256 i = 0; i < reserves.length; i++) {
+      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
+      assertEq(reserveData.configuration.getBorrowableInIsolation(), false);
+    }
+  }
+
   function test_upgrade() public virtual {
     UpgradePayload _payload = UpgradePayload(_getTestPayload());
 

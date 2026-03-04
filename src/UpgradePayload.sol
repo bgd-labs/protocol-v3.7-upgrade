@@ -71,6 +71,12 @@ contract UpgradePayload {
       address reserve = reserves[i];
       DataTypes.ReserveDataLegacy memory data = POOL.getReserveData(reserve);
       if (data.configuration.getLtv() == 0) {}
+      if (data.configuration.getDebtCeiling() != 0) {
+        POOL_CONFIGURATOR.setDebtCeiling(reserve, 0);
+      }
+      if (data.configuration.getBorrowableInIsolation()) {
+        POOL_CONFIGURATOR.setBorrowableInIsolation(reserve, false);
+      }
     }
     // 2. Upgrade `Pool` implementation.
     POOL_ADDRESSES_PROVIDER.setPoolImpl(POOL_IMPL);
