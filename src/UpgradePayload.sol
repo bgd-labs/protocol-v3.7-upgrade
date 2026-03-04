@@ -64,74 +64,16 @@ contract UpgradePayload {
   }
 
   function _defaultUpgrade() internal {
-    // 1. Upgrade `Pool` implementation.
-    POOL_ADDRESSES_PROVIDER.setPoolImpl(POOL_IMPL);
-    POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(POOL_CONFIGURATOR_IMPL);
-
-    // 2. Update AToken and VariableDebtToken implementations for all reserves.
     address[] memory reserves = POOL.getReservesList();
     uint256 length = reserves.length;
-    uint128 collateralEnabledBitmap;
+    // 1. Cleanup flags that will be removed in the upgrade.
     for (uint256 i = 0; i < length; i++) {
       address reserve = reserves[i];
-      if (_needToUpdateReserveAToken(reserve)) {
-        POOL_CONFIGURATOR.updateAToken(_prepareATokenUpdateInfo(reserve));
-      }
-
-      if (_needToUpdateReserveVToken(reserve)) {
-        POOL_CONFIGURATOR.updateVariableDebtToken(_prepareVTokenUpdateInfo(reserve));
-      }
       DataTypes.ReserveDataLegacy memory data = POOL.getReserveData(reserve);
-      // We know that there are currently no gaps > 1, inside the eMode configs
-      // as a precaution, we still assume gaps up to 10
-      uint256 emptyCounter = 0;
-      if (data.configuration.getLtv() == 0) {
-        for (uint256 j = 1; j <= type(uint8).max; j++) {
-          collateralEnabledBitmap = POOL.getEModeCategoryCollateralBitmap(uint8(j));
-          if (collateralEnabledBitmap.isReserveEnabledOnBitmap(data.id)) {
-            POOL_CONFIGURATOR.setAssetLtvzeroInEMode(reserve, uint8(j), true);
-            if (emptyCounter != 0) emptyCounter = 0;
-          }
-          if (collateralEnabledBitmap == 0) {
-            emptyCounter++;
-          }
-          if (emptyCounter >= 10) {
-            break;
-          }
-        }
-      }
+      if (data.configuration.getLtv() == 0) {}
     }
-  }
-
-  function _prepareATokenUpdateInfo(address underlyingToken)
-    internal
-    view
-    returns (ConfiguratorInputTypes.UpdateATokenInput memory)
-  {
-    IERC20Metadata aToken = IERC20Metadata(POOL.getReserveAToken(underlyingToken));
-
-    return ConfiguratorInputTypes.UpdateATokenInput({
-      asset: underlyingToken, implementation: A_TOKEN_IMPL, params: "", name: aToken.name(), symbol: aToken.symbol()
-    });
-  }
-
-  function _prepareVTokenUpdateInfo(address underlyingToken)
-    internal
-    view
-    returns (ConfiguratorInputTypes.UpdateDebtTokenInput memory)
-  {
-    IERC20Metadata vToken = IERC20Metadata(POOL.getReserveVariableDebtToken(underlyingToken));
-
-    return ConfiguratorInputTypes.UpdateDebtTokenInput({
-      asset: underlyingToken, implementation: V_TOKEN_IMPL, params: "", name: vToken.name(), symbol: vToken.symbol()
-    });
-  }
-
-  function _needToUpdateReserveAToken(address) internal view virtual returns (bool) {
-    return true;
-  }
-
-  function _needToUpdateReserveVToken(address) internal view virtual returns (bool) {
-    return true;
+    // 2. Upgrade `Pool` implementation.
+    POOL_ADDRESSES_PROVIDER.setPoolImpl(POOL_IMPL);
+    POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(POOL_CONFIGURATOR_IMPL);
   }
 }

@@ -110,28 +110,6 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     }
   }
 
-  function test_assumption_ltvzero() external {
-    UpgradePayload _payload = UpgradePayload(_getTestPayload());
-
-    executePayload(vm, address(_payload));
-
-    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
-    IPool pool = IPool(addressesProvider.getPool());
-    address[] memory reserves = pool.getReservesList();
-    for (uint256 i = 0; i < reserves.length; i++) {
-      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
-      if (reserveData.configuration.getLtv() == 0) {
-        for (uint256 j = 0; j <= type(uint8).max; j++) {
-          uint128 collateralEnabledBitmap = pool.getEModeCategoryCollateralBitmap(uint8(j));
-          if (EModeConfiguration.isReserveEnabledOnBitmap(collateralEnabledBitmap, reserveData.id)) {
-            uint128 ltvzeroBitmap = pool.getEModeCategoryLtvzeroBitmap(uint8(j));
-            assertEq(EModeConfiguration.isReserveEnabledOnBitmap(ltvzeroBitmap, reserveData.id), true);
-          }
-        }
-      }
-    }
-  }
-
   function test_assumption_borrowingEnabled() external {
     UpgradePayload _payload = UpgradePayload(_getTestPayload());
 
@@ -148,6 +126,18 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
           require(EModeConfiguration.isReserveEnabledOnBitmap(borrowableEnabledBitmap, reserveData.id) == false);
         }
       }
+    }
+  }
+
+  function test_assumption_noSiloed() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    IPool pool = IPool(addressesProvider.getPool());
+    address[] memory reserves = pool.getReservesList();
+    for (uint256 i = 0; i < reserves.length; i++) {
+      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
+      assertEq(reserveData.configuration.getSiloedBorrowing(), false);
     }
   }
 
