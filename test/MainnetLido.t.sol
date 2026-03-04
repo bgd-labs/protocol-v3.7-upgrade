@@ -6,7 +6,7 @@ import {DeploymentLibrary} from "../script/Deploy.s.sol";
 import {UpgradeTest} from "./UpgradeTest.t.sol";
 import {Deployments} from "../src/Deployments.sol";
 
-contract MainnetLidoTest is UpgradeTest("mainnet", 23975177) {
+contract MainnetLidoTest is UpgradeTest("mainnet", 24583616) {
   constructor() {
     NETWORK_SUB_NAME = "Lido";
   }

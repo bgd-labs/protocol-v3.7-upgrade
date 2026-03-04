@@ -6,7 +6,7 @@ import {DeploymentLibrary} from "../script/Deploy.s.sol";
 import {UpgradeTest} from "./UpgradeTest.t.sol";
 import {Deployments} from "../src/Deployments.sol";
 
-contract PlasmaTest is UpgradeTest("plasma", 8347514) {
+contract PlasmaTest is UpgradeTest("plasma", 15689818) {
   function _getPayload() internal virtual override returns (address) {
     return DeploymentLibrary._deployPlasma();
   }

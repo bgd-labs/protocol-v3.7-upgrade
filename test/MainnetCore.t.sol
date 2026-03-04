@@ -13,7 +13,7 @@ import {Deployments} from "../src/Deployments.sol";
 
 import {UpgradeTest} from "./UpgradeTest.t.sol";
 
-contract MainnetCoreTest is UpgradeTest("mainnet", 23975177) {
+contract MainnetCoreTest is UpgradeTest("mainnet", 24583616) {
   function _getPayload() internal virtual override returns (address) {
     return DeploymentLibrary._deployMainnetCore();
   }
