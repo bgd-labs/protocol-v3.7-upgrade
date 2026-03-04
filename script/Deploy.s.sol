@@ -364,15 +364,6 @@ library DeploymentLibrary {
   ) private returns (address) {
     payloadParams.poolConfiguratorImpl = GovV3Helpers.deployDeterministic(type(PoolConfiguratorInstance).creationCode);
 
-    payloadParams.aTokenImpl = GovV3Helpers.deployDeterministic(
-      type(ATokenInstance).creationCode,
-      abi.encode(deployParams.pool, deployParams.rewardsController, deployParams.treasury)
-    );
-
-    payloadParams.vTokenImpl = GovV3Helpers.deployDeterministic(
-      type(VariableDebtTokenInstance).creationCode, abi.encode(deployParams.pool, deployParams.rewardsController)
-    );
-
     _deployConfigEngine(deployParams);
     _deployUiPoolDataProvider(deployParams);
 
@@ -382,8 +373,7 @@ library DeploymentLibrary {
   function _deployUiPoolDataProvider(DeployParameters memory deployParams) private {
     UiPoolDataProviderV3 existing = UiPoolDataProviderV3(deployParams.uiPoolDataProvider);
     new UiPoolDataProviderV3(
-      existing.networkBaseTokenPriceInUsdProxyAggregator(),
-      existing.marketReferenceCurrencyPriceInUsdProxyAggregator()
+      existing.networkBaseTokenPriceInUsdProxyAggregator(), existing.marketReferenceCurrencyPriceInUsdProxyAggregator()
     );
   }
 
@@ -414,20 +404,11 @@ library DeploymentLibrary {
   }
 
   function _deployConfigEngine(DeployParameters memory deployParams) private {
-    IAaveV3ConfigEngine.EngineLibraries memory engineLibraries =
-      IAaveV3ConfigEngine.EngineLibraries({
-        listingEngine: Create2Utils._create2Deploy("v1", type(ListingEngine).creationCode),
-        eModeEngine: Create2Utils._create2Deploy("v1", type(EModeEngine).creationCode),
-        borrowEngine: Create2Utils._create2Deploy("v1", type(BorrowEngine).creationCode),
-        collateralEngine: Create2Utils._create2Deploy("v1", type(CollateralEngine).creationCode),
-        priceFeedEngine: Create2Utils._create2Deploy("v1", type(PriceFeedEngine).creationCode),
-        rateEngine: Create2Utils._create2Deploy("v1", type(RateEngine).creationCode),
-        capsEngine: Create2Utils._create2Deploy("v1", type(CapsEngine).creationCode)
-      });
-
     IAaveV3ConfigEngine.EngineConstants memory engineConstants = IAaveV3ConfigEngine.EngineConstants({
       pool: IPool(deployParams.pool),
-      poolConfigurator: IPoolConfigurator(IPoolAddressesProvider(deployParams.poolAddressesProvider).getPoolConfigurator()),
+      poolConfigurator: IPoolConfigurator(
+        IPoolAddressesProvider(deployParams.poolAddressesProvider).getPoolConfigurator()
+      ),
       defaultInterestRateStrategy: deployParams.interestRateStrategy,
       oracle: IAaveOracle(IPoolAddressesProvider(deployParams.poolAddressesProvider).getPriceOracle()),
       rewardsController: deployParams.rewardsController,
@@ -436,13 +417,13 @@ library DeploymentLibrary {
 
     new AaveV3ConfigEngine(
       GovV3Helpers.deployDeterministic(
-        type(ATokenInstance).creationCode, abi.encode(deployParams.pool, deployParams.rewardsController, deployParams.treasury)
+        type(ATokenInstance).creationCode,
+        abi.encode(deployParams.pool, deployParams.rewardsController, deployParams.treasury)
       ),
       GovV3Helpers.deployDeterministic(
         type(VariableDebtTokenInstance).creationCode, abi.encode(deployParams.pool, deployParams.rewardsController)
       ),
-      engineConstants,
-      engineLibraries
+      engineConstants
     );
   }
 }

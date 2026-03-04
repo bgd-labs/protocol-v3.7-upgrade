@@ -17,16 +17,13 @@
       "aTokenUnderlyingBalance": "111600744",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 6,
       "id": 2,
       "interestRateStrategy": "0xC16666b7FF197427BD255E6961A5F99cfb3A6059",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -34,7 +31,7 @@
       "oracle": "0x36964C0579D02E0a5AaAb89E24Cf8d7CDF3549EE",
       "oracleDecimals": 8,
       "oracleDescription": "Capped pyUSD/USD",
-      "oracleLatestAnswer": "99986283",
+      "oracleLatestAnswer": "99997923",
       "reserveFactor": 2000,
       "supplyCap": 1,
       "symbol": "PYUSD",
@@ -49,19 +46,16 @@
       "aToken": "0x6914ECCf50837dC61b43ee478a9BD9B439648956",
       "aTokenName": "Aave Ethereum EtherFi FRAX",
       "aTokenSymbol": "aEthEtherFiFRAX",
-      "aTokenUnderlyingBalance": "4485107116218359562589",
+      "aTokenUnderlyingBalance": "14833885153754953528612",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 3,
       "interestRateStrategy": "0xC16666b7FF197427BD255E6961A5F99cfb3A6059",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -69,7 +63,7 @@
       "oracle": "0xeF50f8DC65402c3019586bc8725fCD0b99B8AAd7",
       "oracleDecimals": 8,
       "oracleDescription": "Capped FRAX/USD",
-      "oracleLatestAnswer": "99343045",
+      "oracleLatestAnswer": "99241228",
       "reserveFactor": 2000,
       "supplyCap": 1,
       "symbol": "FRAX",
@@ -78,25 +72,22 @@
       "variableDebtToken": "0xfd3aDA5AAbdc6531C7C2AC46c00eBf870f5a0E6B",
       "variableDebtTokenName": "Aave Ethereum EtherFi Variable Debt FRAX",
       "variableDebtTokenSymbol": "variableDebtEthEtherFiFRAX",
-      "virtualBalance": "4485107116218359562589"
+      "virtualBalance": "14833885153754953528612"
     },
     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
       "aToken": "0x7380c583cDe4409eFF5DD3320D93a45D96B80E2e",
       "aTokenName": "Aave Ethereum EtherFi USDC",
       "aTokenSymbol": "aEthEtherFiUSDC",
-      "aTokenUnderlyingBalance": "3616623511",
+      "aTokenUnderlyingBalance": "4132545005",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 6,
       "id": 1,
       "interestRateStrategy": "0xC16666b7FF197427BD255E6961A5F99cfb3A6059",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -104,7 +95,7 @@
       "oracle": "0xB6557F02F0a5dA7b9D3C2d979cc19e00e756F6dA",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC/USD",
-      "oracleLatestAnswer": "99987434",
+      "oracleLatestAnswer": "99989000",
       "reserveFactor": 1000,
       "supplyCap": 1,
       "symbol": "USDC",
@@ -113,25 +104,22 @@
       "variableDebtToken": "0x9355032d747f1e08F8720CD01950E652eE15cdB7",
       "variableDebtTokenName": "Aave Ethereum EtherFi Variable Debt USDC",
       "variableDebtTokenSymbol": "variableDebtEthEtherFiUSDC",
-      "virtualBalance": "3616616511"
+      "virtualBalance": "4132538005"
     },
     "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee": {
       "aToken": "0xbe1F842e7e0afd2c2322aae5d34bA899544b29db",
       "aTokenName": "Aave Ethereum EtherFi weETH",
       "aTokenSymbol": "aEthEtherFiweETH",
-      "aTokenUnderlyingBalance": "24477665662623453442",
+      "aTokenUnderlyingBalance": "5874334073615083837",
       "borrowCap": 0,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 0,
       "interestRateStrategy": "0xC16666b7FF197427BD255E6961A5F99cfb3A6059",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10600,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 8100,
@@ -139,7 +127,7 @@
       "oracle": "0xf112aF6F0A332B815fbEf3Ff932c057E570b62d3",
       "oracleDecimals": 8,
       "oracleDescription": "Capped weETH / eETH(ETH) / USD",
-      "oracleLatestAnswer": "338420064865",
+      "oracleLatestAnswer": "226230364028",
       "reserveFactor": 4500,
       "supplyCap": 1,
       "symbol": "weETH",
@@ -148,7 +136,7 @@
       "variableDebtToken": "0x16264412CB72F0d16A446f7D928Dd0D822810048",
       "variableDebtTokenName": "Aave Ethereum EtherFi Variable Debt weETH",
       "variableDebtTokenSymbol": "variableDebtEthEtherFiweETH",
-      "virtualBalance": "24477665662623453442"
+      "virtualBalance": "5874334073615083837"
     }
   },
   "strategies": {
@@ -193,16 +181,16 @@
       "nonceDiff": null,
       "stateDiff": {
         "0x0000000000000000000000000000000000000000000000000000000000000000": {
-          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000009",
-          "newValue": "0x000000000000000000000000000000000000000000000000000000000000000a"
+          "previousValue": "0x000000000000000000000000000000000000000000000000000000000000000a",
+          "newValue": "0x000000000000000000000000000000000000000000000000000000000000000b"
         },
         "0x0000000000000000000000000000000000000000000000000000000000000001": {
           "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
-          "previousValue": "0x000000000000000000000000999c94f280d560d158c30ed1abce5b2c67983641",
-          "newValue": "0x000000000000000000000000be82113a671b69d07dce65cd30618d315d3d7c34"
+          "previousValue": "0x000000000000000000000000be82113a671b69d07dce65cd30618d315d3d7c34",
+          "newValue": "0x000000000000000000000000971be2d28be91d1563bf36ef87ba54de0a0b464e"
         }
       }
     },
@@ -213,8 +201,8 @@
       "nonceDiff": null,
       "stateDiff": {
         "0x0000000000000000000000000000000000000000000000000000000000000000": {
-          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000006",
-          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000007"
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000007",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000008"
         },
         "0x0000000000000000000000000000000000000000000000000000000000000001": {
           "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -229,8 +217,8 @@
           "newValue": "0x0000000000000000000000000aa97c284e98396202b6a04024f5e2c65026f3c0"
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
-          "previousValue": "0x0000000000000000000000005793fe4de34532f162b4e207af872729880ec2b6",
-          "newValue": "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+          "previousValue": "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623",
+          "newValue": "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
         }
       }
     },
@@ -240,13 +228,13 @@
       "balanceDiff": null,
       "nonceDiff": null,
       "stateDiff": {
-        "0x1f61127137b2b334cc768fbb1f2c09bd3ffa8b4efe78fbac6f501d1ec08449da": {
-          "previousValue": "0x00693813d6000000000002000000000000000000000000000000000000000000",
-          "newValue": "0x00693813d6000000000003000000000000000000000000000000000000000000"
+        "0x9f0683692cd233dff7e3a361b3542bc1800d7d8da479ff4b224a869bf05a93ab": {
+          "previousValue": "0x0069a80eda000000000002000000000000000000000000000000000000000000",
+          "newValue": "0x0069a80eda000000000003000000000000000000000000000000000000000000"
         },
-        "0x1f61127137b2b334cc768fbb1f2c09bd3ffa8b4efe78fbac6f501d1ec08449db": {
-          "previousValue": "0x000000000000000000093a800000000000006966385700000000000000000000",
-          "newValue": "0x000000000000000000093a8000000000000069663857000000000000693813d7"
+        "0x9f0683692cd233dff7e3a361b3542bc1800d7d8da479ff4b224a869bf05a93ac": {
+          "previousValue": "0x000000000000000000093a8000000000000069d6335b00000000000000000000",
+          "newValue": "0x000000000000000000093a8000000000000069d6335b00000000000069a80edb"
         }
       }
     }
@@ -255,7 +243,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x000000000000000000000000be82113a671b69d07dce65cd30618d315d3d7c34"
+        "0x000000000000000000000000971be2d28be91d1563bf36ef87ba54de0a0b464e"
       ],
       "data": "0x",
       "emitter": "0x0AA97c284e98396202b6A04024F5E2c65026F3c0"
@@ -263,8 +251,8 @@
     {
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
-        "0x000000000000000000000000999c94f280d560d158c30ed1abce5b2c67983641",
-        "0x000000000000000000000000be82113a671b69d07dce65cd30618d315d3d7c34"
+        "0x000000000000000000000000be82113a671b69d07dce65cd30618d315d3d7c34",
+        "0x000000000000000000000000971be2d28be91d1563bf36ef87ba54de0a0b464e"
       ],
       "data": "0x",
       "emitter": "0xeBa440B438Ad808101d1c451C1C5322c90BEFCdA"
@@ -272,7 +260,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
       ],
       "data": "0x",
       "emitter": "0x8438F4D29D895d75C86BDC25360c25eF0607E65d"
@@ -280,8 +268,8 @@
     {
       "topics": [
         "0x8932892569eba59c8382a089d9b732d1f49272878775235761a2a6b0309cd465",
-        "0x0000000000000000000000005793fe4de34532f162b4e207af872729880ec2b6",
-        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623",
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
       ],
       "data": "0x",
       "emitter": "0xeBa440B438Ad808101d1c451C1C5322c90BEFCdA"
@@ -289,16 +277,16 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x000000000000000000000000a7fbd4fb356e38fe26990cb9f233d992b544bd37"
+        "0x00000000000000000000000061696e00cc0f325ed767df6493ee348bd73e0b84"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000693813d7000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80edb000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A"
     },
     {
       "topics": [
         "0xda6084bb0aa902a7f6da10ba185d4aa129414651c90772417eff02a52112af2a"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000017c",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000019b",
       "emitter": "0xdAbad81aF85554E9ae636395611C58F7eC1aAEc5"
     }
   ]

@@ -78,19 +78,16 @@
       "aToken": "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5",
       "aTokenName": "Aave Arbitrum FRAX",
       "aTokenSymbol": "aArbFRAX",
-      "aTokenUnderlyingBalance": "100127550006047738364355",
+      "aTokenUnderlyingBalance": "109605214730966142072916",
       "borrowCap": 1,
       "borrowingEnabled": false,
-      "debtCeiling": 100000000,
       "decimals": 18,
       "id": 13,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10600,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7200,
@@ -98,7 +95,7 @@
       "oracle": "0xC1d2Faa98935eA2f2eD34Bc84edb00B387061376",
       "oracleDecimals": 8,
       "oracleDescription": "Capped FRAX/USD",
-      "oracleLatestAnswer": "99360902",
+      "oracleLatestAnswer": "99218247",
       "reserveFactor": 2000,
       "supplyCap": 1,
       "symbol": "FRAX",
@@ -107,25 +104,22 @@
       "variableDebtToken": "0x5D557B07776D12967914379C71a1310e917C7555",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt FRAX",
       "variableDebtTokenSymbol": "variableDebtArbFRAX",
-      "virtualBalance": "100127518718047738364355"
+      "virtualBalance": "109605183442966142072916"
     },
     "0x2416092f143378750bb29b79eD961ab195CcEea5": {
       "aToken": "0xEA1132120ddcDDA2F119e99Fa7A27a0d036F7Ac9",
       "aTokenName": "Aave Arbitrum ezETH",
       "aTokenSymbol": "aArbezETH",
-      "aTokenUnderlyingBalance": "31757162103885805359469",
+      "aTokenUnderlyingBalance": "36003401807419327697503",
       "borrowCap": 1,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 17,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 10,
@@ -133,7 +127,7 @@
       "oracle": "0x8Ed37B72300683c0482A595bfa80fFb793874b15",
       "oracleDecimals": 8,
       "oracleDescription": "Capped ezETH / ETH / USD",
-      "oracleLatestAnswer": "331817597863",
+      "oracleLatestAnswer": "221925317980",
       "reserveFactor": 1500,
       "supplyCap": 42000,
       "symbol": "ezETH",
@@ -142,25 +136,22 @@
       "variableDebtToken": "0x1fFD28689DA7d0148ff0fCB669e9f9f0Fc13a219",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt ezETH",
       "variableDebtTokenSymbol": "variableDebtArbezETH",
-      "virtualBalance": "31757162103885805359469"
+      "virtualBalance": "36003401807419327697503"
     },
     "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f": {
       "aToken": "0x078f358208685046a11C85e8ad32895DED33A249",
       "aTokenName": "Aave Arbitrum WBTC",
       "aTokenSymbol": "aArbWBTC",
-      "aTokenUnderlyingBalance": "247930682340",
+      "aTokenUnderlyingBalance": "247885978120",
       "borrowCap": 320,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 8,
       "id": 3,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10700,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7800,
@@ -168,7 +159,7 @@
       "oracle": "0x6ce185860a4963106506C203335A2910413708e9",
       "oracleDecimals": 8,
       "oracleDescription": "BTC / USD",
-      "oracleLatestAnswer": "9020322821827",
+      "oracleLatestAnswer": "7124825840124",
       "reserveFactor": 5000,
       "supplyCap": 5000,
       "symbol": "WBTC",
@@ -177,25 +168,22 @@
       "variableDebtToken": "0x92b42c66840C7AD907b4BF74879FF3eF7c529473",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt WBTC",
       "variableDebtTokenSymbol": "variableDebtArbWBTC",
-      "virtualBalance": "247930682340"
+      "virtualBalance": "247885488189"
     },
     "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe": {
       "aToken": "0x8437d7C167dFB82ED4Cb79CD44B7a32A1dd95c77",
       "aTokenName": "Aave Arbitrum weETH",
       "aTokenSymbol": "aArbweETH",
-      "aTokenUnderlyingBalance": "80998709924475722588365",
+      "aTokenUnderlyingBalance": "61268552794351468131673",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 15,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7700,
@@ -203,7 +191,7 @@
       "oracle": "0x517276B5972C4Db7E88B9F76Ee500E888a2D73C3",
       "oracleDecimals": 8,
       "oracleDescription": "Capped weETH / eETH(ETH) / USD",
-      "oracleLatestAnswer": "336999340663",
+      "oracleLatestAnswer": "225286775932",
       "reserveFactor": 4500,
       "supplyCap": 121000,
       "symbol": "weETH",
@@ -212,25 +200,22 @@
       "variableDebtToken": "0x3ca5FA07689F266e907439aFd1fBB59c44fe12f6",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt weETH",
       "variableDebtTokenSymbol": "variableDebtArbweETH",
-      "virtualBalance": "80998709924475722588365"
+      "virtualBalance": "61268552794351468131673"
     },
     "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d": {
       "aToken": "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
       "aTokenName": "Aave Arbitrum MAI",
       "aTokenSymbol": "aArbMAI",
-      "aTokenUnderlyingBalance": "14381632499194238278294",
+      "aTokenUnderlyingBalance": "15649044014510199711796",
       "borrowCap": 250000,
       "borrowingEnabled": true,
-      "debtCeiling": 10000000,
       "decimals": 18,
       "id": 9,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": true,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 100,
@@ -238,7 +223,7 @@
       "oracle": "0xAF92b0A685a15F4E26B6d7DA86F1a9C8C01E2a09",
       "oracleDecimals": 8,
       "oracleDescription": "Capped MAI/USD",
-      "oracleLatestAnswer": "100755600",
+      "oracleLatestAnswer": "100294590",
       "reserveFactor": 9500,
       "supplyCap": 325000,
       "symbol": "MAI",
@@ -247,25 +232,22 @@
       "variableDebtToken": "0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt MAI",
       "variableDebtTokenSymbol": "variableDebtArbMAI",
-      "virtualBalance": "14381100935820611555657"
+      "virtualBalance": "15648512451136572989159"
     },
     "0x4186BFC76E2E237523CBC30FD220FE055156b41F": {
       "aToken": "0x6b030Ff3FB9956B1B69f475B77aE0d3Cf2CC5aFa",
       "aTokenName": "Aave Arbitrum rsETH",
       "aTokenSymbol": "aArbrsETH",
-      "aTokenUnderlyingBalance": "83502796621744754222548",
+      "aTokenUnderlyingBalance": "34685721775085852265853",
       "borrowCap": 1,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 18,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 10,
@@ -273,7 +255,7 @@
       "oracle": "0xb4B0cbcA864c2Eb0C0342608D92490C034aC1089",
       "oracleDecimals": 8,
       "oracleDescription": "Capped rsETH / ETH / USD",
-      "oracleLatestAnswer": "329800316843",
+      "oracleLatestAnswer": "220478500522",
       "reserveFactor": 2000,
       "supplyCap": 90000,
       "symbol": "rsETH",
@@ -282,25 +264,22 @@
       "variableDebtToken": "0x80cA0d8C38d2e2BcbaB66aA1648Bd1C7160500FE",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt rsETH",
       "variableDebtTokenSymbol": "variableDebtArbrsETH",
-      "virtualBalance": "83502796621744754222548"
+      "virtualBalance": "34685721775085852265853"
     },
     "0x5979D7b546E38E414F7E9822514be443A4800529": {
       "aToken": "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
       "aTokenName": "Aave Arbitrum wstETH",
       "aTokenSymbol": "aArbwstETH",
-      "aTokenUnderlyingBalance": "25890064862004365034483",
-      "borrowCap": 6151,
+      "aTokenUnderlyingBalance": "29159695443925439554923",
+      "borrowCap": 1300,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 8,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10720,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7900,
@@ -308,7 +287,7 @@
       "oracle": "0x87fE1503beFBF98C35c7526B0c488d950F822C0F",
       "oracleDecimals": 8,
       "oracleDescription": "Capped wstETH / stETH(ETH) / USD",
-      "oracleLatestAnswer": "379924320211",
+      "oracleLatestAnswer": "254005984786",
       "reserveFactor": 500,
       "supplyCap": 69000,
       "symbol": "wstETH",
@@ -317,25 +296,22 @@
       "variableDebtToken": "0x77CA01483f379E58174739308945f044e1a764dc",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt wstETH",
       "variableDebtTokenSymbol": "variableDebtArbwstETH",
-      "virtualBalance": "25890064860083623329778"
+      "virtualBalance": "29159695442004697850218"
     },
     "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40": {
       "aToken": "0x62fC96b27a510cF4977B59FF952Dc32378Cc221d",
       "aTokenName": "Aave Arbitrum tBTC",
       "aTokenSymbol": "aArbtBTC",
-      "aTokenUnderlyingBalance": "15071374544571261578",
+      "aTokenUnderlyingBalance": "21086597438474503087",
       "borrowCap": 25,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 19,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7800,
@@ -343,7 +319,7 @@
       "oracle": "0x6ce185860a4963106506C203335A2910413708e9",
       "oracleDecimals": 8,
       "oracleDescription": "BTC / USD",
-      "oracleLatestAnswer": "9020322821827",
+      "oracleLatestAnswer": "7124825840124",
       "reserveFactor": 2000,
       "supplyCap": 50,
       "symbol": "tBTC",
@@ -352,25 +328,22 @@
       "variableDebtToken": "0xB5b46F918C2923fC7f26DB76e8a6A6e9C4347Cf9",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt tBTC",
       "variableDebtTokenSymbol": "variableDebtArbtBTC",
-      "virtualBalance": "15071374544571261578"
+      "virtualBalance": "21086597438474503087"
     },
     "0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33": {
       "aToken": "0xeBe517846d0F36eCEd99C735cbF6131e1fEB775D",
       "aTokenName": "Aave Arbitrum GHO",
       "aTokenSymbol": "aArbGHO",
-      "aTokenUnderlyingBalance": "1159942835055629808180987",
+      "aTokenUnderlyingBalance": "618460003079238210576830",
       "borrowCap": 8470000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 16,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -386,25 +359,22 @@
       "variableDebtToken": "0x18248226C16BF76c032817854E7C83a2113B4f06",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt GHO",
       "variableDebtTokenSymbol": "variableDebtArbGHO",
-      "virtualBalance": "1159942814737168382191855"
+      "virtualBalance": "618459982760776784587698"
     },
     "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
       "aToken": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
       "aTokenName": "Aave Arbitrum WETH",
       "aTokenSymbol": "aArbWETH",
-      "aTokenUnderlyingBalance": "22989744637226338448548",
+      "aTokenUnderlyingBalance": "18031885205813631843543",
       "borrowCap": 215000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 4,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 8400,
@@ -412,7 +382,7 @@
       "oracle": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
       "oracleDecimals": 8,
       "oracleDescription": "ETH / USD",
-      "oracleLatestAnswer": "311083618181",
+      "oracleLatestAnswer": "206783528306",
       "reserveFactor": 1500,
       "supplyCap": 240000,
       "symbol": "WETH",
@@ -421,25 +391,22 @@
       "variableDebtToken": "0x0c84331e39d6658Cd6e6b9ba04736cC4c4734351",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt WETH",
       "variableDebtTokenSymbol": "variableDebtArbWETH",
-      "virtualBalance": "22989744637226338448548"
+      "virtualBalance": "18031885205813631843543"
     },
     "0x912CE59144191C1204E64559FE8253a0e49E6548": {
       "aToken": "0x6533afac2E7BCCB20dca161449A13A32D391fb00",
       "aTokenName": "Aave Arbitrum ARB",
       "aTokenSymbol": "aArbARB",
-      "aTokenUnderlyingBalance": "48211918668949199597564090",
+      "aTokenUnderlyingBalance": "53284793791587934370943316",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 14,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 11000,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 6300,
@@ -447,7 +414,7 @@
       "oracle": "0xb2A824043730FE05F3DA2efaFa1CBbe83fa548D6",
       "oracleDecimals": 8,
       "oracleDescription": "ARB / USD",
-      "oracleLatestAnswer": "21464910",
+      "oracleLatestAnswer": "10364000",
       "reserveFactor": 2000,
       "supplyCap": 101300000,
       "symbol": "ARB",
@@ -456,25 +423,22 @@
       "variableDebtToken": "0x44705f578135cC5d703b4c9c122528C73Eb87145",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt ARB",
       "variableDebtTokenSymbol": "variableDebtArbARB",
-      "virtualBalance": "48211918565666486343990740"
+      "virtualBalance": "53284793617101176975749567"
     },
     "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b": {
       "aToken": "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
       "aTokenName": "Aave Arbitrum LUSD",
       "aTokenSymbol": "aArbLUSD",
-      "aTokenUnderlyingBalance": "82159914741422721675013",
+      "aTokenUnderlyingBalance": "107970745670002456741641",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 11,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -482,7 +446,7 @@
       "oracle": "0xc8b3e2776260c7e7A9C158a2344776e65E10ceE8",
       "oracleDecimals": 8,
       "oracleDescription": "Capped LUSD/USD",
-      "oracleLatestAnswer": "100019700",
+      "oracleLatestAnswer": "101397492",
       "reserveFactor": 5000,
       "supplyCap": 1,
       "symbol": "LUSD",
@@ -491,25 +455,22 @@
       "variableDebtToken": "0xA8669021776Bc142DfcA87c21b4A52595bCbB40a",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt LUSD",
       "variableDebtTokenSymbol": "variableDebtArbLUSD",
-      "virtualBalance": "82159755632198497978859"
+      "virtualBalance": "107970586560778233045487"
     },
     "0xD22a58f79e9481D1a88e00c343885A588b34b68B": {
       "aToken": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
       "aTokenName": "Aave Arbitrum EURS",
       "aTokenSymbol": "aArbEURS",
-      "aTokenUnderlyingBalance": "406756",
+      "aTokenUnderlyingBalance": "429699",
       "borrowCap": 65000,
       "borrowingEnabled": true,
-      "debtCeiling": 2500000,
       "decimals": 2,
       "id": 7,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": true,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 6700,
@@ -517,7 +478,7 @@
       "oracle": "0xA14d53bC1F1c0F31B4aA3BD109344E5009051a84",
       "oracleDecimals": 8,
       "oracleDescription": "EUR / USD",
-      "oracleLatestAnswer": "116530000",
+      "oracleLatestAnswer": "116299000",
       "reserveFactor": 2000,
       "supplyCap": 80000,
       "symbol": "EURS",
@@ -526,60 +487,54 @@
       "variableDebtToken": "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt EURS",
       "variableDebtTokenSymbol": "variableDebtArbEURS",
-      "virtualBalance": "406756"
+      "virtualBalance": "429699"
     },
     "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
       "aToken": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
       "aTokenName": "Aave Arbitrum DAI",
       "aTokenSymbol": "aArbDAI",
-      "aTokenUnderlyingBalance": "1926464774250677523127247",
-      "borrowCap": 10670000,
+      "aTokenUnderlyingBalance": "951492537749713299592571",
+      "borrowCap": 9490000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 0,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": true,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7700,
-      "ltv": 6300,
+      "ltv": 0,
       "oracle": "0x9F221bfD2d3F226b187d4419b49117aD7E698977",
       "oracleDecimals": 8,
       "oracleDescription": "Capped DAI/USD",
-      "oracleLatestAnswer": "99972193",
+      "oracleLatestAnswer": "100010550",
       "reserveFactor": 2500,
-      "supplyCap": 15610000,
+      "supplyCap": 11210000,
       "symbol": "DAI",
       "underlying": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt DAI",
       "variableDebtTokenSymbol": "variableDebtArbDAI",
-      "virtualBalance": "1926455467851720271252247"
+      "virtualBalance": "951483231350756047717571"
     },
     "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8": {
       "aToken": "0x8Eb270e296023E9D92081fdF967dDd7878724424",
       "aTokenName": "Aave Arbitrum rETH",
       "aTokenSymbol": "aArbrETH",
-      "aTokenUnderlyingBalance": "1066815248330783807008",
+      "aTokenUnderlyingBalance": "1031490867848146875701",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 10,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7400,
@@ -587,7 +542,7 @@
       "oracle": "0x256f33FC0110B1297f78f48524631D30B752480D",
       "oracleDecimals": 8,
       "oracleDescription": "Capped rETH / ETH / USD",
-      "oracleLatestAnswer": "358444636530",
+      "oracleLatestAnswer": "239592684004",
       "reserveFactor": 1500,
       "supplyCap": 1600,
       "symbol": "rETH",
@@ -596,25 +551,22 @@
       "variableDebtToken": "0xCE186F6Cccb0c955445bb9d10C59caE488Fea559",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt rETH",
       "variableDebtTokenSymbol": "variableDebtArbrETH",
-      "virtualBalance": "1066815221935109005443"
+      "virtualBalance": "1031490841452472074136"
     },
     "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
       "aToken": "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
       "aTokenName": "Aave Arbitrum USDC",
       "aTokenSymbol": "aArbUSDC",
-      "aTokenUnderlyingBalance": "760583501721",
-      "borrowCap": 2910000,
+      "aTokenUnderlyingBalance": "762747663235",
+      "borrowCap": 2395000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 6,
       "id": 2,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": true,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7800,
@@ -622,7 +574,7 @@
       "oracle": "0x6200A5122Af8D5D9e69f4d526311Cd85241ACeC9",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC/USD",
-      "oracleLatestAnswer": "99979755",
+      "oracleLatestAnswer": "100003758",
       "reserveFactor": 5000,
       "supplyCap": 4412000,
       "symbol": "USDC",
@@ -631,25 +583,22 @@
       "variableDebtToken": "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt USDC",
       "variableDebtTokenSymbol": "variableDebtArbUSDC",
-      "virtualBalance": "760470972163"
+      "virtualBalance": "762635133677"
     },
     "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
       "aToken": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
       "aTokenName": "Aave Arbitrum USDT",
       "aTokenSymbol": "aArbUSDT",
-      "aTokenUnderlyingBalance": "35139688273621",
+      "aTokenUnderlyingBalance": "33399375189975",
       "borrowCap": 158100000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 6,
       "id": 5,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": true,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7800,
@@ -657,7 +606,7 @@
       "oracle": "0x476494a850eec47301F74C8c9c2652495c47C56c",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDT/USD",
-      "oracleLatestAnswer": "100011376",
+      "oracleLatestAnswer": "99981000",
       "reserveFactor": 1000,
       "supplyCap": 196900000,
       "symbol": "USD₮0",
@@ -666,25 +615,22 @@
       "variableDebtToken": "0xfb00AC187a8Eb5AFAE4eACE434F493Eb62672df7",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt USDT",
       "variableDebtTokenSymbol": "variableDebtArbUSDT",
-      "virtualBalance": "35139532801238"
+      "virtualBalance": "33399217630790"
     },
     "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
       "aToken": "0x724dc807b04555b71ed48a6896b6F41593b8C637",
       "aTokenName": "Aave Arbitrum USDCn",
       "aTokenSymbol": "aArbUSDCn",
-      "aTokenUnderlyingBalance": "83936190324099",
+      "aTokenUnderlyingBalance": "119790948537321",
       "borrowCap": 425600000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 6,
       "id": 12,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": true,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7800,
@@ -692,7 +638,7 @@
       "oracle": "0x6200A5122Af8D5D9e69f4d526311Cd85241ACeC9",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC/USD",
-      "oracleLatestAnswer": "99979755",
+      "oracleLatestAnswer": "100003758",
       "reserveFactor": 1000,
       "supplyCap": 512300000,
       "symbol": "USDC",
@@ -701,25 +647,22 @@
       "variableDebtToken": "0xf611aEb5013fD2c0511c9CD55c7dc5C1140741A6",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt USDCn",
       "variableDebtTokenSymbol": "variableDebtArbUSDCn",
-      "virtualBalance": "83936152908643"
+      "virtualBalance": "119790910117242"
     },
     "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196": {
       "aToken": "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
       "aTokenName": "Aave Arbitrum AAVE",
       "aTokenSymbol": "aArbAAVE",
-      "aTokenUnderlyingBalance": "29874392529783403134652",
+      "aTokenUnderlyingBalance": "20632780935894659683514",
       "borrowCap": 0,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 6,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 11000,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7300,
@@ -727,34 +670,31 @@
       "oracle": "0xaD1d5344AaDE45F43E596773Bcc4c423EAbdD034",
       "oracleDecimals": 8,
       "oracleDescription": "AAVE / USD",
-      "oracleLatestAnswer": "18825278191",
+      "oracleLatestAnswer": "11450680000",
       "reserveFactor": 0,
-      "supplyCap": 59000,
+      "supplyCap": 48000,
       "symbol": "AAVE",
       "underlying": "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0xE80761Ea617F66F96274eA5e8c37f03960ecC679",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt AAVE",
       "variableDebtTokenSymbol": "variableDebtArbAAVE",
-      "virtualBalance": "29874362882444903109740"
+      "virtualBalance": "20632751288556159658602"
     },
     "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4": {
       "aToken": "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
       "aTokenName": "Aave Arbitrum LINK",
       "aTokenSymbol": "aArbLINK",
-      "aTokenUnderlyingBalance": "1385359396008695228591687",
+      "aTokenUnderlyingBalance": "835598377185724018791287",
       "borrowCap": 1,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 1,
       "interestRateStrategy": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 11000,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7500,
@@ -762,16 +702,16 @@
       "oracle": "0x86E53CF1B870786351Da77A57575e79CB55812CB",
       "oracleDecimals": 8,
       "oracleDescription": "LINK / USD",
-      "oracleLatestAnswer": "1373080000",
+      "oracleLatestAnswer": "918400316",
       "reserveFactor": 2000,
-      "supplyCap": 3200000,
+      "supplyCap": 2557000,
       "symbol": "LINK",
       "underlying": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0x953A573793604aF8d41F306FEb8274190dB4aE0e",
       "variableDebtTokenName": "Aave Arbitrum Variable Debt LINK",
       "variableDebtTokenSymbol": "variableDebtArbLINK",
-      "virtualBalance": "1385359391559442885444956"
+      "virtualBalance": "835598372699526292075445"
     }
   },
   "strategies": {
@@ -882,9 +822,9 @@
     "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
       "address": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "455000000000000000000000000",
+      "maxVariableBorrowRate": "450000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "55000000000000000000000000",
+      "variableRateSlope1": "50000000000000000000000000",
       "variableRateSlope2": "400000000000000000000000000"
     },
     "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8": {
@@ -906,17 +846,17 @@
     "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
       "address": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "155000000000000000000000000",
+      "maxVariableBorrowRate": "150000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "55000000000000000000000000",
+      "variableRateSlope1": "50000000000000000000000000",
       "variableRateSlope2": "100000000000000000000000000"
     },
     "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
       "address": "0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "155000000000000000000000000",
+      "maxVariableBorrowRate": "150000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "55000000000000000000000000",
+      "variableRateSlope1": "50000000000000000000000000",
       "variableRateSlope2": "100000000000000000000000000"
     },
     "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196": {
@@ -944,16 +884,56 @@
       "nonceDiff": null,
       "stateDiff": {
         "0x0000000000000000000000000000000000000000000000000000000000000000": {
-          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000009",
-          "newValue": "0x000000000000000000000000000000000000000000000000000000000000000a"
+          "previousValue": "0x000000000000000000000000000000000000000000000000000000000000000a",
+          "newValue": "0x000000000000000000000000000000000000000000000000000000000000000b"
         },
         "0x0000000000000000000000000000000000000000000000000000000000000001": {
           "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
         },
+        "0x231517525e76b52ef0565e25ae6e726ef61fa7481dd09cfc0b1bb129c697db69": {
+          "previousValue": "0x10005f5e1000000000000003e800000000100000000107d0811229681c200000",
+          "newValue": "0x100000000000000000000003e800000000100000000107d0811229681c200000"
+        },
+        "0x231517525e76b52ef0565e25ae6e726ef61fa7481dd09cfc0b1bb129c697db72": {
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000009a1b",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
-          "previousValue": "0x000000000000000000000000ce142f1e750522a3e7ed7305a224ae88dd9f6ce8",
-          "newValue": "0x000000000000000000000000b76c1a8da369fc39aadcf39d2446828bcdf6ee56"
+          "previousValue": "0x000000000000000000000000b76c1a8da369fc39aadcf39d2446828bcdf6ee56",
+          "newValue": "0x0000000000000000000000002c74ce43b3e97e1196e3f9c9884e690ba437205e"
+        },
+        "0x625a1e0785d461c74fd523038876599d0612e2713e0fd72b607e0a293734bc02": {
+          "previousValue": "0x100000000000000000000103e800bbc74a00096c6a2003e8a50629041e781d4c",
+          "newValue": "0x100000000000000000000103e800bbc74a00096c6a2003e8850629041e781d4c"
+        },
+        "0x737d92e4f754ad0901f4ba2f145786361957fa4b3c4c8367f2da2a3a09a9479a": {
+          "previousValue": "0x100000000000000000000103e8000ab0d1000090ce5009c4a51229041e140000",
+          "newValue": "0x100000000000000000000103e8000ab0d1000090ce5009c4851229041e140000"
+        },
+        "0xaa36895e16bf88054bc9ce1f3803f0ce3c9c129a784656f6747518dc4dcfa167": {
+          "previousValue": "0x100000000000000000000103e8000435260000248b781388a50629041e781d4c",
+          "newValue": "0x100000000000000000000103e8000435260000248b781388850629041e781d4c"
+        },
+        "0xb0e3bbf6dc47aaad7ffe22e90e56bf657905c58305d5bde848a2f17771a9426d": {
+          "previousValue": "0x100009896800000000000003e800004f58800003d090251c8712290400640000",
+          "newValue": "0x100000000000000000000003e800004f58800003d090251c8712290400640000"
+        },
+        "0xb0e3bbf6dc47aaad7ffe22e90e56bf657905c58305d5bde848a2f17771a94276": {
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "0xb423b4edbb56a3db80b29d0d26652b14f39041f82ba0703dad532c260ec859e5": {
+          "previousValue": "0x100002625a00000000000103e800001388000000fde807d0870229fe1a2c0000",
+          "newValue": "0x100000000000000000000103e800001388000000fde807d0870229fe1a2c0000"
+        },
+        "0xb423b4edbb56a3db80b29d0d26652b14f39041f82ba0703dad532c260ec859ee": {
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "0xeca9b25e580a9539f66a1e310f07d98e6be14b94407490b048d1fe024e73af4f": {
+          "previousValue": "0x100000000000000000000103e801e8913e00195e240003e8a50629041e781d4c",
+          "newValue": "0x100000000000000000000103e801e8913e00195e240003e8850629041e781d4c"
         }
       }
     },
@@ -964,8 +944,8 @@
       "nonceDiff": null,
       "stateDiff": {
         "0x0000000000000000000000000000000000000000000000000000000000000000": {
-          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000006",
-          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000007"
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000007",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000008"
         },
         "0x0000000000000000000000000000000000000000000000000000000000000001": {
           "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -980,8 +960,8 @@
           "newValue": "0x000000000000000000000000794a61358d6845594f94dc1db02a252b5b4814ad"
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
-          "previousValue": "0x0000000000000000000000005793fe4de34532f162b4e207af872729880ec2b6",
-          "newValue": "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+          "previousValue": "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623",
+          "newValue": "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
         }
       }
     },
@@ -991,13 +971,13 @@
       "balanceDiff": null,
       "nonceDiff": null,
       "stateDiff": {
-        "0x7b2f1db823434eb2c3257b921622f3b73c33ed78ab6344072b7d0d89829cce01": {
-          "previousValue": "0x006937f973000000000002000000000000000000000000000000000000000000",
-          "newValue": "0x006937f973000000000003000000000000000000000000000000000000000000"
+        "0xbb4ac5d7b238e09f0346251f5f12e6fe98711019a88910e6a64f47bf73e6c3c2": {
+          "previousValue": "0x0069a80e5a000000000002000000000000000000000000000000000000000000",
+          "newValue": "0x0069a80e5a000000000003000000000000000000000000000000000000000000"
         },
-        "0x7b2f1db823434eb2c3257b921622f3b73c33ed78ab6344072b7d0d89829cce02": {
-          "previousValue": "0x000000000000000000093a8000000000000069661df400000000000000000000",
-          "newValue": "0x000000000000000000093a8000000000000069661df40000000000006937f974"
+        "0xbb4ac5d7b238e09f0346251f5f12e6fe98711019a88910e6a64f47bf73e6c3c3": {
+          "previousValue": "0x000000000000000000093a8000000000000069d632db00000000000000000000",
+          "newValue": "0x000000000000000000093a8000000000000069d632db00000000000069a80e5b"
         }
       }
     }
@@ -1005,8 +985,84 @@
   "logs": [
     {
       "topics": [
+        "0x74adf6aaf58c08bc4f993640385e136522375ea3d1589a10d02adbb906c67d1c"
+      ],
+      "data": "0x000000000000000000000000da10009cbd5d07dd0cecc66161fc93d7c9000da10000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
+    },
+    {
+      "topics": [
+        "0x74adf6aaf58c08bc4f993640385e136522375ea3d1589a10d02adbb906c67d1c"
+      ],
+      "data": "0x000000000000000000000000ff970a61a04b1ca14834a43f5de4533ebddb5cc80000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
+    },
+    {
+      "topics": [
+        "0x74adf6aaf58c08bc4f993640385e136522375ea3d1589a10d02adbb906c67d1c"
+      ],
+      "data": "0x000000000000000000000000fd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb90000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
+    },
+    {
+      "topics": [
+        "0xaef84d3b40895fd58c561f3998000f0583abb992a52fbdc99ace8e8de4d676a5",
+        "0x000000000000000000000000d22a58f79e9481d1a88e00c343885a588b34b68b"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+    },
+    {
+      "topics": [
+        "0x6824a6c7fbc10d2979b1f1ccf2dd4ed0436541679a661dedb5c10bd4be830682",
+        "0x000000000000000000000000d22a58f79e9481d1a88e00c343885a588b34b68b"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000002625a00000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
+    },
+    {
+      "topics": [
+        "0xaef84d3b40895fd58c561f3998000f0583abb992a52fbdc99ace8e8de4d676a5",
+        "0x0000000000000000000000003f56e0c36d275367b8c502090edf38289b3dea0d"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+    },
+    {
+      "topics": [
+        "0x6824a6c7fbc10d2979b1f1ccf2dd4ed0436541679a661dedb5c10bd4be830682",
+        "0x0000000000000000000000003f56e0c36d275367b8c502090edf38289b3dea0d"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000009896800000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
+    },
+    {
+      "topics": [
+        "0x74adf6aaf58c08bc4f993640385e136522375ea3d1589a10d02adbb906c67d1c"
+      ],
+      "data": "0x000000000000000000000000af88d065e77c8cc2239327c5edb3a432268e58310000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
+    },
+    {
+      "topics": [
+        "0xaef84d3b40895fd58c561f3998000f0583abb992a52fbdc99ace8e8de4d676a5",
+        "0x00000000000000000000000017fc002b466eec40dae837fc4be5c67993ddbd6f"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+    },
+    {
+      "topics": [
+        "0x6824a6c7fbc10d2979b1f1ccf2dd4ed0436541679a661dedb5c10bd4be830682",
+        "0x00000000000000000000000017fc002b466eec40dae837fc4be5c67993ddbd6f"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000005f5e1000000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
+    },
+    {
+      "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x000000000000000000000000b76c1a8da369fc39aadcf39d2446828bcdf6ee56"
+        "0x0000000000000000000000002c74ce43b3e97e1196e3f9c9884e690ba437205e"
       ],
       "data": "0x",
       "emitter": "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
@@ -1014,8 +1070,8 @@
     {
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
-        "0x000000000000000000000000ce142f1e750522a3e7ed7305a224ae88dd9f6ce8",
-        "0x000000000000000000000000b76c1a8da369fc39aadcf39d2446828bcdf6ee56"
+        "0x000000000000000000000000b76c1a8da369fc39aadcf39d2446828bcdf6ee56",
+        "0x0000000000000000000000002c74ce43b3e97e1196e3f9c9884e690ba437205e"
       ],
       "data": "0x",
       "emitter": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb"
@@ -1023,7 +1079,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
       ],
       "data": "0x",
       "emitter": "0x8145eddDf43f50276641b55bd3AD95944510021E"
@@ -1031,8 +1087,8 @@
     {
       "topics": [
         "0x8932892569eba59c8382a089d9b732d1f49272878775235761a2a6b0309cd465",
-        "0x0000000000000000000000005793fe4de34532f162b4e207af872729880ec2b6",
-        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623",
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
       ],
       "data": "0x",
       "emitter": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb"
@@ -1040,16 +1096,16 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x0000000000000000000000001b996fb6f91cfd67965d3c2c351b87d1a36eb37b"
+        "0x000000000000000000000000ea4e87b37b83a4d8a609f0334b0295aedc07bc4e"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000006937f974000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80e5b000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0xFF1137243698CaA18EE364Cc966CF0e02A4e6327"
     },
     {
       "topics": [
         "0xda6084bb0aa902a7f6da10ba185d4aa129414651c90772417eff02a52112af2a"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000006a",
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000071",
       "emitter": "0x89644CA1bB8064760312AE4F03ea41b05dA3637C"
     }
   ]

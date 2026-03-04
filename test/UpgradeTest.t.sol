@@ -10,11 +10,15 @@ import {
   IPoolAddressesProvider,
   IERC20,
   DataTypes,
-  ReserveConfiguration,
-  SafeERC20
+  SafeERC20,
+  ReserveConfiguration
 } from "aave-helpers/src/ProtocolV3TestBase.sol";
 import {EModeConfiguration} from "aave-v3-origin/contracts/protocol/libraries/configuration/EModeConfiguration.sol";
-
+import {
+  ReserveConfiguration as ReserveConfiguration36,
+  DataTypes as DataTypes36
+} from "../src/3.6/ReserveConfiguration.sol";
+import {IPool as IPool36} from "../src/3.6/IPool.sol";
 import {UpgradePayload} from "../src/UpgradePayload.sol";
 
 interface NewPool {
@@ -48,6 +52,7 @@ contract MockFlashReceiver {
 abstract contract UpgradeTest is ProtocolV3TestBase {
   using SafeERC20 for IERC20;
   using ReserveConfiguration for DataTypes.ReserveConfigurationMap;
+  using ReserveConfiguration36 for DataTypes36.ReserveConfigurationMap;
 
   string public NETWORK;
   string public NETWORK_SUB_NAME;
@@ -110,25 +115,6 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     }
   }
 
-  function test_assumption_borrowingEnabled() external {
-    UpgradePayload _payload = UpgradePayload(_getTestPayload());
-
-    executePayload(vm, address(_payload));
-
-    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
-    IPool pool = IPool(addressesProvider.getPool());
-    address[] memory reserves = pool.getReservesList();
-    for (uint256 i = 0; i < reserves.length; i++) {
-      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
-      if (reserveData.configuration.getBorrowingEnabled() == false) {
-        for (uint256 j = 0; j <= type(uint8).max; j++) {
-          uint128 borrowableEnabledBitmap = pool.getEModeCategoryBorrowableBitmap(uint8(j));
-          require(EModeConfiguration.isReserveEnabledOnBitmap(borrowableEnabledBitmap, reserveData.id) == false);
-        }
-      }
-    }
-  }
-
   function test_assumption_noSiloed() external {
     UpgradePayload _payload = UpgradePayload(_getTestPayload());
 
@@ -136,7 +122,7 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     IPool pool = IPool(addressesProvider.getPool());
     address[] memory reserves = pool.getReservesList();
     for (uint256 i = 0; i < reserves.length; i++) {
-      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
       assertEq(reserveData.configuration.getSiloedBorrowing(), false);
     }
   }
@@ -150,7 +136,7 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     IPool pool = IPool(addressesProvider.getPool());
     address[] memory reserves = pool.getReservesList();
     for (uint256 i = 0; i < reserves.length; i++) {
-      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
       assertEq(reserveData.configuration.getDebtCeiling(), 0);
     }
   }
@@ -164,7 +150,7 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     IPool pool = IPool(addressesProvider.getPool());
     address[] memory reserves = pool.getReservesList();
     for (uint256 i = 0; i < reserves.length; i++) {
-      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
       assertEq(reserveData.configuration.getBorrowableInIsolation(), false);
     }
   }

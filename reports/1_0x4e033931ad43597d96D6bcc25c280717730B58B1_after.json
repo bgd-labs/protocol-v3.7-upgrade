@@ -11,7 +11,7 @@
       "ltv": 9500
     },
     "2": {
-      "borrowableBitmap": "76",
+      "borrowableBitmap": "72",
       "collateralBitmap": "16",
       "eModeCategory": 2,
       "label": "LRT Stablecoins main",
@@ -47,7 +47,7 @@
       "ltv": 9300
     },
     "6": {
-      "borrowableBitmap": "76",
+      "borrowableBitmap": "72",
       "collateralBitmap": "128",
       "eModeCategory": 6,
       "label": "rsETH/Stablecoins",
@@ -78,19 +78,16 @@
       "aToken": "0x18eFE565A5373f430e2F809b97De30335B3ad96A",
       "aTokenName": "Aave Ethereum Lido GHO",
       "aTokenSymbol": "aEthLidoGHO",
-      "aTokenUnderlyingBalance": "28589100252528902284242109",
+      "aTokenUnderlyingBalance": "51774778187886267417038741",
       "borrowCap": 110000000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 6,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -106,25 +103,22 @@
       "variableDebtToken": "0x18577F0f4A0B2Ee6F4048dB51c7acd8699F97DB8",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt GHO",
       "variableDebtTokenSymbol": "variableDebtEthLidoGHO",
-      "virtualBalance": "28589100252528902284242109"
+      "virtualBalance": "51774778187886267417038741"
     },
     "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
       "aToken": "0xC035a7cf15375cE2706766804551791aD035E0C2",
       "aTokenName": "Aave Ethereum Lido wstETH",
       "aTokenSymbol": "aEthLidowstETH",
-      "aTokenUnderlyingBalance": "104918594453266293645089",
-      "borrowCap": 280000,
+      "aTokenUnderlyingBalance": "71024770242011960315344",
+      "borrowCap": 70000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 0,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10600,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 8300,
@@ -132,34 +126,31 @@
       "oracle": "0xe1D97bF61901B075E9626c8A2340a7De385861Ef",
       "oracleDecimals": 8,
       "oracleDescription": "Capped wstETH / stETH(ETH) / USD",
-      "oracleLatestAnswer": "380923804395",
+      "oracleLatestAnswer": "254182220627",
       "reserveFactor": 500,
-      "supplyCap": 650000,
+      "supplyCap": 200000,
       "symbol": "wstETH",
       "underlying": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0xE439edd2625772AA635B437C099C607B6eb7d35f",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt wstETH",
       "variableDebtTokenSymbol": "variableDebtEthLidowstETH",
-      "virtualBalance": "104918594453266293645089"
+      "virtualBalance": "71024770242011960315344"
     },
     "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497": {
       "aToken": "0xc2015641564a5914A17CB9A92eC8d8feCfa8f2D0",
       "aTokenName": "Aave Ethereum Lido sUSDe",
       "aTokenSymbol": "aEthLidosUSDe",
-      "aTokenUnderlyingBalance": "385709241226130755079844",
+      "aTokenUnderlyingBalance": "37230646768309862453433",
       "borrowCap": 1000,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 5,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 10,
@@ -167,34 +158,31 @@
       "oracle": "0x42bc86f2f08419280a99d8fbEa4672e7c30a86ec",
       "oracleDecimals": 8,
       "oracleDescription": "Capped sUSDe / USDT / USD",
-      "oracleLatestAnswer": "121083731",
+      "oracleLatestAnswer": "122260894",
       "reserveFactor": 1000,
-      "supplyCap": 60000000,
+      "supplyCap": 5000000,
       "symbol": "sUSDe",
       "underlying": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0x2ABbAab3EF4e4A899d39e7EC996b5715E76b399a",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt sUSDe",
       "variableDebtTokenSymbol": "variableDebtEthLidosUSDe",
-      "virtualBalance": "385709241226130755079844"
+      "virtualBalance": "37230646768309862453433"
     },
     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
       "aToken": "0x2A1FBcb52Ed4d9b23daD17E1E8Aed4BB0E6079b8",
       "aTokenName": "Aave Ethereum Lido USDC",
       "aTokenSymbol": "aEthLidoUSDC",
-      "aTokenUnderlyingBalance": "1486673908677",
+      "aTokenUnderlyingBalance": "2196727142707",
       "borrowCap": 27600000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 6,
       "id": 3,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": true,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -202,7 +190,7 @@
       "oracle": "0x3f73F03aa83B2A48ed27E964eD0fDb590332095B",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC / USD",
-      "oracleLatestAnswer": "99979000",
+      "oracleLatestAnswer": "100000131",
       "reserveFactor": 1000,
       "supplyCap": 30000000,
       "symbol": "USDC",
@@ -211,25 +199,22 @@
       "variableDebtToken": "0xeD90dE2D824Ee766c6Fd22E90b12e598f681dc9F",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt USDC",
       "variableDebtTokenSymbol": "variableDebtEthLidoUSDC",
-      "virtualBalance": "1486673873545"
+      "virtualBalance": "2196727038047"
     },
     "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7": {
       "aToken": "0x56D919E7B25aA42F3F8a4BC77b8982048F2E84B4",
       "aTokenName": "Aave Ethereum Lido rsETH",
       "aTokenSymbol": "aEthLidorsETH",
-      "aTokenUnderlyingBalance": "7839840601763183873",
+      "aTokenUnderlyingBalance": "6259182837703354503",
       "borrowCap": 1,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 7,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 10,
@@ -237,34 +222,31 @@
       "oracle": "0x7292C95A5f6A501a9c4B34f6393e221F2A0139c3",
       "oracleDecimals": 8,
       "oracleDescription": "Capped rsETH / ETH / USD",
-      "oracleLatestAnswer": "330681577689",
+      "oracleLatestAnswer": "220642142740",
       "reserveFactor": 15,
-      "supplyCap": 65000,
+      "supplyCap": 5000,
       "symbol": "rsETH",
       "underlying": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0x2c2163f120cf58631368981BC16e90190Bc6C644",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt rsETH",
       "variableDebtTokenSymbol": "variableDebtEthLidorsETH",
-      "virtualBalance": "7839840601763183873"
+      "virtualBalance": "6259182837703354503"
     },
     "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
       "aToken": "0xfA1fDbBD71B0aA16162D76914d69cD8CB3Ef92da",
       "aTokenName": "Aave Ethereum Lido WETH",
       "aTokenSymbol": "aEthLidoWETH",
-      "aTokenUnderlyingBalance": "13507768197936237096883",
-      "borrowCap": 810000,
+      "aTokenUnderlyingBalance": "2927792923778280853563",
+      "borrowCap": 143000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 1,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 8500,
@@ -272,34 +254,31 @@
       "oracle": "0x5424384B256154046E9667dDFaaa5e550145215e",
       "oracleDecimals": 8,
       "oracleDescription": "ETH / USD",
-      "oracleLatestAnswer": "311902000000",
+      "oracleLatestAnswer": "206927000000",
       "reserveFactor": 1500,
-      "supplyCap": 900000,
+      "supplyCap": 150000,
       "symbol": "WETH",
       "underlying": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0x91b7d78BF92db564221f6B5AeE744D1727d1Dd1e",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt WETH",
       "variableDebtTokenSymbol": "variableDebtEthLidoWETH",
-      "virtualBalance": "13507768197936237096883"
+      "virtualBalance": "2927792923778280853563"
     },
     "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8": {
       "aToken": "0xce8c60fd8390eFCc3Fc66A3f0bd64BEb969e750E",
       "aTokenName": "Aave Ethereum Lido tETH",
       "aTokenSymbol": "aEthLidotETH",
-      "aTokenUnderlyingBalance": "33421630765948406188449",
+      "aTokenUnderlyingBalance": "31779955516781010167313",
       "borrowCap": 1,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 8,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 10,
@@ -307,7 +286,7 @@
       "oracle": "0x85968026294b8f8Fb86d6bF3Cda079f9376aD05A",
       "oracleDecimals": 8,
       "oracleDescription": "Capped tETH / wstETH / ETH / USD",
-      "oracleLatestAnswer": "383038661795",
+      "oracleLatestAnswer": "255832964975",
       "reserveFactor": 5000,
       "supplyCap": 60000,
       "symbol": "tETH",
@@ -316,25 +295,22 @@
       "variableDebtToken": "0xe7ea6125490ae4594aD9B44D05dFF9F2A4343134",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt tETH",
       "variableDebtTokenSymbol": "variableDebtEthLidotETH",
-      "virtualBalance": "33421630765948406188449"
+      "virtualBalance": "31779955516781010167313"
     },
     "0xbf5495Efe5DB9ce00f80364C8B423567e58d2110": {
       "aToken": "0x74e5664394998f13B07aF42446380ACef637969f",
       "aTokenName": "Aave Ethereum Lido ezETH",
       "aTokenSymbol": "aEthLidoezETH",
-      "aTokenUnderlyingBalance": "4128765153819545697535",
+      "aTokenUnderlyingBalance": "2963068189351015307138",
       "borrowCap": 100,
       "borrowingEnabled": false,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 4,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": false,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 10750,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 10,
@@ -342,34 +318,31 @@
       "oracle": "0xF3d49021fF3bbBFDfC1992A4b09E5D1d141D044C",
       "oracleDecimals": 8,
       "oracleDescription": "Capped ezETH / ezETH(ETH) / USD",
-      "oracleLatestAnswer": "332690677033",
+      "oracleLatestAnswer": "222083363439",
       "reserveFactor": 1500,
-      "supplyCap": 240000,
+      "supplyCap": 20000,
       "symbol": "ezETH",
       "underlying": "0xbf5495Efe5DB9ce00f80364C8B423567e58d2110",
       "usageAsCollateralEnabled": true,
       "variableDebtToken": "0x08e1bba76D27841dD91FAb4b3a636A0D5CF8c3E9",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt ezETH",
       "variableDebtTokenSymbol": "variableDebtEthLidoezETH",
-      "virtualBalance": "4128765153819545697535"
+      "virtualBalance": "2963068189351015307138"
     },
     "0xdC035D45d973E3EC169d2276DDab16f1e407384F": {
       "aToken": "0x09AA30b182488f769a9824F15E6Ce58591Da4781",
       "aTokenName": "Aave Ethereum Lido USDS",
       "aTokenSymbol": "aEthLidoUSDS",
-      "aTokenUnderlyingBalance": "121974145437801150937164",
-      "borrowCap": 180000000,
+      "aTokenUnderlyingBalance": "120583145608401739487232",
+      "borrowCap": 36000000,
       "borrowingEnabled": true,
-      "debtCeiling": 0,
       "decimals": 18,
       "id": 2,
       "interestRateStrategy": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "isActive": true,
-      "isBorrowableInIsolation": false,
       "isFlashloanable": true,
       "isFrozen": false,
       "isPaused": false,
-      "isSiloed": false,
       "liquidationBonus": 0,
       "liquidationProtocolFee": 0,
       "liquidationThreshold": 0,
@@ -377,23 +350,23 @@
       "oracle": "0x94C7FD62fd0506e71d8142E9D36687fC72A86B02",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDS/USD",
-      "oracleLatestAnswer": "99985204",
-      "reserveFactor": 1000,
-      "supplyCap": 200000000,
+      "oracleLatestAnswer": "99965674",
+      "reserveFactor": 2500,
+      "supplyCap": 40000000,
       "symbol": "USDS",
       "underlying": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
       "usageAsCollateralEnabled": false,
       "variableDebtToken": "0x2D9fe18b6c35FE439cC15D932cc5C943bf2d901E",
       "variableDebtTokenName": "Aave Ethereum Lido Variable Debt USDS",
       "variableDebtTokenSymbol": "variableDebtEthLidoUSDS",
-      "virtualBalance": "121974145437801150937164"
+      "virtualBalance": "120583145608401739487232"
     }
   },
   "strategies": {
     "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f": {
       "address": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
-      "baseVariableBorrowRate": "35000000000000000000000000",
-      "maxVariableBorrowRate": "397500000000000000000000000",
+      "baseVariableBorrowRate": "20000000000000000000000000",
+      "maxVariableBorrowRate": "382500000000000000000000000",
       "optimalUsageRatio": "920000000000000000000000000",
       "variableRateSlope1": "12500000000000000000000000",
       "variableRateSlope2": "350000000000000000000000000"
@@ -433,9 +406,9 @@
     "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
       "address": "0x8958b1C39269167527821f8c276Ef7504883f2fa",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "102500000000000000000000000",
+      "maxVariableBorrowRate": "101200000000000000000000000",
       "optimalUsageRatio": "920000000000000000000000000",
-      "variableRateSlope1": "22500000000000000000000000",
+      "variableRateSlope1": "21200000000000000000000000",
       "variableRateSlope2": "80000000000000000000000000"
     },
     "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8": {
@@ -471,8 +444,8 @@
       "nonceDiff": null,
       "stateDiff": {
         "0x0000000000000000000000000000000000000000000000000000000000000000": {
-          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000006",
-          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000007"
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000007",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000008"
         },
         "0x0000000000000000000000000000000000000000000000000000000000000001": {
           "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -487,8 +460,8 @@
           "newValue": "0x0000000000000000000000004e033931ad43597d96d6bcc25c280717730b58b1"
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
-          "previousValue": "0x0000000000000000000000005793fe4de34532f162b4e207af872729880ec2b6",
-          "newValue": "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+          "previousValue": "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623",
+          "newValue": "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
         }
       }
     },
@@ -499,16 +472,20 @@
       "nonceDiff": null,
       "stateDiff": {
         "0x0000000000000000000000000000000000000000000000000000000000000000": {
-          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000009",
-          "newValue": "0x000000000000000000000000000000000000000000000000000000000000000a"
+          "previousValue": "0x000000000000000000000000000000000000000000000000000000000000000a",
+          "newValue": "0x000000000000000000000000000000000000000000000000000000000000000b"
         },
         "0x0000000000000000000000000000000000000000000000000000000000000001": {
           "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
-          "previousValue": "0x000000000000000000000000ef534b9ad7f185aff4146750da6bf8bb7f58020c",
-          "newValue": "0x000000000000000000000000c313a383d1838dcda96f4c97698238f0a5499ea4"
+          "previousValue": "0x000000000000000000000000c313a383d1838dcda96f4c97698238f0a5499ea4",
+          "newValue": "0x00000000000000000000000066cf0b4973e4baf5ee2a44cf4fa7070795090cba"
+        },
+        "0xed960c71bd5fa1333658850f076b35ec5565086b606556c3dd36a916b43ddf20": {
+          "previousValue": "0x10000000000000000000000000001c9c380001a5248003e8a506000000000000",
+          "newValue": "0x10000000000000000000000000001c9c380001a5248003e88506000000000000"
         }
       }
     },
@@ -518,13 +495,13 @@
       "balanceDiff": null,
       "nonceDiff": null,
       "stateDiff": {
-        "0x1f61127137b2b334cc768fbb1f2c09bd3ffa8b4efe78fbac6f501d1ec08449da": {
-          "previousValue": "0x00693813d6000000000002000000000000000000000000000000000000000000",
-          "newValue": "0x00693813d6000000000003000000000000000000000000000000000000000000"
+        "0x9f0683692cd233dff7e3a361b3542bc1800d7d8da479ff4b224a869bf05a93ab": {
+          "previousValue": "0x0069a80eda000000000002000000000000000000000000000000000000000000",
+          "newValue": "0x0069a80eda000000000003000000000000000000000000000000000000000000"
         },
-        "0x1f61127137b2b334cc768fbb1f2c09bd3ffa8b4efe78fbac6f501d1ec08449db": {
-          "previousValue": "0x000000000000000000093a800000000000006966385700000000000000000000",
-          "newValue": "0x000000000000000000093a8000000000000069663857000000000000693813d7"
+        "0x9f0683692cd233dff7e3a361b3542bc1800d7d8da479ff4b224a869bf05a93ac": {
+          "previousValue": "0x000000000000000000093a8000000000000069d6335b00000000000000000000",
+          "newValue": "0x000000000000000000093a8000000000000069d6335b00000000000069a80edb"
         }
       }
     }
@@ -532,8 +509,15 @@
   "logs": [
     {
       "topics": [
+        "0x74adf6aaf58c08bc4f993640385e136522375ea3d1589a10d02adbb906c67d1c"
+      ],
+      "data": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0x342631c6CeFC9cfbf97b2fe4aa242a236e1fd517"
+    },
+    {
+      "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x000000000000000000000000c313a383d1838dcda96f4c97698238f0a5499ea4"
+        "0x00000000000000000000000066cf0b4973e4baf5ee2a44cf4fa7070795090cba"
       ],
       "data": "0x",
       "emitter": "0x4e033931ad43597d96D6bcc25c280717730B58B1"
@@ -541,8 +525,8 @@
     {
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
-        "0x000000000000000000000000ef534b9ad7f185aff4146750da6bf8bb7f58020c",
-        "0x000000000000000000000000c313a383d1838dcda96f4c97698238f0a5499ea4"
+        "0x000000000000000000000000c313a383d1838dcda96f4c97698238f0a5499ea4",
+        "0x00000000000000000000000066cf0b4973e4baf5ee2a44cf4fa7070795090cba"
       ],
       "data": "0x",
       "emitter": "0xcfBf336fe147D643B9Cb705648500e101504B16d"
@@ -550,7 +534,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
       ],
       "data": "0x",
       "emitter": "0x342631c6CeFC9cfbf97b2fe4aa242a236e1fd517"
@@ -558,8 +542,8 @@
     {
       "topics": [
         "0x8932892569eba59c8382a089d9b732d1f49272878775235761a2a6b0309cd465",
-        "0x0000000000000000000000005793fe4de34532f162b4e207af872729880ec2b6",
-        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623"
+        "0x0000000000000000000000006fddde45f777a4e461b0721a578b169b44579623",
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
       ],
       "data": "0x",
       "emitter": "0xcfBf336fe147D643B9Cb705648500e101504B16d"
@@ -567,16 +551,16 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x000000000000000000000000ee9b89c2fe9441da76adc57ab1f14fddfda47a9a"
+        "0x000000000000000000000000ff452cc25981db933dfacf067241648db957f50d"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000693813d7000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80edb000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A"
     },
     {
       "topics": [
         "0xda6084bb0aa902a7f6da10ba185d4aa129414651c90772417eff02a52112af2a"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000017c",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000019b",
       "emitter": "0xdAbad81aF85554E9ae636395611C58F7eC1aAEc5"
     }
   ]
