@@ -1,78 +1,5 @@
 {
   "chainId": 1,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "2",
-      "collateralBitmap": "1",
-      "eModeCategory": 1,
-      "label": "wstETH/WETH",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9650,
-      "ltv": 9500
-    },
-    "2": {
-      "borrowableBitmap": "72",
-      "collateralBitmap": "16",
-      "eModeCategory": 2,
-      "label": "LRT Stablecoins main",
-      "liquidationBonus": 10750,
-      "liquidationThreshold": 7800,
-      "ltv": 7500
-    },
-    "3": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "16",
-      "eModeCategory": 3,
-      "label": "LRT wstETH main",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    },
-    "4": {
-      "borrowableBitmap": "72",
-      "collateralBitmap": "32",
-      "eModeCategory": 4,
-      "label": "sUSDe Stablecoins",
-      "liquidationBonus": 10400,
-      "liquidationThreshold": 9200,
-      "ltv": 9000
-    },
-    "5": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "128",
-      "eModeCategory": 5,
-      "label": "rsETH LST main",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    },
-    "6": {
-      "borrowableBitmap": "72",
-      "collateralBitmap": "128",
-      "eModeCategory": 6,
-      "label": "rsETH/Stablecoins",
-      "liquidationBonus": 10750,
-      "liquidationThreshold": 7500,
-      "ltv": 7200
-    },
-    "7": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "256",
-      "eModeCategory": 7,
-      "label": "tETH/wstETH",
-      "liquidationBonus": 10200,
-      "liquidationThreshold": 9400,
-      "ltv": 9200
-    }
-  },
-  "poolConfig": {
-    "oracle": "0xE3C061981870C0C7b1f3C4F4bB36B95f1F260BE6",
-    "pool": "0x4e033931ad43597d96D6bcc25c280717730B58B1",
-    "poolAddressesProvider": "0xcfBf336fe147D643B9Cb705648500e101504B16d",
-    "poolConfigurator": "0x342631c6CeFC9cfbf97b2fe4aa242a236e1fd517",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0xB85B2bFEbeC4F5f401dbf92ac147A3076391fCD5"
-  },
   "reserves": {
     "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f": {
       "aToken": "0x18eFE565A5373f430e2F809b97De30335B3ad96A",
@@ -436,6 +363,78 @@
       "variableRateSlope2": "350000000000000000000000000"
     }
   },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "2",
+      "collateralBitmap": "1",
+      "eModeCategory": 1,
+      "label": "wstETH/WETH",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9650,
+      "ltv": 9500
+    },
+    "2": {
+      "borrowableBitmap": "72",
+      "collateralBitmap": "16",
+      "eModeCategory": 2,
+      "label": "LRT Stablecoins main",
+      "liquidationBonus": 10750,
+      "liquidationThreshold": 7800,
+      "ltv": 7500
+    },
+    "3": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "16",
+      "eModeCategory": 3,
+      "label": "LRT wstETH main",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    },
+    "4": {
+      "borrowableBitmap": "72",
+      "collateralBitmap": "32",
+      "eModeCategory": 4,
+      "label": "sUSDe Stablecoins",
+      "liquidationBonus": 10400,
+      "liquidationThreshold": 9200,
+      "ltv": 9000
+    },
+    "5": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "128",
+      "eModeCategory": 5,
+      "label": "rsETH LST main",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    },
+    "6": {
+      "borrowableBitmap": "72",
+      "collateralBitmap": "128",
+      "eModeCategory": 6,
+      "label": "rsETH/Stablecoins",
+      "liquidationBonus": 10750,
+      "liquidationThreshold": 7500,
+      "ltv": 7200
+    },
+    "7": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "256",
+      "eModeCategory": 7,
+      "label": "tETH/wstETH",
+      "liquidationBonus": 10200,
+      "liquidationThreshold": 9400,
+      "ltv": 9200
+    }
+  },
+  "poolConfig": {
+    "oracle": "0xE3C061981870C0C7b1f3C4F4bB36B95f1F260BE6",
+    "pool": "0x4e033931ad43597d96D6bcc25c280717730B58B1",
+    "poolAddressesProvider": "0xcfBf336fe147D643B9Cb705648500e101504B16d",
+    "poolConfigurator": "0x342631c6CeFC9cfbf97b2fe4aa242a236e1fd517",
+    "protocolDataProvider": "0xB85B2bFEbeC4F5f401dbf92ac147A3076391fCD5"
+  },
   "raw": {
     "0x342631c6cefc9cfbf97b2fe4aa242a236e1fd517": {
       "label": null,
@@ -481,7 +480,7 @@
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
           "previousValue": "0x000000000000000000000000c313a383d1838dcda96f4c97698238f0a5499ea4",
-          "newValue": "0x00000000000000000000000066cf0b4973e4baf5ee2a44cf4fa7070795090cba"
+          "newValue": "0x00000000000000000000000003df0b31a70599d6ba05776b368cff7e88b34d6b"
         },
         "0xed960c71bd5fa1333658850f076b35ec5565086b606556c3dd36a916b43ddf20": {
           "previousValue": "0x10000000000000000000000000001c9c380001a5248003e8a506000000000000",
@@ -517,7 +516,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x00000000000000000000000066cf0b4973e4baf5ee2a44cf4fa7070795090cba"
+        "0x00000000000000000000000003df0b31a70599d6ba05776b368cff7e88b34d6b"
       ],
       "data": "0x",
       "emitter": "0x4e033931ad43597d96D6bcc25c280717730B58B1"
@@ -526,7 +525,7 @@
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
         "0x000000000000000000000000c313a383d1838dcda96f4c97698238f0a5499ea4",
-        "0x00000000000000000000000066cf0b4973e4baf5ee2a44cf4fa7070795090cba"
+        "0x00000000000000000000000003df0b31a70599d6ba05776b368cff7e88b34d6b"
       ],
       "data": "0x",
       "emitter": "0xcfBf336fe147D643B9Cb705648500e101504B16d"
@@ -551,7 +550,7 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x0000000000000000000000002f3232661757b7b91dabf836926059e41cbda321"
+        "0x000000000000000000000000b975e698480ccbfa132299892d35b0a7578043a6"
       ],
       "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80edb000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A"

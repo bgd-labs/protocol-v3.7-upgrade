@@ -1,33 +1,5 @@
 {
   "chainId": 10,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "0",
-      "collateralBitmap": "8357",
-      "eModeCategory": 1,
-      "label": "Stablecoins",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 8700,
-      "ltv": 1
-    },
-    "2": {
-      "borrowableBitmap": "16",
-      "collateralBitmap": "4624",
-      "eModeCategory": 2,
-      "label": "ETH correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    }
-  },
-  "poolConfig": {
-    "oracle": "0xD81eb3728a631871a7eBBaD631b5f424909f0c77",
-    "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
-    "poolAddressesProvider": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
-    "poolConfigurator": "0x8145eddDf43f50276641b55bd3AD95944510021E",
-    "priceOracleSentinel": "0xE229d5DE4BD5beEAf12d427B5B57BFe66abD2c3b",
-    "protocolDataProvider": "0x243Aa95cAC2a25651eda86e80bEe66114413c43b"
-  },
   "reserves": {
     "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85": {
       "aToken": "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5",
@@ -591,5 +563,32 @@
       "variableRateSlope1": "55000000000000000000000000",
       "variableRateSlope2": "3000000000000000000000000000"
     }
+  },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "0",
+      "collateralBitmap": "8357",
+      "eModeCategory": 1,
+      "label": "Stablecoins",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 8700,
+      "ltv": 1
+    },
+    "2": {
+      "borrowableBitmap": "16",
+      "collateralBitmap": "4624",
+      "eModeCategory": 2,
+      "label": "ETH correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    }
+  },
+  "poolConfig": {
+    "oracle": "0xD81eb3728a631871a7eBBaD631b5f424909f0c77",
+    "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+    "poolAddressesProvider": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+    "poolConfigurator": "0x8145eddDf43f50276641b55bd3AD95944510021E",
+    "protocolDataProvider": "0x243Aa95cAC2a25651eda86e80bEe66114413c43b"
   }
 }

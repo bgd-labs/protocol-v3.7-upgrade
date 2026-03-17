@@ -1,42 +1,5 @@
 {
   "chainId": 137,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "0",
-      "collateralBitmap": "1171493",
-      "eModeCategory": 1,
-      "label": "Stablecoins",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9425,
-      "ltv": 9125
-    },
-    "2": {
-      "borrowableBitmap": "128",
-      "collateralBitmap": "393344",
-      "eModeCategory": 2,
-      "label": "MATIC correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9250
-    },
-    "3": {
-      "borrowableBitmap": "16",
-      "collateralBitmap": "524304",
-      "eModeCategory": 3,
-      "label": "ETH correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9300,
-      "ltv": 9000
-    }
-  },
-  "poolConfig": {
-    "oracle": "0xb023e699F5a33916Ea823A16485e259257cA8Bd1",
-    "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
-    "poolAddressesProvider": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
-    "poolConfigurator": "0x8145eddDf43f50276641b55bd3AD95944510021E",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0x243Aa95cAC2a25651eda86e80bEe66114413c43b"
-  },
   "reserves": {
     "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD": {
       "aToken": "0xf59036CAEBeA7dC4b86638DFA2E3C97dA9FcCd40",
@@ -880,5 +843,41 @@
       "variableRateSlope1": "40000000000000000000000000",
       "variableRateSlope2": "1500000000000000000000000000"
     }
+  },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "0",
+      "collateralBitmap": "1171493",
+      "eModeCategory": 1,
+      "label": "Stablecoins",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9425,
+      "ltv": 9125
+    },
+    "2": {
+      "borrowableBitmap": "128",
+      "collateralBitmap": "393344",
+      "eModeCategory": 2,
+      "label": "MATIC correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9250
+    },
+    "3": {
+      "borrowableBitmap": "16",
+      "collateralBitmap": "524304",
+      "eModeCategory": 3,
+      "label": "ETH correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9300,
+      "ltv": 9000
+    }
+  },
+  "poolConfig": {
+    "oracle": "0xb023e699F5a33916Ea823A16485e259257cA8Bd1",
+    "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+    "poolAddressesProvider": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+    "poolConfigurator": "0x8145eddDf43f50276641b55bd3AD95944510021E",
+    "protocolDataProvider": "0x243Aa95cAC2a25651eda86e80bEe66114413c43b"
   }
 }

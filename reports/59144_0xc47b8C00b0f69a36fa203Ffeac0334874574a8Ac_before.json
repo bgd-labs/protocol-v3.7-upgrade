@@ -1,51 +1,5 @@
 {
   "chainId": 59144,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "16",
-      "eModeCategory": 1,
-      "label": "wstETH correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9550,
-      "ltv": 9350
-    },
-    "2": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "32",
-      "eModeCategory": 2,
-      "label": "ezETH correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9300,
-      "ltv": 9000
-    },
-    "3": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "64",
-      "eModeCategory": 3,
-      "label": "weETH correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9300,
-      "ltv": 9000
-    },
-    "4": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "128",
-      "eModeCategory": 4,
-      "label": "wrsETH/WETH Isolated Liquid E-mode",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9300,
-      "ltv": 9000
-    }
-  },
-  "poolConfig": {
-    "oracle": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
-    "pool": "0xc47b8C00b0f69a36fa203Ffeac0334874574a8Ac",
-    "poolAddressesProvider": "0x89502c3731F69DDC95B65753708A07F8Cd0373F4",
-    "poolConfigurator": "0x812E7c19421D9f41A6DDCF047d5cc2dE2Ca5Bfa2",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0x47cd4b507B81cB831669c71c7077f4daF6762FF4"
-  },
   "reserves": {
     "0x176211869cA2b568f2A7D4EE941E073a821EE1ff": {
       "aToken": "0x374D7860c4f2f604De0191298dD393703Cce84f3",
@@ -409,5 +363,50 @@
       "variableRateSlope1": "25000000000000000000000000",
       "variableRateSlope2": "60000000000000000000000000"
     }
+  },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "16",
+      "eModeCategory": 1,
+      "label": "wstETH correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9550,
+      "ltv": 9350
+    },
+    "2": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "32",
+      "eModeCategory": 2,
+      "label": "ezETH correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9300,
+      "ltv": 9000
+    },
+    "3": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "64",
+      "eModeCategory": 3,
+      "label": "weETH correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9300,
+      "ltv": 9000
+    },
+    "4": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "128",
+      "eModeCategory": 4,
+      "label": "wrsETH/WETH Isolated Liquid E-mode",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9300,
+      "ltv": 9000
+    }
+  },
+  "poolConfig": {
+    "oracle": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
+    "pool": "0xc47b8C00b0f69a36fa203Ffeac0334874574a8Ac",
+    "poolAddressesProvider": "0x89502c3731F69DDC95B65753708A07F8Cd0373F4",
+    "poolConfigurator": "0x812E7c19421D9f41A6DDCF047d5cc2dE2Ca5Bfa2",
+    "protocolDataProvider": "0x47cd4b507B81cB831669c71c7077f4daF6762FF4"
   }
 }

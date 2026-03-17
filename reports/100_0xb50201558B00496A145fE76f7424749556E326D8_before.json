@@ -1,42 +1,5 @@
 {
   "chainId": 100,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "3",
-      "eModeCategory": 1,
-      "label": "ETH correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9300,
-      "ltv": 9000
-    },
-    "2": {
-      "borrowableBitmap": "32",
-      "collateralBitmap": "64",
-      "eModeCategory": 2,
-      "label": "sDAI / EURe",
-      "liquidationBonus": 10500,
-      "liquidationThreshold": 8750,
-      "ltv": 8500
-    },
-    "3": {
-      "borrowableBitmap": "128",
-      "collateralBitmap": "64",
-      "eModeCategory": 3,
-      "label": "sDAI/USDCe",
-      "liquidationBonus": 10400,
-      "liquidationThreshold": 9200,
-      "ltv": 9000
-    }
-  },
-  "poolConfig": {
-    "oracle": "0xeb0a051be10228213BAEb449db63719d6742F7c4",
-    "pool": "0xb50201558B00496A145fE76f7424749556E326D8",
-    "poolAddressesProvider": "0x36616cf17557639614c1cdDb356b1B83fc0B2132",
-    "poolConfigurator": "0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0xF1F5acB596568895393cB5E4D0452D6592A2fA70"
-  },
   "reserves": {
     "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0": {
       "aToken": "0xC0333cb85B59a788d8C7CAe5e1Fd6E229A3E5a65",
@@ -399,5 +362,41 @@
       "variableRateSlope1": "55000000000000000000000000",
       "variableRateSlope2": "450000000000000000000000000"
     }
+  },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "3",
+      "eModeCategory": 1,
+      "label": "ETH correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9300,
+      "ltv": 9000
+    },
+    "2": {
+      "borrowableBitmap": "32",
+      "collateralBitmap": "64",
+      "eModeCategory": 2,
+      "label": "sDAI / EURe",
+      "liquidationBonus": 10500,
+      "liquidationThreshold": 8750,
+      "ltv": 8500
+    },
+    "3": {
+      "borrowableBitmap": "128",
+      "collateralBitmap": "64",
+      "eModeCategory": 3,
+      "label": "sDAI/USDCe",
+      "liquidationBonus": 10400,
+      "liquidationThreshold": 9200,
+      "ltv": 9000
+    }
+  },
+  "poolConfig": {
+    "oracle": "0xeb0a051be10228213BAEb449db63719d6742F7c4",
+    "pool": "0xb50201558B00496A145fE76f7424749556E326D8",
+    "poolAddressesProvider": "0x36616cf17557639614c1cdDb356b1B83fc0B2132",
+    "poolConfigurator": "0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16",
+    "protocolDataProvider": "0xF1F5acB596568895393cB5E4D0452D6592A2fA70"
   }
 }

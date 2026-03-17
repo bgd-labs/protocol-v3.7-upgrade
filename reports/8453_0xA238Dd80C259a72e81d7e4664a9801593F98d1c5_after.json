@@ -1,114 +1,5 @@
 {
   "chainId": 8453,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "43",
-      "eModeCategory": 1,
-      "label": "ETH correlated",
-      "liquidationBonus": 10200,
-      "liquidationThreshold": 9300,
-      "ltv": 9000
-    },
-    "10": {
-      "borrowableBitmap": "272",
-      "collateralBitmap": "64",
-      "eModeCategory": 10,
-      "label": "cbBTC Stablecoins",
-      "liquidationBonus": 10400,
-      "liquidationThreshold": 8300,
-      "ltv": 8000
-    },
-    "11": {
-      "borrowableBitmap": "272",
-      "collateralBitmap": "16384",
-      "eModeCategory": 11,
-      "label": "SyrupUSDC__USDC_GHO",
-      "liquidationBonus": 10400,
-      "liquidationThreshold": 9200,
-      "ltv": 9000
-    },
-    "2": {
-      "borrowableBitmap": "8",
-      "collateralBitmap": "128",
-      "eModeCategory": 2,
-      "label": "ezETH wstETH",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    },
-    "3": {
-      "borrowableBitmap": "16",
-      "collateralBitmap": "128",
-      "eModeCategory": 3,
-      "label": "ezETH Stablecoins",
-      "liquidationBonus": 10750,
-      "liquidationThreshold": 7500,
-      "ltv": 7200
-    },
-    "4": {
-      "borrowableBitmap": "64",
-      "collateralBitmap": "1024",
-      "eModeCategory": 4,
-      "label": "LBTC_cbBTC",
-      "liquidationBonus": 10300,
-      "liquidationThreshold": 8400,
-      "ltv": 8200
-    },
-    "5": {
-      "borrowableBitmap": "9",
-      "collateralBitmap": "512",
-      "eModeCategory": 5,
-      "label": "rsETH/wstETH",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    },
-    "6": {
-      "borrowableBitmap": "16",
-      "collateralBitmap": "512",
-      "eModeCategory": 6,
-      "label": "rsETH/USDC",
-      "liquidationBonus": 10750,
-      "liquidationThreshold": 7500,
-      "ltv": 7200
-    },
-    "7": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "32",
-      "eModeCategory": 7,
-      "label": "weETH/WETH",
-      "liquidationBonus": 10125,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    },
-    "8": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "8",
-      "eModeCategory": 8,
-      "label": "wstETH/WETH",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    },
-    "9": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "2",
-      "eModeCategory": 9,
-      "label": "cbETH/WETH",
-      "liquidationBonus": 10200,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    }
-  },
-  "poolConfig": {
-    "oracle": "0x2Cc0Fc26eD4563A5ce5e8bdcfe1A2878676Ae156",
-    "pool": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5",
-    "poolAddressesProvider": "0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D",
-    "poolConfigurator": "0x5731a04B1E775f0fdd454Bf70f3335886e9A96be",
-    "priceOracleSentinel": "0x943AcD0c93d7a8Bee7dA5Fd0DC3d0028237074d6",
-    "protocolDataProvider": "0x0F43731EB8d45A581f4a36DD74F5f358bc90C73A"
-  },
   "reserves": {
     "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A": {
       "aToken": "0x7C307e128efA31F540F2E2d976C995E0B65F51F6",
@@ -712,6 +603,114 @@
       "variableRateSlope2": "3000000000000000000000000000"
     }
   },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "43",
+      "eModeCategory": 1,
+      "label": "ETH correlated",
+      "liquidationBonus": 10200,
+      "liquidationThreshold": 9300,
+      "ltv": 9000
+    },
+    "10": {
+      "borrowableBitmap": "272",
+      "collateralBitmap": "64",
+      "eModeCategory": 10,
+      "label": "cbBTC Stablecoins",
+      "liquidationBonus": 10400,
+      "liquidationThreshold": 8300,
+      "ltv": 8000
+    },
+    "11": {
+      "borrowableBitmap": "272",
+      "collateralBitmap": "16384",
+      "eModeCategory": 11,
+      "label": "SyrupUSDC__USDC_GHO",
+      "liquidationBonus": 10400,
+      "liquidationThreshold": 9200,
+      "ltv": 9000
+    },
+    "2": {
+      "borrowableBitmap": "8",
+      "collateralBitmap": "128",
+      "eModeCategory": 2,
+      "label": "ezETH wstETH",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    },
+    "3": {
+      "borrowableBitmap": "16",
+      "collateralBitmap": "128",
+      "eModeCategory": 3,
+      "label": "ezETH Stablecoins",
+      "liquidationBonus": 10750,
+      "liquidationThreshold": 7500,
+      "ltv": 7200
+    },
+    "4": {
+      "borrowableBitmap": "64",
+      "collateralBitmap": "1024",
+      "eModeCategory": 4,
+      "label": "LBTC_cbBTC",
+      "liquidationBonus": 10300,
+      "liquidationThreshold": 8400,
+      "ltv": 8200
+    },
+    "5": {
+      "borrowableBitmap": "9",
+      "collateralBitmap": "512",
+      "eModeCategory": 5,
+      "label": "rsETH/wstETH",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    },
+    "6": {
+      "borrowableBitmap": "16",
+      "collateralBitmap": "512",
+      "eModeCategory": 6,
+      "label": "rsETH/USDC",
+      "liquidationBonus": 10750,
+      "liquidationThreshold": 7500,
+      "ltv": 7200
+    },
+    "7": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "32",
+      "eModeCategory": 7,
+      "label": "weETH/WETH",
+      "liquidationBonus": 10125,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    },
+    "8": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "8",
+      "eModeCategory": 8,
+      "label": "wstETH/WETH",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    },
+    "9": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "2",
+      "eModeCategory": 9,
+      "label": "cbETH/WETH",
+      "liquidationBonus": 10200,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    }
+  },
+  "poolConfig": {
+    "oracle": "0x2Cc0Fc26eD4563A5ce5e8bdcfe1A2878676Ae156",
+    "pool": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5",
+    "poolAddressesProvider": "0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D",
+    "poolConfigurator": "0x5731a04B1E775f0fdd454Bf70f3335886e9A96be",
+    "protocolDataProvider": "0x0F43731EB8d45A581f4a36DD74F5f358bc90C73A"
+  },
   "raw": {
     "0x2dc219e716793fb4b21548c0f009ba3af753ab01": {
       "label": null,
@@ -773,11 +772,23 @@
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
           "previousValue": "0x000000000000000000000000db578d67a83e94de73c9e0c14280f804f6c1c3e4",
-          "newValue": "0x00000000000000000000000069bf096d2fa290d2c6eef4102af1362ade054c6c"
+          "newValue": "0x0000000000000000000000003b80977a1774a151dee5804ded1a0eb0adb94374"
         },
         "0x576d2086a3d5f0898768a114197adc4053263301f03ff1504528cd2771084b42": {
           "previousValue": "0x100000000000000000000003e800017c9d8000108e481388a50629041e781d4c",
           "newValue": "0x100000000000000000000003e800017c9d8000108e481388850629041e781d4c"
+        }
+      }
+    },
+    "0xe20fcbdbffc4dd138ce8b2e6fbb6cb49777ad64d": {
+      "label": null,
+      "contract": null,
+      "balanceDiff": null,
+      "nonceDiff": null,
+      "stateDiff": {
+        "0x0d2c1bcee56447b4f46248272f34207a580a5c40f666a31f4e2fbb470ea53ab8": {
+          "previousValue": "0x000000000000000000000000943acd0c93d7a8bee7da5fd0dc3d0028237074d6",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
         }
       }
     }
@@ -792,8 +803,17 @@
     },
     {
       "topics": [
+        "0x5326514eeca90494a14bedabcff812a0e683029ee85d1e23824d44fd14cd6ae7",
+        "0x000000000000000000000000943acd0c93d7a8bee7da5fd0dc3d0028237074d6",
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "data": "0x",
+      "emitter": "0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D"
+    },
+    {
+      "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x00000000000000000000000069bf096d2fa290d2c6eef4102af1362ade054c6c"
+        "0x0000000000000000000000003b80977a1774a151dee5804ded1a0eb0adb94374"
       ],
       "data": "0x",
       "emitter": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5"
@@ -802,7 +822,7 @@
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
         "0x000000000000000000000000db578d67a83e94de73c9e0c14280f804f6c1c3e4",
-        "0x00000000000000000000000069bf096d2fa290d2c6eef4102af1362ade054c6c"
+        "0x0000000000000000000000003b80977a1774a151dee5804ded1a0eb0adb94374"
       ],
       "data": "0x",
       "emitter": "0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D"
@@ -827,7 +847,7 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x0000000000000000000000008087a9ac9e80c018ff840be30dacf76865e3acd5"
+        "0x0000000000000000000000004b340085f7c219fbe0822f6e0f7eefd7792f03eb"
       ],
       "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80e79000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0x9390B1735def18560c509E2d0bc090E9d6BA257a"

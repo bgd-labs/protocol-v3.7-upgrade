@@ -1,0 +1,510 @@
+{
+  "chainId": 4326,
+  "reserves": {
+    "0x09601A65e7de7BC8A19813D263dD9E98bFdC3c57": {
+      "aToken": "0x03C99Cce547b1c2E74442b73E6f588A66D19597e",
+      "aTokenName": "Aave MegaEth ezETH",
+      "aTokenSymbol": "aMegezETH",
+      "aTokenUnderlyingBalance": "2500000000000000",
+      "borrowCap": 1,
+      "borrowingEnabled": false,
+      "decimals": 18,
+      "id": 6,
+      "interestRateStrategy": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "isActive": true,
+      "isFlashloanable": true,
+      "isFrozen": false,
+      "isPaused": false,
+      "liquidationBonus": 0,
+      "liquidationProtocolFee": 1000,
+      "liquidationThreshold": 0,
+      "ltv": 0,
+      "oracle": "0xd7Da71D3acf07C604A925799B0b48E2Ec607584D",
+      "oracleDecimals": 8,
+      "oracleDescription": "Capped ezETH / ETH / USD",
+      "oracleLatestAnswer": "249446514839",
+      "reserveFactor": 2000,
+      "supplyCap": 10000,
+      "symbol": "ezETH",
+      "underlying": "0x09601A65e7de7BC8A19813D263dD9E98bFdC3c57",
+      "usageAsCollateralEnabled": false,
+      "variableDebtToken": "0x1505f48Bd4db0fF8B28817D2C0Fb95Abcb8eEbbc",
+      "variableDebtTokenName": "Aave MegaEth Variable Debt ezETH",
+      "variableDebtTokenSymbol": "variableDebtMegezETH",
+      "virtualBalance": "2500000000000000"
+    },
+    "0x4200000000000000000000000000000000000006": {
+      "aToken": "0xa31E6b433382062e8A1dA41485f7b234D97c3f4d",
+      "aTokenName": "Aave MegaEth WETH",
+      "aTokenSymbol": "aMegWETH",
+      "aTokenUnderlyingBalance": "214378913920975912780",
+      "borrowCap": 46000,
+      "borrowingEnabled": false,
+      "decimals": 18,
+      "id": 0,
+      "interestRateStrategy": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "isActive": true,
+      "isFlashloanable": true,
+      "isFrozen": false,
+      "isPaused": false,
+      "liquidationBonus": 0,
+      "liquidationProtocolFee": 1000,
+      "liquidationThreshold": 0,
+      "ltv": 0,
+      "oracle": "0xcA4e254D95637DE95E2a2F79244b03380d697feD",
+      "oracleDecimals": 8,
+      "oracleDescription": "ETH / USD",
+      "oracleLatestAnswer": "232230000000",
+      "reserveFactor": 1500,
+      "supplyCap": 50000,
+      "symbol": "WETH",
+      "underlying": "0x4200000000000000000000000000000000000006",
+      "usageAsCollateralEnabled": false,
+      "variableDebtToken": "0x09ADCCC7AF2aBD356c18A4CadF2e5cC250f300E9",
+      "variableDebtTokenName": "Aave MegaEth Variable Debt WETH",
+      "variableDebtTokenSymbol": "variableDebtMegWETH",
+      "virtualBalance": "214378913920975912780"
+    },
+    "0x4Fc44BE15e9B6E30C1E774E2C87A21D3E8b5403F": {
+      "aToken": "0xb8578af311353b44B14bb4480EBB4DE608EC7e1B",
+      "aTokenName": "Aave MegaEth wrsETH",
+      "aTokenSymbol": "aMegwrsETH",
+      "aTokenUnderlyingBalance": "37500000000000000",
+      "borrowCap": 1,
+      "borrowingEnabled": false,
+      "decimals": 18,
+      "id": 5,
+      "interestRateStrategy": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "isActive": true,
+      "isFlashloanable": true,
+      "isFrozen": false,
+      "isPaused": false,
+      "liquidationBonus": 0,
+      "liquidationProtocolFee": 1000,
+      "liquidationThreshold": 0,
+      "ltv": 0,
+      "oracle": "0x6356b92Bc636CCe722e0F53DDc24a86baE64216E",
+      "oracleDecimals": 8,
+      "oracleDescription": "Capped wrsETH / ETH / USD",
+      "oracleLatestAnswer": "247864867001",
+      "reserveFactor": 2000,
+      "supplyCap": 10000,
+      "symbol": "wrsETH",
+      "underlying": "0x4Fc44BE15e9B6E30C1E774E2C87A21D3E8b5403F",
+      "usageAsCollateralEnabled": false,
+      "variableDebtToken": "0xd7B71D855bBAcd3f11F623400bc870AB3448AfF7",
+      "variableDebtTokenName": "Aave MegaEth Variable Debt wrsETH",
+      "variableDebtTokenSymbol": "variableDebtMegwrsETH",
+      "virtualBalance": "37500000000000000"
+    },
+    "0x601aC63637933D88285A025C685AC4e9a92a98dA": {
+      "aToken": "0xaD2de503b5c723371d6B38A5224A2E12E103DfB8",
+      "aTokenName": "Aave MegaEth wstETH",
+      "aTokenSymbol": "aMegwstETH",
+      "aTokenUnderlyingBalance": "159897928448164563298",
+      "borrowCap": 1,
+      "borrowingEnabled": false,
+      "decimals": 18,
+      "id": 4,
+      "interestRateStrategy": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "isActive": true,
+      "isFlashloanable": true,
+      "isFrozen": false,
+      "isPaused": false,
+      "liquidationBonus": 0,
+      "liquidationProtocolFee": 1000,
+      "liquidationThreshold": 0,
+      "ltv": 0,
+      "oracle": "0x376397e34eA968e79DC6F629E6210ba25311a3ce",
+      "oracleDecimals": 8,
+      "oracleDescription": "Capped wstETH / stETH(ETH) / USD",
+      "oracleLatestAnswer": "285525234410",
+      "reserveFactor": 2000,
+      "supplyCap": 12000,
+      "symbol": "wstETH",
+      "underlying": "0x601aC63637933D88285A025C685AC4e9a92a98dA",
+      "usageAsCollateralEnabled": false,
+      "variableDebtToken": "0x259A9Cd7628f6D15ef384887dd90bb7A0283fEf9",
+      "variableDebtTokenName": "Aave MegaEth Variable Debt wstETH",
+      "variableDebtTokenSymbol": "variableDebtMegwstETH",
+      "virtualBalance": "159897928448164563298"
+    },
+    "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072": {
+      "aToken": "0x0889d59eA7178ee5B71DA01949a5cB42aaFBe337",
+      "aTokenName": "Aave MegaEth BTCb",
+      "aTokenSymbol": "aMegBTCb",
+      "aTokenUnderlyingBalance": "10354314",
+      "borrowCap": 1,
+      "borrowingEnabled": false,
+      "decimals": 8,
+      "id": 1,
+      "interestRateStrategy": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "isActive": true,
+      "isFlashloanable": true,
+      "isFrozen": false,
+      "isPaused": false,
+      "liquidationBonus": 0,
+      "liquidationProtocolFee": 1000,
+      "liquidationThreshold": 0,
+      "ltv": 0,
+      "oracle": "0xc6E3007B597f6F5a6330d43053D1EF73cCbbE721",
+      "oracleDecimals": 8,
+      "oracleDescription": "BTC / USD",
+      "oracleLatestAnswer": "7368364000000",
+      "reserveFactor": 2000,
+      "supplyCap": 120,
+      "symbol": "BTC.b",
+      "underlying": "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072",
+      "usageAsCollateralEnabled": false,
+      "variableDebtToken": "0x15B550784928C5b1A93849CA5d6caA18B2545B6d",
+      "variableDebtTokenName": "Aave MegaEth Variable Debt BTCb",
+      "variableDebtTokenSymbol": "variableDebtMegBTCb",
+      "virtualBalance": "10354314"
+    },
+    "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb": {
+      "aToken": "0xE2283E01a667b512c340f19B499d86fbc885D5Ef",
+      "aTokenName": "Aave MegaEth USDT0",
+      "aTokenSymbol": "aMegUSDT0",
+      "aTokenUnderlyingBalance": "2900010014611",
+      "borrowCap": 46000000,
+      "borrowingEnabled": true,
+      "decimals": 6,
+      "id": 2,
+      "interestRateStrategy": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "isActive": true,
+      "isFlashloanable": true,
+      "isFrozen": false,
+      "isPaused": false,
+      "liquidationBonus": 0,
+      "liquidationProtocolFee": 1000,
+      "liquidationThreshold": 0,
+      "ltv": 0,
+      "oracle": "0xAe95ff42e16468AB1DfD405c9533C9b67d87d66A",
+      "oracleDecimals": 8,
+      "oracleDescription": "Capped USDT/USD",
+      "oracleLatestAnswer": "100003704",
+      "reserveFactor": 1000,
+      "supplyCap": 50000000,
+      "symbol": "USDT0",
+      "underlying": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "usageAsCollateralEnabled": false,
+      "variableDebtToken": "0xB951225133b5eed3D88645E4Bb1360136FF70D9a",
+      "variableDebtTokenName": "Aave MegaEth Variable Debt USDT0",
+      "variableDebtTokenSymbol": "variableDebtMegUSDT0",
+      "virtualBalance": "2900010014611"
+    },
+    "0xFAfDdbb3FC7688494971a79cc65DCa3EF82079E7": {
+      "aToken": "0x5dF82810CB4B8f3e0Da3c031cCc9208ee9cF9500",
+      "aTokenName": "Aave MegaEth USDm",
+      "aTokenSymbol": "aMegUSDm",
+      "aTokenUnderlyingBalance": "17122545780111563919510401",
+      "borrowCap": 95000000,
+      "borrowingEnabled": true,
+      "decimals": 18,
+      "id": 3,
+      "interestRateStrategy": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "isActive": true,
+      "isFlashloanable": true,
+      "isFrozen": false,
+      "isPaused": false,
+      "liquidationBonus": 0,
+      "liquidationProtocolFee": 1000,
+      "liquidationThreshold": 0,
+      "ltv": 0,
+      "oracle": "0xe5448B8318493c6e3F72E21e8BDB8242d3299FB5",
+      "oracleDecimals": 8,
+      "oracleDescription": "ONE USD",
+      "oracleLatestAnswer": "100000000",
+      "reserveFactor": 1000,
+      "supplyCap": 100000000,
+      "symbol": "USDm",
+      "underlying": "0xFAfDdbb3FC7688494971a79cc65DCa3EF82079E7",
+      "usageAsCollateralEnabled": false,
+      "variableDebtToken": "0x6B408d6c479C304794abC60a4693A3AD2D3c2D0D",
+      "variableDebtTokenName": "Aave MegaEth Variable Debt USDm",
+      "variableDebtTokenSymbol": "variableDebtMegUSDm",
+      "virtualBalance": "17122545780111563919510401"
+    }
+  },
+  "strategies": {
+    "0x09601A65e7de7BC8A19813D263dD9E98bFdC3c57": {
+      "address": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "baseVariableBorrowRate": "0",
+      "maxVariableBorrowRate": "250000000000000000000000000",
+      "optimalUsageRatio": "900000000000000000000000000",
+      "variableRateSlope1": "50000000000000000000000000",
+      "variableRateSlope2": "200000000000000000000000000"
+    },
+    "0x4200000000000000000000000000000000000006": {
+      "address": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "baseVariableBorrowRate": "0",
+      "maxVariableBorrowRate": "105000000000000000000000000",
+      "optimalUsageRatio": "900000000000000000000000000",
+      "variableRateSlope1": "25000000000000000000000000",
+      "variableRateSlope2": "80000000000000000000000000"
+    },
+    "0x4Fc44BE15e9B6E30C1E774E2C87A21D3E8b5403F": {
+      "address": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "baseVariableBorrowRate": "0",
+      "maxVariableBorrowRate": "250000000000000000000000000",
+      "optimalUsageRatio": "900000000000000000000000000",
+      "variableRateSlope1": "50000000000000000000000000",
+      "variableRateSlope2": "200000000000000000000000000"
+    },
+    "0x601aC63637933D88285A025C685AC4e9a92a98dA": {
+      "address": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "baseVariableBorrowRate": "0",
+      "maxVariableBorrowRate": "250000000000000000000000000",
+      "optimalUsageRatio": "900000000000000000000000000",
+      "variableRateSlope1": "50000000000000000000000000",
+      "variableRateSlope2": "200000000000000000000000000"
+    },
+    "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072": {
+      "address": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "baseVariableBorrowRate": "0",
+      "maxVariableBorrowRate": "250000000000000000000000000",
+      "optimalUsageRatio": "900000000000000000000000000",
+      "variableRateSlope1": "50000000000000000000000000",
+      "variableRateSlope2": "200000000000000000000000000"
+    },
+    "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb": {
+      "address": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "baseVariableBorrowRate": "0",
+      "maxVariableBorrowRate": "140000000000000000000000000",
+      "optimalUsageRatio": "900000000000000000000000000",
+      "variableRateSlope1": "40000000000000000000000000",
+      "variableRateSlope2": "100000000000000000000000000"
+    },
+    "0xFAfDdbb3FC7688494971a79cc65DCa3EF82079E7": {
+      "address": "0x5cC4f782cFe249286476A7eFfD9D7bd215768194",
+      "baseVariableBorrowRate": "0",
+      "maxVariableBorrowRate": "140000000000000000000000000",
+      "optimalUsageRatio": "900000000000000000000000000",
+      "variableRateSlope1": "40000000000000000000000000",
+      "variableRateSlope2": "100000000000000000000000000"
+    }
+  },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "12",
+      "collateralBitmap": "1",
+      "eModeCategory": 1,
+      "label": "WETH Stablecoins",
+      "liquidationBonus": 10550,
+      "liquidationThreshold": 8300,
+      "ltv": 8050
+    },
+    "2": {
+      "borrowableBitmap": "12",
+      "collateralBitmap": "2",
+      "eModeCategory": 2,
+      "label": "BTCb Stablecoins",
+      "liquidationBonus": 10650,
+      "liquidationThreshold": 7500,
+      "ltv": 7000
+    },
+    "3": {
+      "borrowableBitmap": "12",
+      "collateralBitmap": "16",
+      "eModeCategory": 3,
+      "label": "wstETH Stablecoins",
+      "liquidationBonus": 10650,
+      "liquidationThreshold": 7900,
+      "ltv": 7500
+    },
+    "4": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "16",
+      "eModeCategory": 4,
+      "label": "wstETH Correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9600,
+      "ltv": 9400
+    },
+    "5": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "32",
+      "eModeCategory": 5,
+      "label": "wrsETH Correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    },
+    "6": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "64",
+      "eModeCategory": 6,
+      "label": "ezETH Correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    }
+  },
+  "poolConfig": {
+    "oracle": "0x421117D7319E96d831972b3F7e970bbfe29C4F21",
+    "pool": "0x7e324AbC5De01d112AfC03a584966ff199741C28",
+    "poolAddressesProvider": "0x46Dcd5F4600319b02649Fd76B55aA6c1035CA478",
+    "poolConfigurator": "0xF15D31Bc839A853C9068686043cEc6EC5995DAbB",
+    "protocolDataProvider": "0x9588b453A4EE24a420830CB3302195cA7aA3b403"
+  },
+  "raw": {
+    "0x46dcd5f4600319b02649fd76b55aa6c1035ca478": {
+      "label": null,
+      "contract": null,
+      "balanceDiff": null,
+      "nonceDiff": null,
+      "stateDiff": {
+        "0x0d2c1bcee56447b4f46248272f34207a580a5c40f666a31f4e2fbb470ea53ab8": {
+          "previousValue": "0x00000000000000000000000098f756b77d6fde14e08bb064b248ec7512f9f8ba",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "0x7e324abc5de01d112afc03a584966ff199741c28": {
+      "label": null,
+      "contract": "lib/aave-v3-origin-private/src/contracts/misc/aave-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol:InitializableImmutableAdminUpgradeabilityProxy",
+      "balanceDiff": null,
+      "nonceDiff": null,
+      "stateDiff": {
+        "0x0000000000000000000000000000000000000000000000000000000000000000": {
+          "previousValue": "0x000000000000000000000000000000000000000000000000000000000000000a",
+          "newValue": "0x000000000000000000000000000000000000000000000000000000000000000b"
+        },
+        "0x0000000000000000000000000000000000000000000000000000000000000001": {
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
+          "previousValue": "0x000000000000000000000000dff435bccf782f11187d3a4454d96702ed78e092",
+          "newValue": "0x00000000000000000000000040d78514d33b50b78057a9cd128173da70f3ec5d"
+        },
+        "0x9ff805b90c1892cbb0a31579cc27c582558b288e0e349f90918280cb67cda6c3": {
+          "previousValue": "0x100000000000000000000003e8005f5e100005a995c003e8a512000000000000",
+          "newValue": "0x100000000000000000000003e8005f5e100005a995c003e88512000000000000"
+        },
+        "0xace1738bd21dfb38ab702aadd1277b4df729315c49e6743bfbebb5a89576504a": {
+          "previousValue": "0x100000000000000000000003e8002faf080002bde78003e8a506000000000000",
+          "newValue": "0x100000000000000000000003e8002faf080002bde78003e88506000000000000"
+        }
+      }
+    },
+    "0x80e11cb895a23c901a990239e5534054c66476b5": {
+      "label": null,
+      "contract": null,
+      "balanceDiff": null,
+      "nonceDiff": null,
+      "stateDiff": {
+        "0xa15bc60c955c405d20d9149c709e2460f1c2d9a497496a7f46004d1772c3054c": {
+          "previousValue": "0x0069b95d3e000000000002000000000000000000000000000000000000000000",
+          "newValue": "0x0069b95d3e000000000003000000000000000000000000000000000000000000"
+        },
+        "0xa15bc60c955c405d20d9149c709e2460f1c2d9a497496a7f46004d1772c3054d": {
+          "previousValue": "0x000000000000000000093a8000000000000069e781bf00000000000000000000",
+          "newValue": "0x000000000000000000093a8000000000000069e781bf00000000000069b95d3f"
+        }
+      }
+    },
+    "0xf15d31bc839a853c9068686043cec6ec5995dabb": {
+      "label": null,
+      "contract": "lib/aave-v3-origin-private/src/contracts/misc/aave-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol:InitializableImmutableAdminUpgradeabilityProxy",
+      "balanceDiff": null,
+      "nonceDiff": null,
+      "stateDiff": {
+        "0x0000000000000000000000000000000000000000000000000000000000000000": {
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000007",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000008"
+        },
+        "0x0000000000000000000000000000000000000000000000000000000000000001": {
+          "previousValue": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "0x0000000000000000000000000000000000000000000000000000000000000034": {
+          "previousValue": "0x00000000000000000000000046dcd5f4600319b02649fd76b55aa6c1035ca478",
+          "newValue": "0x00000000000000000000000046dcd5f4600319b02649fd76b55aa6c1035ca478"
+        },
+        "0x0000000000000000000000000000000000000000000000000000000000000035": {
+          "previousValue": "0x0000000000000000000000007e324abc5de01d112afc03a584966ff199741c28",
+          "newValue": "0x0000000000000000000000007e324abc5de01d112afc03a584966ff199741c28"
+        },
+        "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
+          "previousValue": "0x0000000000000000000000003effebdd435217a8b485dfaefdecf766f2a3c05b",
+          "newValue": "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "topics": [
+        "0x74adf6aaf58c08bc4f993640385e136522375ea3d1589a10d02adbb906c67d1c"
+      ],
+      "data": "0x000000000000000000000000b8ce59fc3717ada4c02eadf9682a9e934f625ebb0000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0xF15D31Bc839A853C9068686043cEc6EC5995DAbB"
+    },
+    {
+      "topics": [
+        "0x74adf6aaf58c08bc4f993640385e136522375ea3d1589a10d02adbb906c67d1c"
+      ],
+      "data": "0x000000000000000000000000fafddbb3fc7688494971a79cc65dca3ef82079e70000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0xF15D31Bc839A853C9068686043cEc6EC5995DAbB"
+    },
+    {
+      "topics": [
+        "0x5326514eeca90494a14bedabcff812a0e683029ee85d1e23824d44fd14cd6ae7",
+        "0x00000000000000000000000098f756b77d6fde14e08bb064b248ec7512f9f8ba",
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "data": "0x",
+      "emitter": "0x46Dcd5F4600319b02649Fd76B55aA6c1035CA478"
+    },
+    {
+      "topics": [
+        "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+        "0x00000000000000000000000040d78514d33b50b78057a9cd128173da70f3ec5d"
+      ],
+      "data": "0x",
+      "emitter": "0x7e324AbC5De01d112AfC03a584966ff199741C28"
+    },
+    {
+      "topics": [
+        "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
+        "0x000000000000000000000000dff435bccf782f11187d3a4454d96702ed78e092",
+        "0x00000000000000000000000040d78514d33b50b78057a9cd128173da70f3ec5d"
+      ],
+      "data": "0x",
+      "emitter": "0x46Dcd5F4600319b02649Fd76B55aA6c1035CA478"
+    },
+    {
+      "topics": [
+        "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
+      ],
+      "data": "0x",
+      "emitter": "0xF15D31Bc839A853C9068686043cEc6EC5995DAbB"
+    },
+    {
+      "topics": [
+        "0x8932892569eba59c8382a089d9b732d1f49272878775235761a2a6b0309cd465",
+        "0x0000000000000000000000003effebdd435217a8b485dfaefdecf766f2a3c05b",
+        "0x000000000000000000000000ff42ce30054dce7dc7c1282a9a497aa58eabce99"
+      ],
+      "data": "0x",
+      "emitter": "0x46Dcd5F4600319b02649Fd76B55aA6c1035CA478"
+    },
+    {
+      "topics": [
+        "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
+        "0x000000000000000000000000e897b9aa779f3b9bf46c27964552edd321d87ccd"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069b95d3f000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "emitter": "0xE2E8Badc5d50f8a6188577B89f50701cDE2D4e19"
+    },
+    {
+      "topics": [
+        "0xda6084bb0aa902a7f6da10ba185d4aa129414651c90772417eff02a52112af2a"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "emitter": "0x80e11cB895a23C901a990239E5534054C66476B5"
+    }
+  ]
+}

@@ -1,14 +1,5 @@
 {
   "chainId": 1,
-  "eModes": {},
-  "poolConfig": {
-    "oracle": "0x43b64f28A678944E0655404B0B98E443851cC34F",
-    "pool": "0x0AA97c284e98396202b6A04024F5E2c65026F3c0",
-    "poolAddressesProvider": "0xeBa440B438Ad808101d1c451C1C5322c90BEFCdA",
-    "poolConfigurator": "0x8438F4D29D895d75C86BDC25360c25eF0607E65d",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0x7c8509591f9693D21280d96e149a08A3bf69Cd0c"
-  },
   "reserves": {
     "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8": {
       "aToken": "0xdF7f48892244C6106EA784609f7de10AB36F9c7e",
@@ -172,5 +163,13 @@
       "variableRateSlope1": "70000000000000000000000000",
       "variableRateSlope2": "3000000000000000000000000000"
     }
+  },
+  "eModes": {},
+  "poolConfig": {
+    "oracle": "0x43b64f28A678944E0655404B0B98E443851cC34F",
+    "pool": "0x0AA97c284e98396202b6A04024F5E2c65026F3c0",
+    "poolAddressesProvider": "0xeBa440B438Ad808101d1c451C1C5322c90BEFCdA",
+    "poolConfigurator": "0x8438F4D29D895d75C86BDC25360c25eF0607E65d",
+    "protocolDataProvider": "0x7c8509591f9693D21280d96e149a08A3bf69Cd0c"
   }
 }

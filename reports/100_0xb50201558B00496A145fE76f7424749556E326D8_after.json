@@ -1,42 +1,5 @@
 {
   "chainId": 100,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "1",
-      "collateralBitmap": "3",
-      "eModeCategory": 1,
-      "label": "ETH correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9300,
-      "ltv": 9000
-    },
-    "2": {
-      "borrowableBitmap": "32",
-      "collateralBitmap": "64",
-      "eModeCategory": 2,
-      "label": "sDAI / EURe",
-      "liquidationBonus": 10500,
-      "liquidationThreshold": 8750,
-      "ltv": 8500
-    },
-    "3": {
-      "borrowableBitmap": "128",
-      "collateralBitmap": "64",
-      "eModeCategory": 3,
-      "label": "sDAI/USDCe",
-      "liquidationBonus": 10400,
-      "liquidationThreshold": 9200,
-      "ltv": 9000
-    }
-  },
-  "poolConfig": {
-    "oracle": "0xeb0a051be10228213BAEb449db63719d6742F7c4",
-    "pool": "0xb50201558B00496A145fE76f7424749556E326D8",
-    "poolAddressesProvider": "0x36616cf17557639614c1cdDb356b1B83fc0B2132",
-    "poolConfigurator": "0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0xF1F5acB596568895393cB5E4D0452D6592A2fA70"
-  },
   "reserves": {
     "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0": {
       "aToken": "0xC0333cb85B59a788d8C7CAe5e1Fd6E229A3E5a65",
@@ -400,6 +363,42 @@
       "variableRateSlope2": "450000000000000000000000000"
     }
   },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "1",
+      "collateralBitmap": "3",
+      "eModeCategory": 1,
+      "label": "ETH correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9300,
+      "ltv": 9000
+    },
+    "2": {
+      "borrowableBitmap": "32",
+      "collateralBitmap": "64",
+      "eModeCategory": 2,
+      "label": "sDAI / EURe",
+      "liquidationBonus": 10500,
+      "liquidationThreshold": 8750,
+      "ltv": 8500
+    },
+    "3": {
+      "borrowableBitmap": "128",
+      "collateralBitmap": "64",
+      "eModeCategory": 3,
+      "label": "sDAI/USDCe",
+      "liquidationBonus": 10400,
+      "liquidationThreshold": 9200,
+      "ltv": 9000
+    }
+  },
+  "poolConfig": {
+    "oracle": "0xeb0a051be10228213BAEb449db63719d6742F7c4",
+    "pool": "0xb50201558B00496A145fE76f7424749556E326D8",
+    "poolAddressesProvider": "0x36616cf17557639614c1cdDb356b1B83fc0B2132",
+    "poolConfigurator": "0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16",
+    "protocolDataProvider": "0xF1F5acB596568895393cB5E4D0452D6592A2fA70"
+  },
   "raw": {
     "0x7304979ec9e4eaa0273b6a037a31c4e9e5a75d16": {
       "label": null,
@@ -465,7 +464,7 @@
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
           "previousValue": "0x000000000000000000000000d995db296e5fe4268fce5f4d8d2d25817c7c20bc",
-          "newValue": "0x000000000000000000000000c9645b1f5c256edce9524c124cac28b9eb3b930d"
+          "newValue": "0x0000000000000000000000005d26589275ac130cbe087581660b7acba586c1bc"
         },
         "0x45fb21bff46f3219261e8dfd39448f990f239040f94fb8fbbbea3b4a28f2768f": {
           "previousValue": "0x100000000000000000000007d00000000010000000011f40a70629041e780000",
@@ -503,7 +502,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x000000000000000000000000c9645b1f5c256edce9524c124cac28b9eb3b930d"
+        "0x0000000000000000000000005d26589275ac130cbe087581660b7acba586c1bc"
       ],
       "data": "0x",
       "emitter": "0xb50201558B00496A145fE76f7424749556E326D8"
@@ -512,7 +511,7 @@
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
         "0x000000000000000000000000d995db296e5fe4268fce5f4d8d2d25817c7c20bc",
-        "0x000000000000000000000000c9645b1f5c256edce9524c124cac28b9eb3b930d"
+        "0x0000000000000000000000005d26589275ac130cbe087581660b7acba586c1bc"
       ],
       "data": "0x",
       "emitter": "0x36616cf17557639614c1cdDb356b1B83fc0B2132"
@@ -537,7 +536,7 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x000000000000000000000000254e045968987b102ceaf3947502f76ff89502fa"
+        "0x00000000000000000000000097059caa53c1bd648368f1013ce6a7537557f9a5"
       ],
       "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80eb7000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0x1dF462e2712496373A347f8ad10802a5E95f053D"

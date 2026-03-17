@@ -77,6 +77,7 @@ ink = "${RPC_INK}"
 plasma = "${RPC_PLASMA}"
 mantle = "${RPC_MANTLE}"
 megaeth = "${RPC_MEGAETH}"
+xLayer="${RPC_XLAYER}"
 
 [fmt]
 tab_width = 2

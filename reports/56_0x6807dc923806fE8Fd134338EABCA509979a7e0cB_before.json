@@ -1,24 +1,5 @@
 {
   "chainId": 56,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "8",
-      "collateralBitmap": "128",
-      "eModeCategory": 1,
-      "label": "ETH-Correlated",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9500,
-      "ltv": 9300
-    }
-  },
-  "poolConfig": {
-    "oracle": "0x39bc1bfDa2130d6Bb6DBEfd366939b4c7aa7C697",
-    "pool": "0x6807dc923806fE8Fd134338EABCA509979a7e0cB",
-    "poolAddressesProvider": "0xff75B6da14FfbbfD355Daf7a2731456b3562Ba6D",
-    "poolConfigurator": "0x67bdF23C7fCE7C65fF7415Ba3F2520B45D6f9584",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0xc90Df74A7c16245c5F5C5870327Ceb38Fe5d5328"
-  },
   "reserves": {
     "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82": {
       "aToken": "0x4199CC1F5ed0d796563d7CcB2e036253E2C18281",
@@ -342,5 +323,23 @@
       "variableRateSlope1": "55000000000000000000000000",
       "variableRateSlope2": "400000000000000000000000000"
     }
+  },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "8",
+      "collateralBitmap": "128",
+      "eModeCategory": 1,
+      "label": "ETH-Correlated",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9500,
+      "ltv": 9300
+    }
+  },
+  "poolConfig": {
+    "oracle": "0x39bc1bfDa2130d6Bb6DBEfd366939b4c7aa7C697",
+    "pool": "0x6807dc923806fE8Fd134338EABCA509979a7e0cB",
+    "poolAddressesProvider": "0xff75B6da14FfbbfD355Daf7a2731456b3562Ba6D",
+    "poolConfigurator": "0x67bdF23C7fCE7C65fF7415Ba3F2520B45D6f9584",
+    "protocolDataProvider": "0xc90Df74A7c16245c5F5C5870327Ceb38Fe5d5328"
   }
 }

@@ -1,24 +1,5 @@
 {
   "chainId": 146,
-  "eModes": {
-    "1": {
-      "borrowableBitmap": "4",
-      "collateralBitmap": "8",
-      "eModeCategory": 1,
-      "label": "stS/wS",
-      "liquidationBonus": 10100,
-      "liquidationThreshold": 9000,
-      "ltv": 8700
-    }
-  },
-  "poolConfig": {
-    "oracle": "0xD63f7658C66B2934Bd234D79D06aEF5290734B30",
-    "pool": "0x5362dBb1e601abF3a4c14c22ffEdA64042E5eAA3",
-    "poolAddressesProvider": "0x5C2e738F6E27bCE0F7558051Bf90605dD6176900",
-    "poolConfigurator": "0x50c70FEB95aBC1A92FC30b9aCc41Bd349E5dE2f0",
-    "priceOracleSentinel": "0x0000000000000000000000000000000000000000",
-    "protocolDataProvider": "0xc0a344397cfa89dF1e1d3e4fb330834D789cF2CD"
-  },
   "reserves": {
     "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38": {
       "aToken": "0x6C5E14A212c1C3e4Baf6f871ac9B1a969918c131",
@@ -182,5 +163,23 @@
       "variableRateSlope1": "100000000000000000000000000",
       "variableRateSlope2": "3000000000000000000000000000"
     }
+  },
+  "eModes": {
+    "1": {
+      "borrowableBitmap": "4",
+      "collateralBitmap": "8",
+      "eModeCategory": 1,
+      "label": "stS/wS",
+      "liquidationBonus": 10100,
+      "liquidationThreshold": 9000,
+      "ltv": 8700
+    }
+  },
+  "poolConfig": {
+    "oracle": "0xD63f7658C66B2934Bd234D79D06aEF5290734B30",
+    "pool": "0x5362dBb1e601abF3a4c14c22ffEdA64042E5eAA3",
+    "poolAddressesProvider": "0x5C2e738F6E27bCE0F7558051Bf90605dD6176900",
+    "poolConfigurator": "0x50c70FEB95aBC1A92FC30b9aCc41Bd349E5dE2f0",
+    "protocolDataProvider": "0xc0a344397cfa89dF1e1d3e4fb330834D789cF2CD"
   }
 }
