@@ -19,6 +19,7 @@ import {
   DataTypes as DataTypes36
 } from "../src/3.6/ReserveConfiguration.sol";
 import {IPool as IPool36} from "../src/3.6/IPool.sol";
+import {IPoolAddressesProvider as IPoolAddressesProvider36} from "../src/3.6/IPoolAddressesProvider.sol";
 import {UpgradePayload} from "../src/UpgradePayload.sol";
 
 interface NewPool {
@@ -153,6 +154,30 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
       DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
       assertEq(reserveData.configuration.getBorrowableInIsolation(), false);
     }
+  }
+
+  function test_assumption_isolatedAssetsAreLtv0() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    IPool pool = IPool(addressesProvider.getPool());
+    address[] memory reserves = pool.getReservesList();
+    for (uint256 i = 0; i < reserves.length; i++) {
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
+      if (reserveData.configuration.getDebtCeiling() != 0) {
+        assertEq(reserveData.configuration.getLtv(), 0);
+      }
+    }
+  }
+
+  function test_assumption_noSequencerUptimeSentinel() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    executePayload(vm, address(_payload));
+
+    IPoolAddressesProvider36 addressesProvider36 =
+      IPoolAddressesProvider36(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    assertEq(addressesProvider36.getPriceOracleSentinel(), address(0));
   }
 
   function test_upgrade() public virtual {

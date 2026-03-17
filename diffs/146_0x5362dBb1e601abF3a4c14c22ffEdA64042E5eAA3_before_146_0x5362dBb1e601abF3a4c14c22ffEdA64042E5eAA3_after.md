@@ -24,7 +24,7 @@
 
 | index | event |
 | --- | --- |
-| 5 | ExecutedAction(target: 0x6425E6FC93b0528405df3245B12A45013900bd4F, value: 0, signature: execute(), data: 0x, executionTime: 1772621627, withDelegatecall: true, resultData: 0x) |
+| 5 | ExecutedAction(target: 0x6577930188a57E15CF0f99e127175D1bE71dC11a, value: 0, signature: execute(), data: 0x, executionTime: 1772621627, withDelegatecall: true, resultData: 0x) |
 
 #### 0x0846C28Dd54DEA4Fd7Fb31bcc5EB81673D68c695 (GovernanceV3Sonic.PAYLOADS_CONTROLLER)
 

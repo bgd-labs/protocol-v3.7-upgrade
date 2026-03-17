@@ -18,4 +18,6 @@ library Deployments {
   address public constant MAINNET_CORE = address(0); // cancun
   address public constant MAINNET_LIDO = address(0); // cancun
   address public constant MAINNET_ETHERFI = address(0); // cancun
+  address public constant MANTLE = address(0); // cancun
+  address public constant MEGAETH = address(0); // cancun
 }

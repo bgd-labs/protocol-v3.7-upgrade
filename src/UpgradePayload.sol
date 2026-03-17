@@ -12,6 +12,7 @@ import {ReserveConfiguration as ReserveConfiguration36} from "./3.6/ReserveConfi
 import {DataTypes as DataTypes36} from "./3.6/DataTypes.sol";
 import {IPoolConfigurator as IPoolConfigurator36} from "./3.6/IPoolConfigurator.sol";
 import {IPool as IPool36} from "./3.6/IPool.sol";
+import {IPoolAddressesProvider as IPoolAddressesProvider36} from "./3.6/IPoolAddressesProvider.sol";
 
 /**
  * @title UpgradePayload
@@ -65,7 +66,12 @@ contract UpgradePayload {
         IPoolConfigurator36(address(POOL_CONFIGURATOR)).setBorrowableInIsolation(reserve, false);
       }
     }
-    // 2. Upgrade `Pool` implementation.
+    // 2. Unset the sequencer uptime sentinel if configured.
+    IPoolAddressesProvider36 addressesProvider36 = IPoolAddressesProvider36(address(POOL_ADDRESSES_PROVIDER));
+    if (addressesProvider36.getPriceOracleSentinel() != address(0)) {
+      addressesProvider36.setPriceOracleSentinel(address(0));
+    }
+    // 3. Upgrade `Pool` implementation.
     POOL_ADDRESSES_PROVIDER.setPoolImpl(POOL_IMPL);
     POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(POOL_CONFIGURATOR_IMPL);
   }
