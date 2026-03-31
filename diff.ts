@@ -144,6 +144,22 @@ function getFiles(
 }
 
 // Get all files including subdirectories
+// Normalize patch content by trimming paths in --- / +++ lines to just the filename
+function normalizePatch(content: string): string {
+  return content
+    .split("\n")
+    .map((line) => {
+      if (line.startsWith("--- ") || line.startsWith("+++ ")) {
+        const prefix = line.slice(0, 4);
+        const filePath = line.slice(4);
+        return prefix + filePath.split("/").pop();
+      }
+      return line;
+    })
+    .join("\n")
+    .trim();
+}
+
 const allFiles = getFiles(path.join(__dirname, "diffs", "code"));
 const uniqueArray = allFiles
   .sort((a, b) => {
@@ -156,7 +172,7 @@ const uniqueArray = allFiles
   })
   .filter(
     (obj, index, self) =>
-      index === self.findIndex((o) => o.content === obj.content),
+      index === self.findIndex((o) => normalizePatch(o.content) === normalizePatch(obj.content)),
   );
 
 for (const file of allFiles) {
