@@ -16,7 +16,7 @@ import {IPoolAddressesProvider as IPoolAddressesProvider36} from "./3.6/IPoolAdd
 
 /**
  * @title UpgradePayload
- * @notice Upgrade payload to upgrade the Aave v3.5 to v3.6
+ * @notice Upgrade payload to upgrade the Aave v3.6 to v3.7
  * @author BGD Labs
  */
 contract UpgradePayload {
