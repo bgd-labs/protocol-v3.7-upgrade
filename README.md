@@ -12,10 +12,12 @@ The upgrade is executed via a single `UpgradePayload` contract deployed on each 
 
 ## Pre-upgrade cleanup
 
-Before upgrading the implementations, the payload cleans up reserve configuration flags that are removed in v3.7. For each reserve:
+Before upgrading the implementations, the payload cleans up reserve configuration flags and settings that are removed in v3.7. For each reserve:
 
 1. **Reset debtCeiling:** If a reserve has a non-zero debt ceiling, it is set to zero via `setDebtCeiling(reserve, 0)`. This also resets `isolationModeTotalDebt` to zero.
 2. **Disable borrowableInIsolation:** If a reserve has `borrowableInIsolation` enabled, it is set to false via `setBorrowableInIsolation(reserve, false)`.
+
+Additionally, if a sequencer uptime price oracle sentinel is configured, it is unset via `setPriceOracleSentinel(address(0))`, as this feature is removed in v3.7.
 
 These cleanup steps use the v3.6 interfaces to interact with the pre-upgrade contracts.
 
@@ -23,5 +25,5 @@ These cleanup steps use the v3.6 interfaces to interact with the pre-upgrade con
 
 After the cleanup, the payload upgrades the core protocol contracts:
 
-1. **Upgrade pool implementation:** The `Pool` contract proxy is updated to point to the new v3.7 implementation via `POOL_ADDRESSES_PROVIDER.setPoolImpl(POOL_IMPL)`.
-2. **Upgrade poolConfigurator implementation:** The `PoolConfigurator` contract proxy is updated to the new v3.7 implementation via `POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(POOL_CONFIGURATOR_IMPL)`.
+1. **Upgrade Pool implementation:** The `Pool` contract proxy is updated to point to the new v3.7 implementation via `POOL_ADDRESSES_PROVIDER.setPoolImpl(POOL_IMPL)`.
+2. **Upgrade PoolConfigurator implementation:** The `PoolConfigurator` contract proxy is updated to the new v3.7 implementation via `POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(POOL_CONFIGURATOR_IMPL)`.
