@@ -10,11 +10,16 @@ import {
   IPoolAddressesProvider,
   IERC20,
   DataTypes,
-  ReserveConfiguration,
-  SafeERC20
+  SafeERC20,
+  ReserveConfiguration
 } from "aave-helpers/src/ProtocolV3TestBase.sol";
 import {EModeConfiguration} from "aave-v3-origin/contracts/protocol/libraries/configuration/EModeConfiguration.sol";
-
+import {
+  ReserveConfiguration as ReserveConfiguration36,
+  DataTypes as DataTypes36
+} from "../src/3.6/ReserveConfiguration.sol";
+import {IPool as IPool36} from "../src/3.6/IPool.sol";
+import {IPoolAddressesProvider as IPoolAddressesProvider36} from "../src/3.6/IPoolAddressesProvider.sol";
 import {UpgradePayload} from "../src/UpgradePayload.sol";
 
 interface NewPool {
@@ -48,6 +53,7 @@ contract MockFlashReceiver {
 abstract contract UpgradeTest is ProtocolV3TestBase {
   using SafeERC20 for IERC20;
   using ReserveConfiguration for DataTypes.ReserveConfigurationMap;
+  using ReserveConfiguration36 for DataTypes36.ReserveConfigurationMap;
 
   string public NETWORK;
   string public NETWORK_SUB_NAME;
@@ -110,7 +116,19 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     }
   }
 
-  function test_assumption_ltvzero() external {
+  function test_assumption_noSiloed() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    IPool pool = IPool(addressesProvider.getPool());
+    address[] memory reserves = pool.getReservesList();
+    for (uint256 i = 0; i < reserves.length; i++) {
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
+      assertEq(reserveData.configuration.getSiloedBorrowing(), false);
+    }
+  }
+
+  function test_assumption_noDebtCeiling() external {
     UpgradePayload _payload = UpgradePayload(_getTestPayload());
 
     executePayload(vm, address(_payload));
@@ -119,36 +137,47 @@ abstract contract UpgradeTest is ProtocolV3TestBase {
     IPool pool = IPool(addressesProvider.getPool());
     address[] memory reserves = pool.getReservesList();
     for (uint256 i = 0; i < reserves.length; i++) {
-      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
-      if (reserveData.configuration.getLtv() == 0) {
-        for (uint256 j = 0; j <= type(uint8).max; j++) {
-          uint128 collateralEnabledBitmap = pool.getEModeCategoryCollateralBitmap(uint8(j));
-          if (EModeConfiguration.isReserveEnabledOnBitmap(collateralEnabledBitmap, reserveData.id)) {
-            uint128 ltvzeroBitmap = pool.getEModeCategoryLtvzeroBitmap(uint8(j));
-            assertEq(EModeConfiguration.isReserveEnabledOnBitmap(ltvzeroBitmap, reserveData.id), true);
-          }
-        }
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
+      assertEq(reserveData.configuration.getDebtCeiling(), 0);
+    }
+  }
+
+  function test_assumption_noBorrowableInIsolation() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    executePayload(vm, address(_payload));
+
+    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    IPool pool = IPool(addressesProvider.getPool());
+    address[] memory reserves = pool.getReservesList();
+    for (uint256 i = 0; i < reserves.length; i++) {
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
+      assertEq(reserveData.configuration.getBorrowableInIsolation(), false);
+    }
+  }
+
+  function test_assumption_isolatedAssetsAreLtv0() external {
+    UpgradePayload _payload = UpgradePayload(_getTestPayload());
+
+    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    IPool pool = IPool(addressesProvider.getPool());
+    address[] memory reserves = pool.getReservesList();
+    for (uint256 i = 0; i < reserves.length; i++) {
+      DataTypes36.ReserveDataLegacy memory reserveData = IPool36(address(pool)).getReserveData(reserves[i]);
+      if (reserveData.configuration.getDebtCeiling() != 0) {
+        assertEq(reserveData.configuration.getLtv(), 0);
       }
     }
   }
 
-  function test_assumption_borrowingEnabled() external {
+  function test_assumption_noSequencerUptimeSentinel() external {
     UpgradePayload _payload = UpgradePayload(_getTestPayload());
 
     executePayload(vm, address(_payload));
 
-    IPoolAddressesProvider addressesProvider = IPoolAddressesProvider(address(_payload.POOL_ADDRESSES_PROVIDER()));
-    IPool pool = IPool(addressesProvider.getPool());
-    address[] memory reserves = pool.getReservesList();
-    for (uint256 i = 0; i < reserves.length; i++) {
-      DataTypes.ReserveDataLegacy memory reserveData = pool.getReserveData(reserves[i]);
-      if (reserveData.configuration.getBorrowingEnabled() == false) {
-        for (uint256 j = 0; j <= type(uint8).max; j++) {
-          uint128 borrowableEnabledBitmap = pool.getEModeCategoryBorrowableBitmap(uint8(j));
-          require(EModeConfiguration.isReserveEnabledOnBitmap(borrowableEnabledBitmap, reserveData.id) == false);
-        }
-      }
-    }
+    IPoolAddressesProvider36 addressesProvider36 =
+      IPoolAddressesProvider36(address(_payload.POOL_ADDRESSES_PROVIDER()));
+    assertEq(addressesProvider36.getPriceOracleSentinel(), address(0));
   }
 
   function test_upgrade() public virtual {

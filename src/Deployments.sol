@@ -2,23 +2,23 @@
 pragma solidity ^0.8.10;
 
 library Deployments {
-  address public constant BASE = address(0x3D7a80B4c666FB285ca49f145F8467FaA80dB301); // cancun
-  address public constant GNOSIS = address(0x073264F6F30f8a50189E144967B7f22a6D22003f); // cancun
-  address public constant POLYGON = address(0x4e4BaA9cbD2FF6281F5bA050810F061A4E6e0850); // cancun
-  address public constant ARBITRUM = address(0xb8FD4Fe11aa830EEC7f73FD5435366052665Eda5); // cancun
-  address public constant OPTIMISM = address(0x2957a5b8b4A5fC6Cf9Fe5b2D79B66a18871abb20); // cancun
-  address public constant AVALANCHE = address(0xF045F5E209Bc758a85aE75f5e2e79fDC50fD499f); // cancun
-  address public constant SONIC = address(0x1306a50626B475ae21dB7210356BdDE1EAA2781a); // cancun
-  address public constant METIS = address(0x1B72B5799B455bAf19Af89495B5d35C155956587); //shanghai
-  address public constant BNB = address(0x4a61666015eC3bf05b9CC7754F8A475833d160dF); // cancun
-  address public constant CELO = address(0x0A2b39388E7B716da882DcDAB6080F57f9a8B9a1); // cancun
-  address public constant SCROLL = address(0x0a4C8f5740c9e21d64484Ccfcd85a2FeaDC004d5); // cancun
-  address public constant LINEA = address(0xef45332E99700297e813F0E236E14a48A4CfAC99); // cancun
-  address public constant ZKSYNC = address(0xA485DE0D7D43B2b47731ae436daa1de32033fC12); // cancun
-  address public constant SONEIUM = address(0x7ada3b2963342ce5417f31f82e0eFfa8E1494350); // cancun
-  address public constant INK = address(0x386547279911303Cb6Dc9443477C46bDa96c280C); // cancun
-  address public constant PLASMA = address(0x23cEfa65515274C5832F1D4F789E1d27b301e1E6); // cancun
-  address public constant MAINNET_CORE = address(0xaCAeFE6Cf2ef667fA8Be03AaeDe402CBcD6ed44D); // cancun
-  address public constant MAINNET_LIDO = address(0x95D6cDe855d58DEA260e1A8297E299176FC11b6f); // cancun
-  address public constant MAINNET_ETHERFI = address(0x46738047c72952953b14e9801648EF05F056EA2C); // cancun
+  address public constant BASE = address(0xfA033Ba5A23F08c8C4cb577C8F6f119fB3bfB959); // cancun
+  address public constant GNOSIS = address(0x112590f08Ee593cE9486C3dEa834Bc833446F2Db); // cancun
+  address public constant POLYGON = address(0xCE327f36564c3D54b042AeF64A780E120e01383E); // cancun
+  address public constant ARBITRUM = address(0x4C77AaC15Ca7C92d4638859f43Ee953AdCd8C351); // cancun
+  address public constant OPTIMISM = address(0xAC9De98211625AA7420CC240b5c0635D7130F504); // cancun
+  address public constant AVALANCHE = address(0x345128FbA0f7AEa020B4765C0bC3d6e8E212552A); // cancun
+  address public constant SONIC = address(0x3340417a17FcA7245C20B64EB001FA9c522A2EeE); // cancun
+  address public constant BNB = address(0x55A4E6cd2Aa0ADDFE403a2Ae3B1522d3198b430E); // cancun
+  address public constant CELO = address(0xB3cF4b51Fee1CC092A2fE5fb98E392463dBD5f29); // cancun
+  address public constant SCROLL = address(0xdC856109C36dc0310E46bEA9F661d39Df3b8badF); // cancun
+  address public constant LINEA = address(0xD2cFB7Da9feC4e465674720e38Db7f3E04C40E7d); // cancun
+  address public constant INK = address(0x9164F13C9D04DEC312942CCAa31a644956f9C48D); // cancun
+  address public constant PLASMA = address(0xDE44e9a591E864CFA8b9fC762d5A7657771e1737); // cancun
+  address public constant MAINNET_CORE = address(0x225183208bdD562158b862f57f4536EcA231E724); // cancun
+  address public constant MAINNET_LIDO = address(0x81b384AAc4fcCD95b5f7c4d4af5EFD3C11547Afe); // cancun
+  address public constant MAINNET_ETHERFI = address(0x5132977cb38d22dc871afB99FF50c1DEfd8D9792); // cancun
+  address public constant MANTLE = address(0x79bAFd2535C7Dadd4e03F04B10c8F79553A03c3a); // cancun
+  address public constant MEGAETH = address(0xFF2DBFD40A7CCC1F9db952E6ed1F672554c16B25); // cancun
+  address public constant XLAYER = address(0x3F52906fb38Cbd7eBE5ec0318170895dafDc7143); // cancun TODO: perhaps redeploy with old aToken / vToken
 }
