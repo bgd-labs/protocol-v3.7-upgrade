@@ -20,5 +20,5 @@ library Deployments {
   address public constant MAINNET_ETHERFI = address(0x5132977cb38d22dc871afB99FF50c1DEfd8D9792); // cancun
   address public constant MANTLE = address(0x79bAFd2535C7Dadd4e03F04B10c8F79553A03c3a); // cancun
   address public constant MEGAETH = address(0xFF2DBFD40A7CCC1F9db952E6ed1F672554c16B25); // cancun
-  address public constant XLAYER = address(0x3F52906fb38Cbd7eBE5ec0318170895dafDc7143); // cancun TODO: perhaps redeploy with old aToken / vToken
+  address public constant XLAYER = address(0x3F52906fb38Cbd7eBE5ec0318170895dafDc7143); // cancun
 }
