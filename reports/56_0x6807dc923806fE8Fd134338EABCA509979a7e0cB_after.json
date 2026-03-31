@@ -5,9 +5,9 @@
       "aToken": "0x4199CC1F5ed0d796563d7CcB2e036253E2C18281",
       "aTokenName": "Aave BNB Smart Chain CAKE",
       "aTokenSymbol": "aBnbCAKE",
-      "aTokenUnderlyingBalance": "416781703283408858206428",
+      "aTokenUnderlyingBalance": "407587437945149084146554",
       "borrowCap": 1,
-      "borrowingEnabled": true,
+      "borrowingEnabled": false,
       "decimals": 18,
       "id": 0,
       "interestRateStrategy": "0x86AB1C62A8bf868E1b3E1ab87d587Aba6fbCbDC5",
@@ -22,7 +22,7 @@
       "oracle": "0xB6064eD41d4f67e353768aA239cA86f4F73665a1",
       "oracleDecimals": 8,
       "oracleDescription": "CAKE / USD",
-      "oracleLatestAnswer": "140034444",
+      "oracleLatestAnswer": "138830822",
       "reserveFactor": 2000,
       "supplyCap": 1200000,
       "symbol": "Cake",
@@ -31,13 +31,13 @@
       "variableDebtToken": "0xE20dBC7119c635B1B51462f844861258770e0699",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt CAKE",
       "variableDebtTokenSymbol": "variableDebtBnbCAKE",
-      "virtualBalance": "416781685467053132062521"
+      "virtualBalance": "407587420128793358002647"
     },
     "0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
       "aToken": "0x2E94171493fAbE316b6205f1585779C887771E2F",
       "aTokenName": "Aave BNB Smart Chain ETH",
       "aTokenSymbol": "aBnbETH",
-      "aTokenUnderlyingBalance": "4913387797108255681467",
+      "aTokenUnderlyingBalance": "3981732785000897469336",
       "borrowCap": 8000,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -54,7 +54,7 @@
       "oracle": "0x9ef1B8c0E4F7dc8bF5719Ea496883DC6401d5b2e",
       "oracleDecimals": 8,
       "oracleDescription": "ETH / USD",
-      "oracleLatestAnswer": "207488689400",
+      "oracleLatestAnswer": "204083291370",
       "reserveFactor": 1500,
       "supplyCap": 13000,
       "symbol": "ETH",
@@ -63,15 +63,15 @@
       "variableDebtToken": "0x8FDea7891b4D6dbdc746309245B316aF691A636C",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt ETH",
       "variableDebtTokenSymbol": "variableDebtBnbETH",
-      "virtualBalance": "4913387791315023024946"
+      "virtualBalance": "3981732779207664812815"
     },
     "0x26c5e01524d2E6280A48F2c50fF6De7e52E9611C": {
       "aToken": "0xBDFd4E51D3c14a232135f04988a42576eFb31519",
       "aTokenName": "Aave BNB Smart Chain wstETH",
       "aTokenSymbol": "aBnbwstETH",
-      "aTokenUnderlyingBalance": "1410396559429391049602",
+      "aTokenUnderlyingBalance": "1393086388856861228922",
       "borrowCap": 1,
-      "borrowingEnabled": true,
+      "borrowingEnabled": false,
       "decimals": 18,
       "id": 7,
       "interestRateStrategy": "0x86AB1C62A8bf868E1b3E1ab87d587Aba6fbCbDC5",
@@ -86,7 +86,7 @@
       "oracle": "0xc1377B4cdF9116bf7b3d7F72A4f8A7Be8506cE80",
       "oracleDecimals": 8,
       "oracleDescription": "Capped wstETH / stETH(ETH) / USD",
-      "oracleLatestAnswer": "254872181140",
+      "oracleLatestAnswer": "251156161842",
       "reserveFactor": 1500,
       "supplyCap": 1,
       "symbol": "wstETH",
@@ -95,13 +95,13 @@
       "variableDebtToken": "0x2c391998308c56D7572A8F501D58CB56fB9Fe1C5",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt wstETH",
       "variableDebtTokenSymbol": "variableDebtBnbwstETH",
-      "virtualBalance": "1410396559429391049602"
+      "virtualBalance": "1393086388856861228922"
     },
     "0x55d398326f99059fF775485246999027B3197955": {
       "aToken": "0xa9251ca9DE909CB71783723713B21E4233fbf1B1",
       "aTokenName": "Aave BNB Smart Chain USDT",
       "aTokenSymbol": "aBnbUSDT",
-      "aTokenUnderlyingBalance": "26602639446876100033319346",
+      "aTokenUnderlyingBalance": "26407645748219914744336487",
       "borrowCap": 117000000,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -118,7 +118,7 @@
       "oracle": "0xee845A7A40A090Da256420A293803C35B7F436b6",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDT/USD",
-      "oracleLatestAnswer": "100001000",
+      "oracleLatestAnswer": "99923853",
       "reserveFactor": 1000,
       "supplyCap": 164000000,
       "symbol": "USDT",
@@ -127,13 +127,13 @@
       "variableDebtToken": "0xF8bb2Be50647447Fb355e3a77b81be4db64107cd",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt USDT",
       "variableDebtTokenSymbol": "variableDebtBnbUSDT",
-      "virtualBalance": "26601201680193243057106431"
+      "virtualBalance": "26406207157637057768123572"
     },
     "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
       "aToken": "0x56a7ddc4e848EbF43845854205ad71D5D5F72d3D",
       "aTokenName": "Aave BNB Smart Chain BTCB",
       "aTokenSymbol": "aBnbBTCB",
-      "aTokenUnderlyingBalance": "989932969837185385599",
+      "aTokenUnderlyingBalance": "1016526745600739629946",
       "borrowCap": 140,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -150,7 +150,7 @@
       "oracle": "0x264990fbd0A4796A3E3d8E37C4d5F87a3aCa5Ebf",
       "oracleDecimals": 8,
       "oracleDescription": "BTC / USD",
-      "oracleLatestAnswer": "7143944702124",
+      "oracleLatestAnswer": "6680491300000",
       "reserveFactor": 2000,
       "supplyCap": 1200,
       "symbol": "BTCB",
@@ -159,14 +159,14 @@
       "variableDebtToken": "0x7b1E82F4f542fbB25D64c5523Fe3e44aBe4F2702",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt BTCB",
       "variableDebtTokenSymbol": "variableDebtBnbBTCB",
-      "virtualBalance": "989932969832607186775"
+      "virtualBalance": "1016526745596161431122"
     },
     "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
       "aToken": "0x00901a076785e0906d1028c7d6372d247bec7d61",
       "aTokenName": "Aave BNB Smart Chain USDC",
       "aTokenSymbol": "aBnbUSDC",
-      "aTokenUnderlyingBalance": "6910618265087594435291801",
-      "borrowCap": 36050000,
+      "aTokenUnderlyingBalance": "6155256921216242157662111",
+      "borrowCap": 28710000,
       "borrowingEnabled": true,
       "decimals": 18,
       "id": 4,
@@ -182,7 +182,7 @@
       "oracle": "0x9102a9553B470dbD0dC74009a870A5886C92902C",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC/USD",
-      "oracleLatestAnswer": "99992616",
+      "oracleLatestAnswer": "99969000",
       "reserveFactor": 1000,
       "supplyCap": 49080000,
       "symbol": "USDC",
@@ -191,14 +191,14 @@
       "variableDebtToken": "0xcDBBEd5606d9c5C98eEedd67933991dC17F0c68d",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt USDC",
       "variableDebtTokenSymbol": "variableDebtBnbUSDC",
-      "virtualBalance": "6909345788271609277309139"
+      "virtualBalance": "6153983242400256999679449"
     },
     "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
       "aToken": "0x9B00a09492a626678E5A3009982191586C444Df9",
       "aTokenName": "Aave BNB Smart Chain WBNB",
       "aTokenSymbol": "aBnbWBNB",
-      "aTokenUnderlyingBalance": "107708196817543292424859",
-      "borrowCap": 14000,
+      "aTokenUnderlyingBalance": "112203795269002068234766",
+      "borrowCap": 12000,
       "borrowingEnabled": true,
       "decimals": 18,
       "id": 1,
@@ -214,7 +214,7 @@
       "oracle": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE",
       "oracleDecimals": 8,
       "oracleDescription": "BNB / USD",
-      "oracleLatestAnswer": "65235914000",
+      "oracleLatestAnswer": "61166094080",
       "reserveFactor": 2000,
       "supplyCap": 187000,
       "symbol": "WBNB",
@@ -223,15 +223,15 @@
       "variableDebtToken": "0x0E76414d433ddfe8004d2A7505d218874875a996",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt WBNB",
       "variableDebtTokenSymbol": "variableDebtBnbWBNB",
-      "virtualBalance": "107708195806174348302446"
+      "virtualBalance": "112203794257633124112353"
     },
     "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409": {
       "aToken": "0x75bd1A659bdC62e4C313950d44A2416faB43E785",
       "aTokenName": "Aave BNB Smart Chain FDUSD",
       "aTokenSymbol": "aBnbFDUSD",
-      "aTokenUnderlyingBalance": "154945670253841893735421",
+      "aTokenUnderlyingBalance": "221572363540955626371112",
       "borrowCap": 10800000,
-      "borrowingEnabled": true,
+      "borrowingEnabled": false,
       "decimals": 18,
       "id": 6,
       "interestRateStrategy": "0x86AB1C62A8bf868E1b3E1ab87d587Aba6fbCbDC5",
@@ -242,11 +242,11 @@
       "liquidationBonus": 10500,
       "liquidationProtocolFee": 1000,
       "liquidationThreshold": 7500,
-      "ltv": 7000,
+      "ltv": 0,
       "oracle": "0x72Cb7a00D439296A6fC3c9face9Eca96bfdEf825",
       "oracleDecimals": 8,
       "oracleDescription": "Capped fdUSD/USD",
-      "oracleLatestAnswer": "99940000",
+      "oracleLatestAnswer": "99881085",
       "reserveFactor": 2000,
       "supplyCap": 12000000,
       "symbol": "FDUSD",
@@ -255,7 +255,7 @@
       "variableDebtToken": "0xE628B8a123e6037f1542e662B9F55141a16945C8",
       "variableDebtTokenName": "Aave BNB Smart Chain Variable Debt FDUSD",
       "variableDebtTokenSymbol": "variableDebtBnbFDUSD",
-      "virtualBalance": "154942698697426945423205"
+      "virtualBalance": "221569391984540678058896"
     }
   },
   "strategies": {
@@ -286,9 +286,9 @@
     "0x55d398326f99059fF775485246999027B3197955": {
       "address": "0x86AB1C62A8bf868E1b3E1ab87d587Aba6fbCbDC5",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "150000000000000000000000000",
+      "maxVariableBorrowRate": "140000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "50000000000000000000000000",
+      "variableRateSlope1": "40000000000000000000000000",
       "variableRateSlope2": "100000000000000000000000000"
     },
     "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
@@ -302,9 +302,9 @@
     "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
       "address": "0x86AB1C62A8bf868E1b3E1ab87d587Aba6fbCbDC5",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "150000000000000000000000000",
+      "maxVariableBorrowRate": "140000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "50000000000000000000000000",
+      "variableRateSlope1": "40000000000000000000000000",
       "variableRateSlope2": "100000000000000000000000000"
     },
     "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
@@ -318,9 +318,9 @@
     "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409": {
       "address": "0x86AB1C62A8bf868E1b3E1ab87d587Aba6fbCbDC5",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "455000000000000000000000000",
+      "maxVariableBorrowRate": "440000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "55000000000000000000000000",
+      "variableRateSlope1": "40000000000000000000000000",
       "variableRateSlope2": "400000000000000000000000000"
     }
   },
@@ -391,23 +391,23 @@
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
           "previousValue": "0x00000000000000000000000000d1397960aa97f694e41c3632b74c151a00c33b",
-          "newValue": "0x000000000000000000000000edb631262289a0c74a424e3aa3ba0af9e78aef17"
+          "newValue": "0x0000000000000000000000005e2b0fcc5b9734c7ec0a03401ee9e6805f783b6d"
         },
         "0x5d54c6410275cc5a5b440259b3bdba59addb097a220aaccc7a447ece2a2b45b3": {
-          "previousValue": "0x10014dc93800000000000003e8000124f8000000000107d085122af817d40000",
-          "newValue": "0x100000000000000000000003e8000124f8000000000107d085122af817d40000"
+          "previousValue": "0x10014dc93800000000000003e8000124f8000000000107d081122af817d40000",
+          "newValue": "0x100000000000000000000003e8000124f8000000000107d081122af817d40000"
         },
         "0x5d54c6410275cc5a5b440259b3bdba59addb097a220aaccc7a447ece2a2b45bc": {
-          "previousValue": "0x00000000000000000000000000000000000000000000000000000000004bac17",
+          "previousValue": "0x00000000000000000000000000000000000000000000000000000000004a095e",
           "newValue": "0x0000000000000000000000000000000000000000000000000000000000000000"
         },
         "0x6022ee0e2dbef67a625ebdf9df1fcd22d35d1555aca42bf2783f31dbd8ac7e69": {
-          "previousValue": "0x100000000000000000000003e8002ece6c000226145003e8a51229041e781d4c",
-          "newValue": "0x100000000000000000000003e8002ece6c000226145003e8851229041e781d4c"
+          "previousValue": "0x100000000000000000000003e8002ece6c0001b6147003e8a51229041e781d4c",
+          "newValue": "0x100000000000000000000003e8002ece6c0001b6147003e8851229041e781d4c"
         },
         "0x736fd0af6a08a2b2749fa3064a0b73eac95be3d9ec3b096778dfebe1892b0329": {
-          "previousValue": "0x100000000000000000000003e8000b71b00000a4cb8007d0a51229041d4c1b58",
-          "newValue": "0x100000000000000000000003e8000b71b00000a4cb8007d0851229041d4c1b58"
+          "previousValue": "0x100000000000000000000003e8000b71b00000a4cb8007d0a11229041d4c0000",
+          "newValue": "0x100000000000000000000003e8000b71b00000a4cb8007d0811229041d4c0000"
         }
       }
     },
@@ -417,13 +417,13 @@
       "balanceDiff": null,
       "nonceDiff": null,
       "stateDiff": {
-        "0x2bb318060b44525c3d947c00393e6d416e9d457a7e83b67b8daab0973739b0fa": {
-          "previousValue": "0x0069a80ea2000000000002000000000000000000000000000000000000000000",
-          "newValue": "0x0069a80ea2000000000003000000000000000000000000000000000000000000"
+        "0x22848320af6c4894685e387cf97d56ba798f5dabcd8f3a2db70374776f0f2f93": {
+          "previousValue": "0x0069caec74000000000002000000000000000000000000000000000000000000",
+          "newValue": "0x0069caec74000000000003000000000000000000000000000000000000000000"
         },
-        "0x2bb318060b44525c3d947c00393e6d416e9d457a7e83b67b8daab0973739b0fb": {
-          "previousValue": "0x000000000000000000093a8000000000000069d6332300000000000000000000",
-          "newValue": "0x000000000000000000093a8000000000000069d6332300000000000069a80ea3"
+        "0x22848320af6c4894685e387cf97d56ba798f5dabcd8f3a2db70374776f0f2f94": {
+          "previousValue": "0x000000000000000000093a8000000000000069f910f500000000000000000000",
+          "newValue": "0x000000000000000000093a8000000000000069f910f500000000000069caec75"
         }
       }
     }
@@ -469,7 +469,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x000000000000000000000000edb631262289a0c74a424e3aa3ba0af9e78aef17"
+        "0x0000000000000000000000005e2b0fcc5b9734c7ec0a03401ee9e6805f783b6d"
       ],
       "data": "0x",
       "emitter": "0x6807dc923806fE8Fd134338EABCA509979a7e0cB"
@@ -478,7 +478,7 @@
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
         "0x00000000000000000000000000d1397960aa97f694e41c3632b74c151a00c33b",
-        "0x000000000000000000000000edb631262289a0c74a424e3aa3ba0af9e78aef17"
+        "0x0000000000000000000000005e2b0fcc5b9734c7ec0a03401ee9e6805f783b6d"
       ],
       "data": "0x",
       "emitter": "0xff75B6da14FfbbfD355Daf7a2731456b3562Ba6D"
@@ -503,16 +503,16 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x000000000000000000000000223003e123ea97e9517d69a229bb8b51d9289890"
+        "0x00000000000000000000000055a4e6cd2aa0addfe403a2ae3b1522d3198b430e"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80ea3000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069caec75000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0x9390B1735def18560c509E2d0bc090E9d6BA257a"
     },
     {
       "topics": [
         "0xda6084bb0aa902a7f6da10ba185d4aa129414651c90772417eff02a52112af2a"
       ],
-      "data": "0x0000000000000000000000000000000000000000000000000000000000000037",
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000038",
       "emitter": "0xE5EF2Dd06755A97e975f7E282f828224F2C3e627"
     }
   ]

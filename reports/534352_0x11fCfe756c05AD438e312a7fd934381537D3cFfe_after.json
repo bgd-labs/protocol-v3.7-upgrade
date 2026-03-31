@@ -5,7 +5,7 @@
       "aToken": "0xd80A5e16DBDC52Bd1C947CEDfA22c562Be9129C8",
       "aTokenName": "Aave Scroll weETH",
       "aTokenSymbol": "aScrweETH",
-      "aTokenUnderlyingBalance": "2585559825783848333807",
+      "aTokenUnderlyingBalance": "2035244055644607471373",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -22,7 +22,7 @@
       "oracle": "0x32f924C0e0F1Abf5D1ff35B05eBc5E844dEdD2A9",
       "oracleDecimals": 8,
       "oracleDescription": "Capped weETH / eETH(ETH) / USD",
-      "oracleLatestAnswer": "226255209874",
+      "oracleLatestAnswer": "221674241988",
       "reserveFactor": 5000,
       "supplyCap": 5000,
       "symbol": "weETH",
@@ -31,13 +31,13 @@
       "variableDebtToken": "0x009D88C6a6B4CaA240b71C98BA93732e26F2A55A",
       "variableDebtTokenName": "Aave Scroll Variable Debt weETH",
       "variableDebtTokenSymbol": "variableDebtScrweETH",
-      "virtualBalance": "2585559825783848333807"
+      "virtualBalance": "2035244055644607471373"
     },
     "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4": {
       "aToken": "0x1D738a3436A8C49CefFbaB7fbF04B660fb528CbD",
       "aTokenName": "Aave Scroll USDC",
       "aTokenSymbol": "aScrUSDC",
-      "aTokenUnderlyingBalance": "465631702656",
+      "aTokenUnderlyingBalance": "333639239049",
       "borrowCap": 1900000,
       "borrowingEnabled": true,
       "decimals": 6,
@@ -54,7 +54,7 @@
       "oracle": "0x1685D81212580DD4cDA287616C2f6F4794927e18",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC/USD",
-      "oracleLatestAnswer": "99999000",
+      "oracleLatestAnswer": "99968747",
       "reserveFactor": 5000,
       "supplyCap": 2000000,
       "symbol": "USDC",
@@ -63,13 +63,13 @@
       "variableDebtToken": "0x3d2E209af5BFa79297C88D6b57F89d792F6E28EE",
       "variableDebtTokenName": "Aave Scroll Variable Debt USDC",
       "variableDebtTokenSymbol": "variableDebtScrUSDC",
-      "virtualBalance": "465631579788"
+      "virtualBalance": "333639116181"
     },
     "0x5300000000000000000000000000000000000004": {
       "aToken": "0xf301805bE1Df81102C957f6d4Ce29d2B8c056B2a",
       "aTokenName": "Aave Scroll WETH",
       "aTokenSymbol": "aScrWETH",
-      "aTokenUnderlyingBalance": "476160725952430984330",
+      "aTokenUnderlyingBalance": "786920828976455113978",
       "borrowCap": 4500,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -86,7 +86,7 @@
       "oracle": "0x6bF14CB0A831078629D993FDeBcB182b21A8774C",
       "oracleDecimals": 8,
       "oracleDescription": "ETH / USD",
-      "oracleLatestAnswer": "207666000000",
+      "oracleLatestAnswer": "203085600000",
       "reserveFactor": 5000,
       "supplyCap": 5000,
       "symbol": "WETH",
@@ -95,13 +95,13 @@
       "variableDebtToken": "0xfD7344CeB1Df9Cf238EcD667f4A6F99c6Ef44a56",
       "variableDebtTokenName": "Aave Scroll Variable Debt WETH",
       "variableDebtTokenSymbol": "variableDebtScrWETH",
-      "virtualBalance": "476160725301684891537"
+      "virtualBalance": "786920828325709021185"
     },
     "0xd29687c813D741E2F938F4aC377128810E217b1b": {
       "aToken": "0x25718130C2a8eb94e2e1FAFB5f1cDd4b459aCf64",
       "aTokenName": "Aave Scroll SCR",
       "aTokenSymbol": "aScrSCR",
-      "aTokenUnderlyingBalance": "607176762052602849483066",
+      "aTokenUnderlyingBalance": "590232688529697735569752",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -118,7 +118,7 @@
       "oracle": "0x26f6F7C468EE309115d19Aa2055db5A74F8cE7A5",
       "oracleDecimals": 8,
       "oracleDescription": "SCR / USD",
-      "oracleLatestAnswer": "4514998",
+      "oracleLatestAnswer": "4085201",
       "reserveFactor": 5000,
       "supplyCap": 1500000,
       "symbol": "SCR",
@@ -127,13 +127,13 @@
       "variableDebtToken": "0xFFbA405BBF25B2e6C454d18165F2fd8786858c6B",
       "variableDebtTokenName": "Aave Scroll Variable Debt SCR",
       "variableDebtTokenSymbol": "variableDebtScrSCR",
-      "virtualBalance": "607176762052602849483066"
+      "virtualBalance": "590232688529697735569752"
     },
     "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32": {
       "aToken": "0x5B1322eeb46240b02e20062b8F0F9908d525B09c",
       "aTokenName": "Aave Scroll wstETH",
       "aTokenSymbol": "aScrwstETH",
-      "aTokenUnderlyingBalance": "118290691155816994011",
+      "aTokenUnderlyingBalance": "117511963274326675761",
       "borrowCap": 500,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -150,7 +150,7 @@
       "oracle": "0x4EdAbf45e78363b8Dcd763bBbd05665c6e24975C",
       "oracleDecimals": 8,
       "oracleDescription": "Capped wstETH / stETH(ETH) / USD",
-      "oracleLatestAnswer": "255089983563",
+      "oracleLatestAnswer": "249928347779",
       "reserveFactor": 5000,
       "supplyCap": 1000,
       "symbol": "wstETH",
@@ -159,7 +159,7 @@
       "variableDebtToken": "0x8a035644322129800C3f747f54Db0F4d3c0A2877",
       "variableDebtTokenName": "Aave Scroll Variable Debt wstETH",
       "variableDebtTokenSymbol": "variableDebtScrwstETH",
-      "virtualBalance": "118290689821148483387"
+      "virtualBalance": "117511961939658165137"
     }
   },
   "strategies": {
@@ -174,9 +174,9 @@
     "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4": {
       "address": "0xC37353E5766164D8654D3CB395acfDcA4c2E7Ddc",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "450000000000000000000000000",
+      "maxVariableBorrowRate": "440000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "50000000000000000000000000",
+      "variableRateSlope1": "40000000000000000000000000",
       "variableRateSlope2": "400000000000000000000000000"
     },
     "0x5300000000000000000000000000000000000004": {
@@ -239,7 +239,7 @@
         },
         "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": {
           "previousValue": "0x000000000000000000000000354d1ba411708bc19fc24ddac98500b527048deb",
-          "newValue": "0x000000000000000000000000b2655852fcc23ce055d563406803c7a0955c8417"
+          "newValue": "0x0000000000000000000000007c9d9b3bdc3ba2e43fe2fb26b713abdc946db01c"
         },
         "0xf507e1624bb58779977e83531690916e2eea78abad455da12c8f751da22d18df": {
           "previousValue": "0x100000000000000000000003e80001e84800001cfde01388a50629041e781d4c",
@@ -294,12 +294,12 @@
       "nonceDiff": null,
       "stateDiff": {
         "0x3ba015d6b845e102ce2f76836007be82508e3543856f2a3c2ff4b56eb46d920e": {
-          "previousValue": "0x0069a80f28000000000002000000000000000000000000000000000000000000",
-          "newValue": "0x0069a80f28000000000003000000000000000000000000000000000000000000"
+          "previousValue": "0x0069cb97fa000000000002000000000000000000000000000000000000000000",
+          "newValue": "0x0069cb97fa000000000003000000000000000000000000000000000000000000"
         },
         "0x3ba015d6b845e102ce2f76836007be82508e3543856f2a3c2ff4b56eb46d920f": {
-          "previousValue": "0x000000000000000000093a8000000000000069d633a900000000000000000000",
-          "newValue": "0x000000000000000000093a8000000000000069d633a900000000000069a80f29"
+          "previousValue": "0x000000000000000000093a8000000000000069f9bc7b00000000000000000000",
+          "newValue": "0x000000000000000000093a8000000000000069f9bc7b00000000000069cb97fb"
         }
       }
     }
@@ -324,7 +324,7 @@
     {
       "topics": [
         "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
-        "0x000000000000000000000000b2655852fcc23ce055d563406803c7a0955c8417"
+        "0x0000000000000000000000007c9d9b3bdc3ba2e43fe2fb26b713abdc946db01c"
       ],
       "data": "0x",
       "emitter": "0x11fCfe756c05AD438e312a7fd934381537D3cFfe"
@@ -333,7 +333,7 @@
       "topics": [
         "0x90affc163f1a2dfedcd36aa02ed992eeeba8100a4014f0b4cdc20ea265a66627",
         "0x000000000000000000000000354d1ba411708bc19fc24ddac98500b527048deb",
-        "0x000000000000000000000000b2655852fcc23ce055d563406803c7a0955c8417"
+        "0x0000000000000000000000007c9d9b3bdc3ba2e43fe2fb26b713abdc946db01c"
       ],
       "data": "0x",
       "emitter": "0x69850D0B276776781C063771b161bd8894BCdD04"
@@ -358,9 +358,9 @@
     {
       "topics": [
         "0x528c26f4cc05f95dc8bad30284946548f08ec44f7dd536473f28b08c65334cdd",
-        "0x000000000000000000000000ff9e6d57fa1bb6f393673c2e887d9018a5cd5e97"
+        "0x000000000000000000000000dc856109c36dc0310e46bea9f661d39df3b8badf"
       ],
-      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069a80f29000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000069cb97fb000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000009657865637574652829000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "emitter": "0xc1ABF87FfAdf4908f4eC8dc54A25DCFEabAE4A24"
     },
     {

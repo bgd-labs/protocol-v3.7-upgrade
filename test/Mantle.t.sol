@@ -6,7 +6,7 @@ import {DeploymentLibrary} from "../script/Deploy.s.sol";
 import {UpgradeTest} from "./UpgradeTest.t.sol";
 import {Deployments} from "../src/Deployments.sol";
 
-contract MantleTest is UpgradeTest("mantle", 92812691) {
+contract MantleTest is UpgradeTest("mantle", 93410023) {
   function _getPayload() internal virtual override returns (address) {
     return DeploymentLibrary._deployMantle();
   }

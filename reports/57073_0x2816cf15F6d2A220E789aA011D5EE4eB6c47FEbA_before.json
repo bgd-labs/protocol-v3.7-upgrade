@@ -5,7 +5,7 @@
       "aToken": "0x99cBF1Ff4527675Ed3301671105C9F7748fb8a04",
       "aTokenName": "Aave InkWhitelabel USDT",
       "aTokenSymbol": "aInkWlUSDT",
-      "aTokenUnderlyingBalance": "78845211702771",
+      "aTokenUnderlyingBalance": "67648280324986",
       "borrowCap": 340000000,
       "borrowingEnabled": true,
       "decimals": 6,
@@ -22,7 +22,7 @@
       "oracle": "0x24FdD142b34C6B5D55299709DB0966681933c9aF",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDT/USD",
-      "oracleLatestAnswer": "100014000",
+      "oracleLatestAnswer": "99903500",
       "reserveFactor": 1000,
       "supplyCap": 375000000,
       "symbol": "USD₮0",
@@ -31,13 +31,13 @@
       "variableDebtToken": "0xA5d61eF3D06234371507e54FB709F401E590719a",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt USDT",
       "variableDebtTokenSymbol": "variableDebtInkWlUSDT",
-      "virtualBalance": "78845211702771"
+      "virtualBalance": "67648280324986"
     },
     "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2": {
       "aToken": "0x24C1FaC3447C45137E5f1c2C54Fe9ed3F1EdeA61",
       "aTokenName": "Aave InkWhitelabel sUSDe",
       "aTokenSymbol": "aInkWlsUSDe",
-      "aTokenUnderlyingBalance": "45400030024060088276885970",
+      "aTokenUnderlyingBalance": "37399930024060088276885970",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -54,22 +54,22 @@
       "oracle": "0xC170637d22Ac02bAC99ED794038d2676d712e704",
       "oracleDecimals": 8,
       "oracleDescription": "Capped sUSDe / USDT / USD",
-      "oracleLatestAnswer": "122415411",
+      "oracleLatestAnswer": "122438796",
       "reserveFactor": 5000,
-      "supplyCap": 50000000,
+      "supplyCap": 100000000,
       "symbol": "sUSDe",
       "underlying": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
       "usageAsCollateralEnabled": false,
       "variableDebtToken": "0xD02245a1CD906AD9336600E037345a4C5242B141",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt sUSDe",
       "variableDebtTokenSymbol": "variableDebtInkWlsUSDe",
-      "virtualBalance": "45400030024060088276885970"
+      "virtualBalance": "37399930024060088276885970"
     },
     "0x2416092f143378750bb29b79eD961ab195CcEea5": {
       "aToken": "0xd596B3C15E28795AaBF0481DaA0Ff4eBAa42c5F2",
       "aTokenName": "Aave InkWhitelabel ezETH",
       "aTokenSymbol": "aInkWlezETH",
-      "aTokenUnderlyingBalance": "25747943643459032500620",
+      "aTokenUnderlyingBalance": "25747943096534644462298",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -86,7 +86,7 @@
       "oracle": "0x51e5242698Cf425A558BCe440357Fd20f00D9671",
       "oracleDecimals": 8,
       "oracleDescription": "Capped ezETH / ETH / USD",
-      "oracleLatestAnswer": "250367012411",
+      "oracleLatestAnswer": "220785382105",
       "reserveFactor": 1000,
       "supplyCap": 36000,
       "symbol": "ezETH",
@@ -95,13 +95,13 @@
       "variableDebtToken": "0x522e93245C2df28904B86103af69bC27ae80FA46",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt ezETH",
       "variableDebtTokenSymbol": "variableDebtInkWlezETH",
-      "virtualBalance": "25747943643459032500620"
+      "virtualBalance": "25747943096534644462298"
     },
     "0x2D270e6886d130D724215A266106e6832161EAEd": {
       "aToken": "0x70A38B0c90441e991346B7A0Cd98C8528dD1c234",
       "aTokenName": "Aave InkWhitelabel USDC",
       "aTokenSymbol": "aInkWlUSDC",
-      "aTokenUnderlyingBalance": "23473960269021",
+      "aTokenUnderlyingBalance": "19859901854844",
       "borrowCap": 225000000,
       "borrowingEnabled": true,
       "decimals": 6,
@@ -118,7 +118,7 @@
       "oracle": "0xd910061259A256B99654Cff414c3bfD503E7F6ea",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC/USD",
-      "oracleLatestAnswer": "99982498",
+      "oracleLatestAnswer": "99958446",
       "reserveFactor": 1000,
       "supplyCap": 250000000,
       "symbol": "USDC",
@@ -127,13 +127,13 @@
       "variableDebtToken": "0x305c03f74DBb8C6052b7667AaBEE21dC7c1f0B29",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt USDC",
       "variableDebtTokenSymbol": "variableDebtInkWlUSDC",
-      "virtualBalance": "23473960269021"
+      "virtualBalance": "19859901854844"
     },
     "0x4200000000000000000000000000000000000006": {
       "aToken": "0x2B35eF056728BaFFaC103e3b81cB029788006EF9",
       "aTokenName": "Aave InkWhitelabel WETH",
       "aTokenSymbol": "aInkWlWETH",
-      "aTokenUnderlyingBalance": "8979114855012974075470",
+      "aTokenUnderlyingBalance": "9862505469470813636626",
       "borrowCap": 70000,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -150,7 +150,7 @@
       "oracle": "0x163131609562E578754aF12E998635BfCa56712C",
       "oracleDecimals": 8,
       "oracleDescription": "ETH / USD",
-      "oracleLatestAnswer": "233073630562",
+      "oracleLatestAnswer": "205332163067",
       "reserveFactor": 1500,
       "supplyCap": 80000,
       "symbol": "WETH",
@@ -159,13 +159,13 @@
       "variableDebtToken": "0xc1457AcfBaD2332b07B7651A4Da3176E8F3Bc9E4",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt WETH",
       "variableDebtTokenSymbol": "variableDebtInkWlWETH",
-      "virtualBalance": "8979114855012974075470"
+      "virtualBalance": "9862505469470813636626"
     },
     "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
       "aToken": "0x726D965F0D759A0489d178365f00b4c3c3207BB7",
       "aTokenName": "Aave InkWhitelabel USDe",
       "aTokenSymbol": "aInkWlUSDe",
-      "aTokenUnderlyingBalance": "62292408590755924183615",
+      "aTokenUnderlyingBalance": "9959713942086588316494900",
       "borrowCap": 45000000,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -182,7 +182,7 @@
       "oracle": "0x24FdD142b34C6B5D55299709DB0966681933c9aF",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDT/USD",
-      "oracleLatestAnswer": "100014000",
+      "oracleLatestAnswer": "99903500",
       "reserveFactor": 2500,
       "supplyCap": 50000000,
       "symbol": "USDe",
@@ -191,13 +191,13 @@
       "variableDebtToken": "0x52D5096a7df365C3870A7767a5024D59eD44d814",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt USDe",
       "variableDebtTokenSymbol": "variableDebtInkWlUSDe",
-      "virtualBalance": "62292408590755924183615"
+      "virtualBalance": "9959713942086588316494900"
     },
     "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98": {
       "aToken": "0xC712C3a5624de08EA593FB23270804B47942564e",
       "aTokenName": "Aave InkWhitelabel KBTC",
       "aTokenSymbol": "aInkWlKBTC",
-      "aTokenUnderlyingBalance": "197659902356",
+      "aTokenUnderlyingBalance": "207694506128",
       "borrowCap": 200,
       "borrowingEnabled": true,
       "decimals": 8,
@@ -214,7 +214,7 @@
       "oracle": "0xAe48F22903d43f13f66Cc650F57Bd4654ac222cb",
       "oracleDecimals": 8,
       "oracleDescription": "BTC / USD",
-      "oracleLatestAnswer": "7382562564924",
+      "oracleLatestAnswer": "6734724500000",
       "reserveFactor": 5000,
       "supplyCap": 2750,
       "symbol": "kBTC",
@@ -223,13 +223,13 @@
       "variableDebtToken": "0x47D9b89775958F0b5c7734C5570565Ce575e7e94",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt KBTC",
       "variableDebtTokenSymbol": "variableDebtInkWlKBTC",
-      "virtualBalance": "197659902356"
+      "virtualBalance": "207694506128"
     },
     "0x9f0a74A92287E323Eb95c1cd9eCdBEb0e397cAe4": {
       "aToken": "0x98F6A9b82799813447E6c00E51aF5b325976199A",
       "aTokenName": "Aave InkWhitelabel wrsETH",
       "aTokenSymbol": "aInkWlwrsETH",
-      "aTokenUnderlyingBalance": "11954581813546442454594",
+      "aTokenUnderlyingBalance": "9404581786446756183511",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -246,7 +246,7 @@
       "oracle": "0x771a1668f973f2485D32580aB53F5C4934e81531",
       "oracleDecimals": 8,
       "oracleDescription": "Capped wrsETH / ETH / USD",
-      "oracleLatestAnswer": "248788289642",
+      "oracleLatestAnswer": "219376466793",
       "reserveFactor": 1000,
       "supplyCap": 18000,
       "symbol": "wrsETH",
@@ -255,13 +255,13 @@
       "variableDebtToken": "0x33d3F390F266A21b0467efD559DC5fecD17Db52C",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt wrsETH",
       "variableDebtTokenSymbol": "variableDebtInkWlwrsETH",
-      "virtualBalance": "11954581813546442454594"
+      "virtualBalance": "9404581786446756183511"
     },
     "0xA3D68b74bF0528fdD07263c60d6488749044914b": {
       "aToken": "0x7789888E302Bc3288A78a182efe6DfE91da756ec",
       "aTokenName": "Aave InkWhitelabel weETH",
       "aTokenSymbol": "aInkWlweETH",
-      "aTokenUnderlyingBalance": "16546388723494559767",
+      "aTokenUnderlyingBalance": "16444161082169124987",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -278,7 +278,7 @@
       "oracle": "0x68B7Ed7Df658Ed065BcaA415f0Ce0b057Dfcf318",
       "oracleDecimals": 8,
       "oracleDescription": "Capped weETH / eETH(ETH) / USD",
-      "oracleLatestAnswer": "254169938291",
+      "oracleLatestAnswer": "224126433604",
       "reserveFactor": 1000,
       "supplyCap": 6000,
       "symbol": "weETH",
@@ -287,13 +287,13 @@
       "variableDebtToken": "0xF498bfc4439e91042EeDB9736767F770F48Da474",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt weETH",
       "variableDebtTokenSymbol": "variableDebtInkWlweETH",
-      "virtualBalance": "16546388723494559767"
+      "virtualBalance": "16444161082169124987"
     },
     "0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3": {
       "aToken": "0x0373715A7e8f77354B4Af002C6f9F33C79f4F92a",
       "aTokenName": "Aave InkWhitelabel SolvBTC",
       "aTokenSymbol": "aInkWlSolvBTC",
-      "aTokenUnderlyingBalance": "10502799092920576770",
+      "aTokenUnderlyingBalance": "49999999086835244747",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -310,7 +310,7 @@
       "oracle": "0xAe48F22903d43f13f66Cc650F57Bd4654ac222cb",
       "oracleDecimals": 8,
       "oracleDescription": "BTC / USD",
-      "oracleLatestAnswer": "7382562564924",
+      "oracleLatestAnswer": "6734724500000",
       "reserveFactor": 5000,
       "supplyCap": 50,
       "symbol": "SolvBTC",
@@ -319,13 +319,13 @@
       "variableDebtToken": "0x986d7beE5Cc6eF52607eaD71fDD9B61Aa153271b",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt SolvBTC",
       "variableDebtTokenSymbol": "variableDebtInkWlSolvBTC",
-      "virtualBalance": "10502799092920576770"
+      "virtualBalance": "49999999086835244747"
     },
     "0xe343167631d89B6Ffc58B88d6b7fB0228795491D": {
       "aToken": "0x4cd13ce4edbB5523fd4849252b5f1bF215129D10",
       "aTokenName": "Aave InkWhitelabel USDG",
       "aTokenSymbol": "aInkWlUSDG",
-      "aTokenUnderlyingBalance": "7053838678709",
+      "aTokenUnderlyingBalance": "6292299064735",
       "borrowCap": 40000000,
       "borrowingEnabled": true,
       "decimals": 6,
@@ -351,13 +351,13 @@
       "variableDebtToken": "0x08443163427BaE789774f45198315f6EAefe566C",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt USDG",
       "variableDebtTokenSymbol": "variableDebtInkWlUSDG",
-      "virtualBalance": "7053838678709"
+      "virtualBalance": "6292299064735"
     },
     "0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73": {
       "aToken": "0xC629140A8aA21F8f319A21F41b2DC1b0431693C1",
       "aTokenName": "Aave InkWhitelabel GHO",
       "aTokenSymbol": "aInkWlGHO",
-      "aTokenUnderlyingBalance": "3983950283946257097882370",
+      "aTokenUnderlyingBalance": "3566071411148568353809625",
       "borrowCap": 36000000,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -382,17 +382,17 @@
       "variableDebtToken": "0x45b30e3F687EEC15702dff29069f24173cB69Af4",
       "variableDebtTokenName": "Aave InkWhitelabel Variable Debt GHO",
       "variableDebtTokenSymbol": "variableDebtInkWlGHO",
-      "virtualBalance": "3983950283946257097882370"
+      "virtualBalance": "3566071411148568353809625"
     }
   },
   "strategies": {
     "0x0200C29006150606B650577BBE7B6248F58470c1": {
       "address": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "240000000000000000000000000",
+      "maxVariableBorrowRate": "140000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
       "variableRateSlope1": "40000000000000000000000000",
-      "variableRateSlope2": "200000000000000000000000000"
+      "variableRateSlope2": "100000000000000000000000000"
     },
     "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2": {
       "address": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
@@ -413,25 +413,25 @@
     "0x2D270e6886d130D724215A266106e6832161EAEd": {
       "address": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "240000000000000000000000000",
+      "maxVariableBorrowRate": "140000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
       "variableRateSlope1": "40000000000000000000000000",
-      "variableRateSlope2": "200000000000000000000000000"
+      "variableRateSlope2": "100000000000000000000000000"
     },
     "0x4200000000000000000000000000000000000006": {
       "address": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "225000000000000000000000000",
+      "maxVariableBorrowRate": "85000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
       "variableRateSlope1": "25000000000000000000000000",
-      "variableRateSlope2": "200000000000000000000000000"
+      "variableRateSlope2": "60000000000000000000000000"
     },
     "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
       "address": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "162500000000000000000000000",
+      "maxVariableBorrowRate": "160000000000000000000000000",
       "optimalUsageRatio": "800000000000000000000000000",
-      "variableRateSlope1": "42500000000000000000000000",
+      "variableRateSlope1": "40000000000000000000000000",
       "variableRateSlope2": "120000000000000000000000000"
     },
     "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98": {
@@ -469,18 +469,18 @@
     "0xe343167631d89B6Ffc58B88d6b7fB0228795491D": {
       "address": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "340000000000000000000000000",
+      "maxVariableBorrowRate": "140000000000000000000000000",
       "optimalUsageRatio": "830000000000000000000000000",
       "variableRateSlope1": "40000000000000000000000000",
-      "variableRateSlope2": "300000000000000000000000000"
+      "variableRateSlope2": "100000000000000000000000000"
     },
     "0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73": {
       "address": "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "355000000000000000000000000",
+      "maxVariableBorrowRate": "155000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
       "variableRateSlope1": "55000000000000000000000000",
-      "variableRateSlope2": "300000000000000000000000000"
+      "variableRateSlope2": "100000000000000000000000000"
     }
   },
   "eModes": {

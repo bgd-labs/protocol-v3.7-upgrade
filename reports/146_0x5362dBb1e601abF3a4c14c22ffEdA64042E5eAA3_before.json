@@ -5,7 +5,7 @@
       "aToken": "0x6C5E14A212c1C3e4Baf6f871ac9B1a969918c131",
       "aTokenName": "Aave Sonic wS",
       "aTokenSymbol": "aSonwS",
-      "aTokenUnderlyingBalance": "74155670838236060199215002",
+      "aTokenUnderlyingBalance": "83261459578482137459871646",
       "borrowCap": 130000000,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -22,7 +22,7 @@
       "oracle": "0xc76dFb89fF298145b417d221B2c747d84952e01d",
       "oracleDecimals": 8,
       "oracleDescription": "S / USD",
-      "oracleLatestAnswer": "4199900",
+      "oracleLatestAnswer": "4022936",
       "reserveFactor": 1500,
       "supplyCap": 300000000,
       "symbol": "wS",
@@ -31,13 +31,13 @@
       "variableDebtToken": "0xF6089B790Fbf8F4812a79a31CFAbeB00B06BA7BD",
       "variableDebtTokenName": "Aave Sonic Variable Debt wS",
       "variableDebtTokenSymbol": "variableDebtSonwS",
-      "virtualBalance": "74155670838236060199215002"
+      "virtualBalance": "83261459578482137459871646"
     },
     "0x29219dd400f2Bf60E5a23d13Be72B486D4038894": {
       "aToken": "0x578Ee1ca3a8E1b54554Da1Bf7C583506C4CD11c6",
       "aTokenName": "Aave Sonic USDC",
       "aTokenSymbol": "aSonUSDC",
-      "aTokenUnderlyingBalance": "2488046331998",
+      "aTokenUnderlyingBalance": "1646964962246",
       "borrowCap": 20000000,
       "borrowingEnabled": true,
       "decimals": 6,
@@ -54,7 +54,7 @@
       "oracle": "0x7A8443a2a5D772db7f1E40DeFe32db485108F128",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDC/USD",
-      "oracleLatestAnswer": "99999596",
+      "oracleLatestAnswer": "99965471",
       "reserveFactor": 1000,
       "supplyCap": 50000000,
       "symbol": "USDC",
@@ -63,13 +63,13 @@
       "variableDebtToken": "0x2273caBAd63b7D247A6b107E723c803fc49953A0",
       "variableDebtTokenName": "Aave Sonic Variable Debt USDC",
       "variableDebtTokenSymbol": "variableDebtSonUSDC",
-      "virtualBalance": "2488046331998"
+      "virtualBalance": "1646964962246"
     },
     "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b": {
       "aToken": "0xe18Ab82c81E7Eecff32B8A82B1b7d2d23F1EcE96",
       "aTokenName": "Aave Sonic WETH",
       "aTokenSymbol": "aSonWETH",
-      "aTokenUnderlyingBalance": "2157786331590952583627",
+      "aTokenUnderlyingBalance": "1370540837236670182084",
       "borrowCap": 500,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -86,7 +86,7 @@
       "oracle": "0x824364077993847f71293B24ccA8567c00c2de11",
       "oracleDecimals": 8,
       "oracleDescription": "ETH / USD",
-      "oracleLatestAnswer": "207794000000",
+      "oracleLatestAnswer": "202753939785",
       "reserveFactor": 1500,
       "supplyCap": 5000,
       "symbol": "WETH",
@@ -95,13 +95,13 @@
       "variableDebtToken": "0x07B1adFB7d5795Cf21baE8a77Eceb222F2FafBCE",
       "variableDebtTokenName": "Aave Sonic Variable Debt WETH",
       "variableDebtTokenSymbol": "variableDebtSonWETH",
-      "virtualBalance": "2157786331590952583627"
+      "virtualBalance": "1370540837236670182084"
     },
     "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955": {
       "aToken": "0xeAa74D7F42267eB907092AF4Bc700f667EeD0B8B",
       "aTokenName": "Aave Sonic stS",
       "aTokenSymbol": "aSonstS",
-      "aTokenUnderlyingBalance": "84663516933493586115446095",
+      "aTokenUnderlyingBalance": "77406350352665598440265342",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -118,7 +118,7 @@
       "oracle": "0x5BA5D5213B47DFE020B1F8d6fB54Db3F74F9ea9a",
       "oracleDecimals": 8,
       "oracleDescription": "Capped stS / S / USD",
-      "oracleLatestAnswer": "4434821",
+      "oracleLatestAnswer": "4261457",
       "reserveFactor": 1000,
       "supplyCap": 126000000,
       "symbol": "stS",
@@ -127,7 +127,7 @@
       "variableDebtToken": "0x333cFdCB6457C409e4f0C88F3806252bEe5fe425",
       "variableDebtTokenName": "Aave Sonic Variable Debt stS",
       "variableDebtTokenSymbol": "variableDebtSonstS",
-      "virtualBalance": "84663516933493586115446095"
+      "virtualBalance": "77406350352665598440265342"
     }
   },
   "strategies": {
@@ -142,9 +142,9 @@
     "0x29219dd400f2Bf60E5a23d13Be72B486D4038894": {
       "address": "0xdFf435BCcf782f11187D3a4454d96702eD78e092",
       "baseVariableBorrowRate": "0",
-      "maxVariableBorrowRate": "185000000000000000000000000",
+      "maxVariableBorrowRate": "165000000000000000000000000",
       "optimalUsageRatio": "900000000000000000000000000",
-      "variableRateSlope1": "85000000000000000000000000",
+      "variableRateSlope1": "65000000000000000000000000",
       "variableRateSlope2": "100000000000000000000000000"
     },
     "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b": {

@@ -13,9 +13,9 @@
   "author": "",
   "license": "BUSL-1.1",
   "dependencies": {
-    "@aave-dao/aave-address-book": "^4.46.5",
-    "@aave-dao/aave-helpers-js": "^1.0.7",
-    "@bgd-labs/toolbox": "^0.0.53",
+    "@aave-dao/aave-address-book": "^4.48.0",
+    "@aave-dao/aave-helpers-js": "^1.0.13",
+    "@bgd-labs/toolbox": "^0.2.25",
     "p-queue": "^8.1.0",
     "prettier": "^3.5.3"
   }

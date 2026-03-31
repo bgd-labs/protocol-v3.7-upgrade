@@ -19,7 +19,8 @@ import {
   InkScript,
   PlasmaScript,
   MantleScript,
-  MegaEthScript
+  MegaEthScript,
+  XLayerScript
 } from "solidity-utils/contracts/utils/ScriptUtils.sol";
 
 import {GovV3Helpers} from "aave-helpers/src/GovV3Helpers.sol";
@@ -74,6 +75,7 @@ import {AaveV3InkWhitelabel, AaveV3InkWhitelabelAssets} from "aave-address-book/
 import {AaveV3Plasma, AaveV3PlasmaAssets} from "aave-address-book/AaveV3Plasma.sol";
 import {AaveV3Mantle, AaveV3MantleAssets} from "aave-address-book/AaveV3Mantle.sol";
 import {AaveV3MegaEth, AaveV3MegaEthAssets} from "aave-address-book/AaveV3MegaEth.sol";
+import {AaveV3XLayer, AaveV3XLayerAssets} from "aave-address-book/AaveV3XLayer.sol";
 
 import {UpgradePayload} from "../src/UpgradePayload.sol";
 
@@ -332,7 +334,7 @@ library DeploymentLibrary {
       abi.encode(deployParams.poolAddressesProvider, deployParams.interestRateStrategy)
     );
 
-    return _deployPayload(deployParams, payloadParams, false);
+    return _deployPayload(deployParams, payloadParams);
   }
 
   function _deployL1(DeployParameters memory deployParams) internal returns (address) {
@@ -343,7 +345,7 @@ library DeploymentLibrary {
       type(PoolInstance).creationCode, abi.encode(deployParams.poolAddressesProvider, deployParams.interestRateStrategy)
     );
 
-    return _deployPayload({deployParams: deployParams, payloadParams: payloadParams, isMainnetCore: false});
+    return _deployPayload({deployParams: deployParams, payloadParams: payloadParams});
   }
 
   function _deployMainnetCore(DeployParameters memory deployParams) internal returns (address) {
@@ -354,14 +356,13 @@ library DeploymentLibrary {
       type(PoolInstance).creationCode, abi.encode(deployParams.poolAddressesProvider, deployParams.interestRateStrategy)
     );
 
-    return _deployPayload({deployParams: deployParams, payloadParams: payloadParams, isMainnetCore: true});
+    return _deployPayload({deployParams: deployParams, payloadParams: payloadParams});
   }
 
-  function _deployPayload(
-    DeployParameters memory deployParams,
-    UpgradePayload.ConstructorParams memory payloadParams,
-    bool isMainnetCore
-  ) private returns (address) {
+  function _deployPayload(DeployParameters memory deployParams, UpgradePayload.ConstructorParams memory payloadParams)
+    private
+    returns (address)
+  {
     payloadParams.poolConfiguratorImpl = GovV3Helpers.deployDeterministic(type(PoolConfiguratorInstance).creationCode);
 
     _deployConfigEngine(deployParams);
@@ -386,6 +387,19 @@ library DeploymentLibrary {
     deployParams.rewardsController = AaveV3Mantle.DEFAULT_INCENTIVES_CONTROLLER;
     deployParams.treasury = address(AaveV3Mantle.COLLECTOR);
     deployParams.uiPoolDataProvider = AaveV3Mantle.UI_POOL_DATA_PROVIDER;
+
+    return _deployL2(deployParams);
+  }
+
+  function _deployXLayer() internal returns (address) {
+    DeployParameters memory deployParams;
+
+    deployParams.pool = address(AaveV3XLayer.POOL);
+    deployParams.poolAddressesProvider = address(AaveV3XLayer.POOL_ADDRESSES_PROVIDER);
+    deployParams.interestRateStrategy = address(AaveV3XLayerAssets.USDT_INTEREST_RATE_STRATEGY);
+    deployParams.rewardsController = AaveV3XLayer.DEFAULT_INCENTIVES_CONTROLLER;
+    deployParams.treasury = address(AaveV3XLayer.COLLECTOR);
+    deployParams.uiPoolDataProvider = AaveV3XLayer.UI_POOL_DATA_PROVIDER;
 
     return _deployL2(deployParams);
   }
@@ -540,6 +554,12 @@ contract Deployplasma is PlasmaScript {
 contract Deploymantle is MantleScript {
   function run() external broadcast {
     DeploymentLibrary._deployMantle();
+  }
+}
+
+contract DeployxLayer is XLayerScript {
+  function run() external broadcast {
+    DeploymentLibrary._deployXLayer();
   }
 }
 

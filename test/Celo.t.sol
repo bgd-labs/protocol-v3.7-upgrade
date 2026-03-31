@@ -6,7 +6,7 @@ import {DeploymentLibrary} from "../script/Deploy.s.sol";
 import {UpgradeTest} from "./UpgradeTest.t.sol";
 import {Deployments} from "../src/Deployments.sol";
 
-contract CeloTest is UpgradeTest("celo", 60720725) {
+contract CeloTest is UpgradeTest("celo", 63049772) {
   function _getPayload() internal virtual override returns (address) {
     return DeploymentLibrary._deployCelo();
   }

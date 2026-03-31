@@ -59,7 +59,7 @@ async function diff({
     .AdditionalSources
     ? parseBlockscoutStyleSourceCode(sources[0] as BlockscoutStyleSourceCode)
     : parseEtherscanStyleSourceCode(sources[0].SourceCode);
-  const source2: StandardJsonInput = (sources[0] as BlockscoutStyleSourceCode)
+  const source2: StandardJsonInput = (sources[1] as BlockscoutStyleSourceCode)
     .AdditionalSources
     ? parseBlockscoutStyleSourceCode(sources[1] as BlockscoutStyleSourceCode)
     : parseEtherscanStyleSourceCode(sources[1].SourceCode);
@@ -85,41 +85,39 @@ async function diff({
   }
 }
 
-await Promise.all(
-  filteredFiles.map(async (file) => {
-    const contentBefore = JSON.parse(
-      readFileSync(`${directoryPath}/${file.replace("_after", "_before")}`, {
-        encoding: "utf8",
-      }),
-    );
-    const contentAfter = JSON.parse(
-      readFileSync(`${directoryPath}/${file}`, { encoding: "utf8" }),
-    );
-    console.log("starting ", contentBefore.chainId);
+for (const file of filteredFiles) {
+  const contentBefore = JSON.parse(
+    readFileSync(`${directoryPath}/${file.replace("_after", "_before")}`, {
+      encoding: "utf8",
+    }),
+  );
+  const contentAfter = JSON.parse(
+    readFileSync(`${directoryPath}/${file}`, { encoding: "utf8" }),
+  );
+  console.log("starting ", contentBefore.chainId);
 
-    // diff slots that are not pure implementation slots (e.g. things on addresses provider)
-    await diff({
-      address1: contentBefore.poolConfig.protocolDataProvider,
-      chainId1: contentBefore.chainId,
-      address2: contentAfter.poolConfig.protocolDataProvider,
-      chainId2: contentAfter.chainId,
-      output: "file",
-    });
+  // diff slots that are not pure implementation slots (e.g. things on addresses provider)
+  await diff({
+    address1: contentBefore.poolConfig.protocolDataProvider,
+    chainId1: contentBefore.chainId,
+    address2: contentAfter.poolConfig.protocolDataProvider,
+    chainId2: contentAfter.chainId,
+    output: "file",
+  });
 
-    for (const contract in contentAfter.raw) {
-      const implSlot = contentAfter.raw[contract].stateDiff[erc1967ImplSlot];
-      if (implSlot) {
-        await diff({
-          address1: bytes32ToAddress(implSlot.previousValue),
-          chainId1: contentBefore.chainId,
-          address2: bytes32ToAddress(implSlot.newValue),
-          chainId2: contentAfter.chainId,
-          output: "file",
-        });
-      }
+  for (const contract in contentAfter.raw) {
+    const implSlot = contentAfter.raw[contract].stateDiff[erc1967ImplSlot];
+    if (implSlot) {
+      await diff({
+        address1: bytes32ToAddress(implSlot.previousValue),
+        chainId1: contentBefore.chainId,
+        address2: bytes32ToAddress(implSlot.newValue),
+        chainId2: contentAfter.chainId,
+        output: "file",
+      });
     }
-  }),
-);
+  }
+}
 
 // now as the diffing is done, let's remove duplicates and generate a report
 // Function to read files recursively

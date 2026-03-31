@@ -22,7 +22,7 @@
       "oracle": "0xd7Da71D3acf07C604A925799B0b48E2Ec607584D",
       "oracleDecimals": 8,
       "oracleDescription": "Capped ezETH / ETH / USD",
-      "oracleLatestAnswer": "249446514839",
+      "oracleLatestAnswer": "218116325553",
       "reserveFactor": 2000,
       "supplyCap": 10000,
       "symbol": "ezETH",
@@ -37,7 +37,7 @@
       "aToken": "0xa31E6b433382062e8A1dA41485f7b234D97c3f4d",
       "aTokenName": "Aave MegaEth WETH",
       "aTokenSymbol": "aMegWETH",
-      "aTokenUnderlyingBalance": "214378913920975912780",
+      "aTokenUnderlyingBalance": "147441026276958505831",
       "borrowCap": 46000,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -54,7 +54,7 @@
       "oracle": "0xcA4e254D95637DE95E2a2F79244b03380d697feD",
       "oracleDecimals": 8,
       "oracleDescription": "ETH / USD",
-      "oracleLatestAnswer": "232230000000",
+      "oracleLatestAnswer": "202852561146",
       "reserveFactor": 1500,
       "supplyCap": 50000,
       "symbol": "WETH",
@@ -63,7 +63,7 @@
       "variableDebtToken": "0x09ADCCC7AF2aBD356c18A4CadF2e5cC250f300E9",
       "variableDebtTokenName": "Aave MegaEth Variable Debt WETH",
       "variableDebtTokenSymbol": "variableDebtMegWETH",
-      "virtualBalance": "214378913920975912780"
+      "virtualBalance": "147441026276958505831"
     },
     "0x4Fc44BE15e9B6E30C1E774E2C87A21D3E8b5403F": {
       "aToken": "0xb8578af311353b44B14bb4480EBB4DE608EC7e1B",
@@ -86,7 +86,7 @@
       "oracle": "0x6356b92Bc636CCe722e0F53DDc24a86baE64216E",
       "oracleDecimals": 8,
       "oracleDescription": "Capped wrsETH / ETH / USD",
-      "oracleLatestAnswer": "247864867001",
+      "oracleLatestAnswer": "216716840924",
       "reserveFactor": 2000,
       "supplyCap": 10000,
       "symbol": "wrsETH",
@@ -101,7 +101,7 @@
       "aToken": "0xaD2de503b5c723371d6B38A5224A2E12E103DfB8",
       "aTokenName": "Aave MegaEth wstETH",
       "aTokenSymbol": "aMegwstETH",
-      "aTokenUnderlyingBalance": "159897928448164563298",
+      "aTokenUnderlyingBalance": "271332638051463228753",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 18,
@@ -118,7 +118,7 @@
       "oracle": "0x376397e34eA968e79DC6F629E6210ba25311a3ce",
       "oracleDecimals": 8,
       "oracleDescription": "Capped wstETH / stETH(ETH) / USD",
-      "oracleLatestAnswer": "285525234410",
+      "oracleLatestAnswer": "249641557304",
       "reserveFactor": 2000,
       "supplyCap": 12000,
       "symbol": "wstETH",
@@ -127,13 +127,13 @@
       "variableDebtToken": "0x259A9Cd7628f6D15ef384887dd90bb7A0283fEf9",
       "variableDebtTokenName": "Aave MegaEth Variable Debt wstETH",
       "variableDebtTokenSymbol": "variableDebtMegwstETH",
-      "virtualBalance": "159897928448164563298"
+      "virtualBalance": "271332638051463228753"
     },
     "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072": {
       "aToken": "0x0889d59eA7178ee5B71DA01949a5cB42aaFBe337",
       "aTokenName": "Aave MegaEth BTCb",
       "aTokenSymbol": "aMegBTCb",
-      "aTokenUnderlyingBalance": "10354314",
+      "aTokenUnderlyingBalance": "14212963",
       "borrowCap": 1,
       "borrowingEnabled": false,
       "decimals": 8,
@@ -150,7 +150,7 @@
       "oracle": "0xc6E3007B597f6F5a6330d43053D1EF73cCbbE721",
       "oracleDecimals": 8,
       "oracleDescription": "BTC / USD",
-      "oracleLatestAnswer": "7368364000000",
+      "oracleLatestAnswer": "6647062740000",
       "reserveFactor": 2000,
       "supplyCap": 120,
       "symbol": "BTC.b",
@@ -159,13 +159,13 @@
       "variableDebtToken": "0x15B550784928C5b1A93849CA5d6caA18B2545B6d",
       "variableDebtTokenName": "Aave MegaEth Variable Debt BTCb",
       "variableDebtTokenSymbol": "variableDebtMegBTCb",
-      "virtualBalance": "10354314"
+      "virtualBalance": "14212963"
     },
     "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb": {
       "aToken": "0xE2283E01a667b512c340f19B499d86fbc885D5Ef",
       "aTokenName": "Aave MegaEth USDT0",
       "aTokenSymbol": "aMegUSDT0",
-      "aTokenUnderlyingBalance": "2900010014611",
+      "aTokenUnderlyingBalance": "5434191260392",
       "borrowCap": 46000000,
       "borrowingEnabled": true,
       "decimals": 6,
@@ -182,7 +182,7 @@
       "oracle": "0xAe95ff42e16468AB1DfD405c9533C9b67d87d66A",
       "oracleDecimals": 8,
       "oracleDescription": "Capped USDT/USD",
-      "oracleLatestAnswer": "100003704",
+      "oracleLatestAnswer": "99910920",
       "reserveFactor": 1000,
       "supplyCap": 50000000,
       "symbol": "USDT0",
@@ -191,13 +191,13 @@
       "variableDebtToken": "0xB951225133b5eed3D88645E4Bb1360136FF70D9a",
       "variableDebtTokenName": "Aave MegaEth Variable Debt USDT0",
       "variableDebtTokenSymbol": "variableDebtMegUSDT0",
-      "virtualBalance": "2900010014611"
+      "virtualBalance": "5434191260392"
     },
     "0xFAfDdbb3FC7688494971a79cc65DCa3EF82079E7": {
       "aToken": "0x5dF82810CB4B8f3e0Da3c031cCc9208ee9cF9500",
       "aTokenName": "Aave MegaEth USDm",
       "aTokenSymbol": "aMegUSDm",
-      "aTokenUnderlyingBalance": "17122545780111563919510401",
+      "aTokenUnderlyingBalance": "16173815999721625223306962",
       "borrowCap": 95000000,
       "borrowingEnabled": true,
       "decimals": 18,
@@ -223,7 +223,7 @@
       "variableDebtToken": "0x6B408d6c479C304794abC60a4693A3AD2D3c2D0D",
       "variableDebtTokenName": "Aave MegaEth Variable Debt USDm",
       "variableDebtTokenSymbol": "variableDebtMegUSDm",
-      "virtualBalance": "17122545780111563919510401"
+      "virtualBalance": "16173815999721625223306962"
     }
   },
   "strategies": {

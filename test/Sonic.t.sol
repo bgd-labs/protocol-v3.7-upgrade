@@ -6,7 +6,7 @@ import {DeploymentLibrary} from "../script/Deploy.s.sol";
 import {UpgradeTest} from "./UpgradeTest.t.sol";
 import {Deployments} from "../src/Deployments.sol";
 
-contract SonicTest is UpgradeTest("sonic", 64314579) {
+contract SonicTest is UpgradeTest("sonic", 66372534) {
   function _getPayload() internal virtual override returns (address) {
     return DeploymentLibrary._deploySonic();
   }
