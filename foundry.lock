@@ -5,10 +5,10 @@
       "rev": "a7799378dde2c630298a177fd9f600b2d34e27fc"
     }
   },
-  "lib/aave-v3-origin-private": {
+  "lib/aave-v3-origin": {
     "branch": {
       "name": "v3.7",
-      "rev": "dd1077b902ce9b990f671af3f4a4bcbf888eecd3"
+      "rev": "20d0984727536e77801798fd5f3f7b519485f4d1"
     }
   }
 }
